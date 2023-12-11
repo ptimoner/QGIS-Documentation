@@ -254,7 +254,7 @@ latex_documents = [
     ('docs/pyqgis_developer_cookbook/index', 'PyQGISDeveloperCookbook.tex',
         f'PyQGIS {version} developer cookbook', u'QGIS Project', 'manual'),
     ('docs/training_manual/index', 'TrainingManual.tex',
-        u'QGIS Training Manual', u'QGIS Project', 'manual'),
+        u'QGIS Training Manual', u'Guinea-Bissau Workshop - Jan 2024', 'manual'),
     ('docs/gentle_gis_introduction/index', 'GentleGISIntroduction.tex',
         u'Gentle GIS Introduction', u'QGIS Project', 'manual'),
     ('docs/documentation_guidelines/index', 'DocumentationGuidelines.tex',

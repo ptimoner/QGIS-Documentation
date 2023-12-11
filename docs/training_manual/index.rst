@@ -1,7 +1,7 @@
 .. _QGIS-training-manual-index-reference:
 
 ====================
-QGIS Training Manual
+Guinea Bissau: QGIS Training Manual
 ====================
 
 
@@ -12,6 +12,5 @@ QGIS Training Manual
    foreword/index
    basic_map/index
    processing/index
-   databases/index
    appendix/contribute
    appendix/preparing_data
