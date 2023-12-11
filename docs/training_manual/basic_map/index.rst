@@ -9,9 +9,6 @@ for further demonstrations of QGIS functionality.
    :maxdepth: 2
 
    overview
-   preparation
-   mapviewnavigation
-   symbology
 
 
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE
