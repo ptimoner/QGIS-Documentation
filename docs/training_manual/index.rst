@@ -1,7 +1,7 @@
 .. _QGIS-training-manual-index-reference:
 
 ====================
-Guinea Bissau: QGIS Training Manual
+QGIS Training Manual
 ====================
 
 
