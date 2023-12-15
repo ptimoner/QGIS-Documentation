@@ -56,44 +56,6 @@ that you currently have installed. To install new plugins:
 .. note:: if the plugin has some error it will be listed in the :guilabel:`Invalid`
   tab. You can then contact the plugin owner to fix the problem.
 
-|basic| |FA| Configuring Additional Plugin Repositories
--------------------------------------------------------------------------------
-
-The plugins that are available to you for installation depend on which
-plugin *repositories* you are configured to use.
-
-QGIS plugins are stored online in repositories. By default, only the `official
-repository <https://plugins.qgis.org>`_ is active, meaning that you can only
-access plugins that are published there. Given the diversity of available tools,
-this repository should meet most of your needs.
-
-It is possible, however, to try out more plugins than the default ones. First,
-you want to configure additional repositories. To do this:
-
-#. Open the :guilabel:`Settings` tab in the :guilabel:`Plugin Manager` dialog
-
-   .. figure:: img/plugin_manager_settings.png
-      :align: center
-
-#. Click :guilabel:`Add` to find and add a new repository.
-#. Provide a Name and URL for the new repository you want to configure and make
-   sure the :guilabel:`Enabled` checkbox is selected.
-
-   .. figure:: img/new_plugins_setting.png
-      :align: center
-
-#. You will now see the new plugin repo listed in the list of configured
-   Plugin Repositories
-
-   .. figure:: img/new_plugin_added.png
-      :align: center
-
-#. You can also select the option to display Experimental Plugins by selecting
-   the :guilabel:`Show also experimental plugins` checkbox.
-#. If you now switch back to the :guilabel:`Not Installed` tab, you will see that
-   additional plugins are available for installation.
-#. To install a plugin, click on it in the list and then on the
-   :guilabel:`Install plugin` button.
 
 |IC|
 -------------------------------------------------------------------------------

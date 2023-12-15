@@ -9,9 +9,6 @@ present the final results.
 .. toctree::
    :maxdepth: 2
 
-   raster_to_vector
-   analysis_combination
-   assignment
    analysis_exercise
 
 
