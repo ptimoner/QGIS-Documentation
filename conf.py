@@ -48,7 +48,7 @@ html_last_updated_fmt = '%Y %b %d, %H:%M %z'
 # built documents.
 #
 # The short X.Y version.
-version = 'testing'
+version = '3.28'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
