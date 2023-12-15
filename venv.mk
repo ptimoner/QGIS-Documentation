@@ -6,7 +6,7 @@ SPHINXINTL    ?= venv/bin/sphinx-intl
 
 # Create the venv and a timestamp file
 venv/venv.timestamp:
-	python3 -m venv venv
+	python3.8 -m venv venv
 	touch $@
 
 # Install requirements and create a timestamp file
