@@ -24,3 +24,4 @@ venv
 .venv
 user.mk
 .vscode
+.Rproj.user
