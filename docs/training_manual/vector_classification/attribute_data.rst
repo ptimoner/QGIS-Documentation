@@ -3,11 +3,7 @@
 |LS| Vector Attribute Data
 ===============================================================================
 
-Vector data is arguably the most common kind of data in the daily
-use of GIS. The vector model represents the location and shape of geographic
-features using points, lines and polygons (and for 3D data also surfaces and
-volumes), while their other properties are included as attributes (often presented
-as a table in QGIS).
+Os dados vetoriais são, sem dúvida, o tipo de dados mais comum no uso diário de SIG (Sistemas de Informação Geográfica). O modelo vetorial representa a localização e a forma de características geográficas usando pontos, linhas e polígonos (e para dados 3D também superfícies e volumes), enquanto suas outras propriedades são incluídas como atributos (muitas vezes apresentados como uma tabela no QGIS).
 
 Up to now, none of the changes we have made to the map have been influenced by
 the objects that are being shown. In other words, all the land use areas look
