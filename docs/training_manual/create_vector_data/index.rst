@@ -11,9 +11,6 @@ learn how to modify existing vector data and create new datasets entirely.
    :maxdepth: 2
 
    create_new_vector
-   topo_editing
-   forms
-   actions
 
 
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE

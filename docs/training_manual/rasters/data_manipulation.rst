@@ -97,14 +97,6 @@ raster.
 |hard| Transforming Raster Data
 ----------------------------------------------------------------------
 
-The above methods allow you to virtually merge datasets using a
-catalog, and to reproject them "on the fly".
-However, if you are setting up data that you'll be using for quite a
-while, it may be more efficient to create new rasters that are already
-merged and reprojected.
-This improves performance while using the rasters in a map, but it may
-take some time to set up initially.
-
 Reprojecting rasters
 ......................................................................
 

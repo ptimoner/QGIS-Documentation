@@ -252,56 +252,6 @@ Remember that each new feature needs to have a unique ``id`` value!
    lessons.
 
 
-|moderate| |FA| Using Vertex Editor Table
--------------------------------------------------------------------------------
-
-Another way to edit a feature is to manually enter the actual
-coordinate values for each vertex using the :guilabel:`Vertex Editor`
-table.
-
-#. Make sure you are in edit mode on layer ``school_property``.
-#. If not already activated, click on |vertexToolActiveLayer|
-   :sup:`Vertex Tool` button.
-#. Move the mouse over one of the polygon features you created in the
-   ``school_property`` layer and right click on it.
-   This will select the feature and a :guilabel:`Vertex Editor` pane will appear.  
-
-   .. figure:: img/vertex_editor_table.png
-     :align: center
-
-   .. note:: This table contains the coordinates for the vertices of the feature.  
-      Notice there are seven vertices for this feature, but only six are 
-      visually identified in the map area.
-      Upon closer inspection, one will notice that row 0 and 6 have
-      identical coordinates.
-      These are the start and end vertices of the feature geometry,
-      and are required in order to create a closed polygon feature.
-
-#. Click and drag a box over a vertex, or multiple vertices, of the selected feature.
-
-   .. figure:: img/vertex_select.png
-     :align: center
-
-   The selected vertices will change to a color blue and the
-   :guilabel:`Vertex Editor` table will have the corresponding rows
-   highlighted, which contain the coordinates of the vertices.
-   
-   .. figure:: img/vertex_selected.png
-     :align: center
-
-#. To update a coordinate, double left click on the cell in the table
-   that you want to edit and enter the updated value.
-   In this example, the x coordinate of row ``4`` is updated from
-   ``20.4450`` to ``20.4444``.
-
-   .. figure:: img/edit_vertex_in_vertex_editor.png
-     :align: center
-	 
-#. After entering the updated value, hit the enter key to apply the change.
-   You will see the vertex move to the new location in the map window.
-#. When done editing, click the |toggleEditing| :sup:`Toggle Editing`
-   button to get out of edit mode, and save your edits.
-
 |basic| |TY| Digitizing Lines
 -------------------------------------------------------------------------------
 We are going to digitize two routes which are not already marked on the roads layer;
