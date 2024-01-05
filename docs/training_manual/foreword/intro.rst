@@ -57,20 +57,6 @@ also learn how to use analysis functions in QGIS.
 When you complete the course, you should be comfortable with using QGIS for all
 of the functions you usually need for everyday use.
 
-|hard| Advanced
-...............
-In this category, the assumption is that you are experienced with GIS software,
-have knowledge of and experience with spatial databases, using data on a remote
-server, perhaps writing scripts for analysis purposes, etc.
-
-Building on the instructions for the other two levels will familiarize you with
-the approach that the QGIS interface follows, and will ensure that you know how
-to access the basic functions that you need. You will also be shown how to make
-use of the QGIS plugin system, database access, and so on.
-
-When you complete the course, you should be well-acquainted with the everyday
-operation of QGIS, as well as its more advanced functions.
-
 .. _data_downloadlink:
 
 Data
