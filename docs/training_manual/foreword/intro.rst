@@ -71,8 +71,7 @@ from the following sources:
 * SRTM DEM from the CGIAR-CGI (http://srtm.csi.cgiar.org/)
 
 Download the prepared dataset from the `Training data repository <training_data_>`_
-and unzip the file. All the necessary data are provided in the :file:`exercise_data`
-folder.
+and unzip the file.  Todos os dados necessários são fornecidos na pasta :file:`exercise_data`.
 
 .. _training_data: https://github.com/qgis/QGIS-Training-Data/archive/release_3.28.zip
 
