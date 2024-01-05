@@ -71,6 +71,18 @@ msgstr ""
 "``Este tipo de texto`` refere-se a algo que você pode digitar, como um "
 "comando."
 
+#: ../../docs/training_manual/foreword/intro.rst:23
+msgid ""
+":file:`This/kind/of.text` refers to a path or filename."
+msgstr ""
+":file:`Este/tipo/de.texto` refere-se a um caminho ou nome de arquivo."
+
+#: ../../docs/training_manual/foreword/intro.rst:25
+msgid ""
+":kbd:`This+That` refers to a keyboard shortcut comprised of two buttons."
+msgstr ""
+":kbd:`Isto+Isso` refere-se a um atalho de teclado composto por dois botões"
+
 #: ../../docs/training_manual/foreword/intro.rst:28
 msgid "Tiered course objectives"
 msgstr "Objetivos do curso em níveis"
@@ -231,4 +243,4 @@ msgid ""
 msgstr ""
 "Faça o download do conjunto de dados preparado no `Repositório de dados de "
 "treinamento<training_data_>`_ e descompacte o arquivo. Todos os dados "
-"necessários são fornecidos no :file:`exercise_data` folder."
+"necessários são fornecidos na pasta :file:`exercise_data`."

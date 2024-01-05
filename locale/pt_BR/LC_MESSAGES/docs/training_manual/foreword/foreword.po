@@ -30,14 +30,10 @@ msgstr "Prefácio"
 #: ../../docs/training_manual/foreword/foreword.rst:3
 msgid ""
 "Welcome to our course! We will be showing you how to use QGIS easily and "
-"efficiently. If you are new to GIS, we will tell you what you need to get "
-"started. If you are an experienced user, you will see how QGIS fulfills all "
-"the functions you expect from a GIS program, and more!"
+"efficiently."
 msgstr ""
 "Bem-vindo ao nosso curso! Mostraremos como usar o QGIS com facilidade e "
-"eficiência. Se você é novo no GIS, informaremos o que você precisa para "
-"começar. Se você é um usuário experiente, verá como o QGIS cumpre todas as "
-"funções que você espera de um programa GIS e muito mais!"
+"eficiência."
 
 #: ../../docs/training_manual/foreword/foreword.rst:10
 msgid "Why QGIS?"
@@ -100,6 +96,12 @@ msgstr ""
 "específico, pode consultar a extensa documentação, seus colegas usuários do "
 "QGIS ou até os desenvolvedores."
 
+#: ../../docs/training_manual/foreword/foreword.rst:30
+msgid ""
+"*Cross-platform.* QGIS can be installed on macOS, Windows and Linux."
+msgstr ""
+"*Multiplataforma* O QGIS pode ser instalado em macOS, Windows e Linux."
+
 #: ../../docs/training_manual/foreword/foreword.rst:35
 msgid ""
 "Now that you know why you want to use QGIS, these exercises will make you "
@@ -111,6 +113,13 @@ msgstr ""
 #: ../../docs/training_manual/foreword/foreword.rst:39
 msgid "Background"
 msgstr "Antencedentes"
+
+#: ../../docs/training_manual/foreword/foreword.rst:38
+msgid ""
+"Este manual de treinamento foi adaptado da versão original para "
+"um workshop de GIS para iniciantes na Guiné-Bissau, organizado pelo PNUD "
+"e pela Universidade de Genebra."
+msgstr ""
 
 #: ../../docs/training_manual/foreword/foreword.rst:40
 msgid ""
@@ -146,6 +155,16 @@ msgstr ""
 "que um terceiro recurso é necessário - um que conduz o leitor "
 "sequencialmente ao aprender os principais aspectos do QGIS em um formato de "
 "instrutor-estagiário - o que nos levou a produzir esse trabalho."
+
+#: ../../docs/training_manual/foreword/foreword.rst:56
+msgid ""
+"The Free Quantum GIS Training Manual by Linfiniti Consulting CC. is based on "
+"an earlier version from Linfiniti and is licensed under a "
+"`Creative Commons Attribution 4.0 International <https://creativecommons.org/licenses/by/4.0/>`_."
+msgstr ""
+"O Manual Gratuito de Treinamento do Quantum GIS por Linfiniti Consulting CC. é baseado em uma versão "
+"anterior da Linfiniti e está licenciado sob a "
+"`Creative Commons Attribution 4.0 International <https://creativecommons.org/licenses/by/4.0/>`_."
 
 #: ../../docs/training_manual/foreword/foreword.rst:56
 msgid ""
