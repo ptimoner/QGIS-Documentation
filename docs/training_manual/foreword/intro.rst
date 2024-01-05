@@ -77,11 +77,6 @@ folder.
 
 .. _training_data: https://github.com/qgis/QGIS-Training-Data/archive/release_3.28.zip
 
-If you are an instructor, and would like to use more relevant
-data, you will find instructions for creating local data
-in the :ref:`tm_preparing_data` appendix.
-
-
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE
    This will be automatically updated by the find_set_subst.py script.
    If you need to create a new substitution manually,
