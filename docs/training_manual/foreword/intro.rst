@@ -13,16 +13,15 @@ Now that you know why you want to use QGIS, we can show you how.
 
 How to use this tutorial
 ------------------------
-Any text that :guilabel:`looks like this` refers to something that you can
-see in the QGIS user interface.
+Qualquer texto que :guilabel:`parece assim` refere-se a algo que você pode ver na interface do usuário do QGIS..
 
 Text that :menuselection:`looks --> like --> this` directs you through menus.
 
 ``This kind of text`` refers to something you can type, such as a command.
 
-:file:`This/kind/of.text` refers to a path or filename.
+:file:`Este/tipo/de.texto` refers to a path or filename.
 
-:kbd:`This+That` refers to a keyboard shortcut comprised of two buttons.
+:kbd:`Isso+Aquilo` refere-se a um atalho de teclado composto por dois botões.
 
 Tiered course objectives
 ------------------------
