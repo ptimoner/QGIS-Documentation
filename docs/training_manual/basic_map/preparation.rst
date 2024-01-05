@@ -272,6 +272,7 @@ This is the topic of the next lesson.
 .. |TY| replace:: Try Yourself
 .. |WN| replace:: What's Next?
 .. |basic| image:: /static/common/basic.png
+.. |básico| image:: /static/common/basic.png
 .. |dataSourceManager| image:: /static/common/mActionDataSourceManager.png
    :width: 1.5em
 .. |dbSchema| image:: /static/common/mIconDbSchema.png
