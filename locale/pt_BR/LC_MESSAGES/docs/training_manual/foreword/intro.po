@@ -50,6 +50,11 @@ msgstr ""
 msgid "How to use this tutorial"
 msgstr "Como usar este tutorial"
 
+#: ../../docs/training_manual/foreword/intro.rst:16
+msgid "Any text that :guilabel:`looks like this` refers to something that you can
+see in the QGIS user interface."
+msgstr "Qualquer texto que :guilabel:`parece assim` refere-se a algo que você pode ver na interface do usuário do QGIS."
+
 #: ../../docs/training_manual/foreword/intro.rst:19
 msgid ""
 "Text that :menuselection:`looks --> like --> this` directs you through "
