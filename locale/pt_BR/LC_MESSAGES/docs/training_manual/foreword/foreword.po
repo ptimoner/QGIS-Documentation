@@ -110,11 +110,11 @@ msgstr ""
 "Agora que você sabe por que deseja usar o QGIS, esses exercícios farão você "
 "saber como fazê-lo."
 
-#: ../../docs/training_manual/foreword/foreword.rst:39
+#: ../../docs/training_manual/foreword/foreword.rst:35
 msgid "Background"
 msgstr "Antencedentes"
 
-#: ../../docs/training_manual/foreword/foreword.rst:40
+#: ../../docs/training_manual/foreword/foreword.rst:38
 msgid ""
 "Este manual de treinamento foi adaptado da versão original para "
 "um workshop de GIS para iniciantes na Guiné-Bissau, organizado pelo PNUD "
