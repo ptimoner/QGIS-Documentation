@@ -38,4 +38,5 @@ locate suitable farm properties for this new residential development.
    source folder.
 
 .. |MOD| replace:: Module:
+.. |LS| replace:: Module:
 .. |majorUrbanName| replace:: Swellendam
