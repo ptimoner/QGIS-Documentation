@@ -80,22 +80,9 @@ Please have a look into one of the documents below.
    :caption: For Users
 
    QGIS Desktop User Guide/Manual (QGIS 3.28) <user_manual/index>
-   QGIS Server Guide/Manual (QGIS 3.28) <server_manual/index>
    Training Manual <training_manual/index>
    A Gentle Introduction to GIS <gentle_gis_introduction/index>
 
-.. toctree::
-   :maxdepth: 2
-   :caption: For Writers
-
-   Documentation Guidelines <documentation_guidelines/index>
-
-.. toctree::
-   :maxdepth: 2
-   :caption: For Developers
-
-   PyQGIS Cookbook (QGIS 3.28) <pyqgis_developer_cookbook/index>
-   Developers Guide <developers_guide/index>
 
 * :ref:`genindex`
 
