@@ -32,6 +32,13 @@ Here are only some of the reasons:
 Now that you know why you want to use QGIS, these exercises will make you
 know how.
 
+Background
+----------
+
+This training manual has been adapted from the original version for a GIS
+workshop for beginners in Guinea-Bissau organized by the UNDP and the
+University of Geneva.
+
 License
 -------
 
@@ -80,11 +87,6 @@ guidelines are as follows:
   by running a training course that uses this work as a text book, but you may
   not profit off the sales of the book itself - all such profits should be
   contributed back to QGIS.
-
-Sponsoring Chapters
--------------------
-This work is by no means a complete treatise on all the things you can do with
-QGIS and we encourage others to add new materials to fill any gaps.
 
 Authors
 -------
