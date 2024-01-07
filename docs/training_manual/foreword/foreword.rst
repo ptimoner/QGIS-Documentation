@@ -51,12 +51,9 @@ an earlier version from Linfiniti and is licensed under a
 Authors
 -------
 * Rüdiger Thiede - Rudi has written the QGIS instructional
-  materials and parts of the PostGIS materials.
-* Tim Sutton (tim@kartoza.com) - Tim has overseen and guided the project and
-  co-authored the PostgreSQL and PostGIS parts. Tim also authored the custom
+  materials
+* Tim Sutton (tim@kartoza.com) - Tim has overseen and guided the project. Tim also authored the custom
   sphinx theme used for this manual.
-* Horst Düster (horst.duester@kappasys.ch ) - Horst co-authored the PostgreSQL
-  and PostGIS parts
 * Marcelle Sutton - Marcelle provided proof-reading
   and editorial advice during the creation of this work.
 
