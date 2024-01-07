@@ -124,9 +124,9 @@ connection to it:
 
 You are now ready to add any layer from this GeoPackage to QGIS.
 
-#. Click on the :guilabel:`Connect` button.
-   In the central part of the window you should now see the list of all the layers
-   contained in the GeoPackage file.
+#. Clique no botão :guilabel:`Connect`.
+   Na parte central da janela, você deve agora ver a lista de todas as camadas
+   contidas no arquivo GeoPackage.
 #. Select the :guilabel:`roads` layer and click on the :guilabel:`Add` button.
 
    .. figure:: img/add_data_dialog_geopackage.png
@@ -182,8 +182,8 @@ the :guilabel:`Browser`.
   and use it to add your data. It's a handy shortcut for the :menuselection:`Data Source
   Manager --> Browser` tab, with the same functionality.
 
-.. note:: Remember to save your project frequently! The project file doesn't contain
-   any of the data itself, but it remembers which layers you loaded into your map.
+.. note:: Lembre-se de salvar seu projeto com frequência! O arquivo do projeto não contém nenhum dos dados em si, mas
+ele lembra quais camadas você carregou no seu mapa.
 
 |moderate| |TY| Load More Vector Data
 -------------------------------------------------------------------------------

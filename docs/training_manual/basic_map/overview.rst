@@ -80,11 +80,10 @@ project. You can easily customize the interface to see only the tools you use
 most often, adding or removing toolbars as necessary via the
 :menuselection:`View --> Toolbars` menu.
 
-Even if they are not visible in a toolbar, all of your tools will remain
-accessible via the menus. For example, if you remove the :guilabel:`Project`
-toolbar (which contains the :guilabel:`Save` button), you can still save your
-map by clicking on the :guilabel:`Project` menu and then clicking on
-:guilabel:`Save`.
+Mesmo que não estejam visíveis em uma barra de ferramentas, todas as suas ferramentas 
+permanecerão acessíveis através dos menus. Por exemplo, se você remover a barra de ferramentas 
+do :guilabel:`Project` (que contém o botão :guilabel:`Save`), você ainda poderá salvar seu mapa 
+clicando no menu :guilabel:`Project` e em seguida clicando em :guilabel:`Save`.
 
 |basic| The Map Canvas
 ...............................................................................
@@ -173,9 +172,9 @@ lesson we will see how to load some common data types.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |LS| replace:: Lesson:
-.. |TY| replace:: Try Yourself
-.. |WN| replace:: What's Next?
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmo
+.. |WN| replace:: O Que Vem a Seguir?
 .. |basic| image:: /static/common/basic.png
 .. |checkbox| image:: /static/common/checkbox.png
    :width: 1.3em

@@ -465,7 +465,7 @@ msgid ""
 msgstr ""
 "Ative o painel :guilabel:`Navegador` em :menuselection:`Exibir --> Painéis "
 "-->` e use-o para adicionar seus dados. É um atalho útil para a guia "
-":menus:`Gerenciador de Fonte de Dados --> Navegador`, com a mesma "
+":menus:`Data Source Manager --> Browser`, com a mesma "
 "funcionalidade. "
 
 #: ../../docs/training_manual/basic_map/preparation.rst:185

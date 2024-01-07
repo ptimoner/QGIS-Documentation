@@ -66,12 +66,13 @@ from the following sources:
 
 * Streets and Places datasets from OpenStreetMap
   (https://www.openstreetmap.org/)
-* Property boundaries (urban and rural), water bodies from NGI
+* Limites de propriedades (urbanas e rurais), corpos d'água da NGI
   (https://ngi.dalrrd.gov.za/)
 * SRTM DEM from the CGIAR-CGI (http://srtm.csi.cgiar.org/)
 
-Download the prepared dataset from the `Training data repository <training_data_>`_
-and unzip the file.  Todos os dados necessários são fornecidos na pasta :file:`exercise_data`.
+
+Baixe o conjunto de dados preparado do `Training data repository <training_data_>`_
+e descompacte o arquivo. Todos os dados necessários são fornecidos na pasta :file:`exercise_data`.
 
 .. _training_data: https://github.com/qgis/QGIS-Training-Data/archive/release_3.28.zip
 
