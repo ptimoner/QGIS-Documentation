@@ -35,9 +35,7 @@ know how.
 Background
 ----------
 
-This training manual has been adapted from the original version for a GIS
-workshop for beginners in Guinea-Bissau organized by the UNDP and the
-University of Geneva.
+Este manual de treinamento foi adaptado da versão original para um workshop de SIG para iniciantes na Guiné-Bissau, organizado pelo PNUD e pela Universidade de Genebra.
 
 License
 -------
@@ -51,12 +49,9 @@ an earlier version from Linfiniti and is licensed under a
 Authors
 -------
 * Rüdiger Thiede - Rudi has written the QGIS instructional
-  materials and parts of the PostGIS materials.
-* Tim Sutton (tim@kartoza.com) - Tim has overseen and guided the project and
-  co-authored the PostgreSQL and PostGIS parts. Tim also authored the custom
+  materials
+* Tim Sutton (tim@kartoza.com) - Tim has overseen and guided the project. Tim also authored the custom
   sphinx theme used for this manual.
-* Horst Düster (horst.duester@kappasys.ch ) - Horst co-authored the PostgreSQL
-  and PostGIS parts
 * Marcelle Sutton - Marcelle provided proof-reading
   and editorial advice during the creation of this work.
 
