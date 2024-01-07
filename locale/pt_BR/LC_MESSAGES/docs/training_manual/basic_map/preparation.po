@@ -465,7 +465,7 @@ msgid ""
 msgstr ""
 "Ative o painel :guilabel:`Navegador` em :menuselection:`Exibir --> Painéis "
 "-->` e use-o para adicionar seus dados. É um atalho útil para a guia "
-":menus:`Data Source Manager --> Browser`, com a mesma "
+":menuselection:`Data Source Manager --> Browser`, com a mesma "
 "funcionalidade. "
 
 #: ../../docs/training_manual/basic_map/preparation.rst:185
@@ -528,12 +528,12 @@ msgstr ""
 #: ../../docs/training_manual/basic_map/preparation.rst:207
 msgid ":guilabel:`buildings` (taken from :file:`training_data.gpkg`) and"
 msgstr ""
-":guilabel:` edifícios` (retirado de : arquivo :`dados_treinamento.gpkg`) e"
+":guilabel:`buildings` (retirado de :file:`training_data.gpkg`) e"
 
 #: ../../docs/training_manual/basic_map/preparation.rst:208
 msgid ":guilabel:`water` (taken from :file:`exercise_data/shapefile`)."
 msgstr ""
-":guilabel:`água` (retirado de: arquivo: `exercício__dados/shapefile`)."
+":guilabel:`water` (retirado de :file:`exercise_data/shapefile`)."
 
 #: ../../docs/training_manual/basic_map/preparation.rst:212
 msgid "|FA| Reordering the Layers"

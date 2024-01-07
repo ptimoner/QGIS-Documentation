@@ -89,8 +89,8 @@ msgid ""
 "In the `Map Navigation Toolbar`, make sure the |pan| :sup:`Pan` button is "
 "activated."
 msgstr ""
-"Na `Barra de Ferramentas de Navegação do Mapa`, certifique-se de que o |pan|"
-" O botão :sup:`Pan` está ativado."
+"Na `Barra de Ferramentas de Navegação do Mapa`, certifique-se de que o "
+"botão |pan| :sup:`Pan` esteja ativado."
 
 #: ../../docs/training_manual/basic_map/mapviewnavigation.rst:118
 msgid "pan"
@@ -117,8 +117,8 @@ msgid ""
 "In the `Map Navigation Toolbar`, click on the |zoomIn| :sup:`Zoom In` "
 "button."
 msgstr ""
-"Na `Barra de Ferramentas de Navegação do Mapa`, clique no botão |mais zoom| "
-":sup: Botão 'Ampliar'."
+"Na `Barra de Ferramentas de Navegação do Mapa`, clique no botão |zoomIn| "
+" :sup:`Zoom In`."
 
 #: ../../docs/training_manual/basic_map/mapviewnavigation.rst:122
 msgid "zoomIn"
@@ -142,8 +142,7 @@ msgid ""
 " of buildings and roads (:numref:`figure_zoom_in_mapview`)."
 msgstr ""
 "Em seguida, arraste o mouse, o que criará um retângulo e cobrirá a área "
-"densa de prédios e estradas (:número ref:`figura _zoom_dentro_visão do "
-"mapa`)."
+"densa de prédios e estradas (:numref:`figure_zoom_in_mapview`)."
 
 #: ../../docs/training_manual/basic_map/mapviewnavigation.rst:49
 msgid "Zoom in"
@@ -162,7 +161,7 @@ msgid ""
 "To zoom out, select the |zoomOut| :sup:`Zoom Out` button and perform the "
 "same action as you did for zooming in."
 msgstr ""
-"Para diminuir o zoom, selecione o |zoom reduzido| :sup:`Zoom reduzido` e "
+"Para diminuir o zoom, selecione o botão |zoomOut| :sup:`Zoom Out` e "
 "execute a mesma ação que você fez para aumentar o zoom."
 
 #: ../../docs/training_manual/basic_map/mapviewnavigation.rst:128
@@ -183,8 +182,8 @@ msgid ""
 "In the `Map Navigation Toolbar`, click on |zoomLast| :sup:`Zoom Last` button"
 " to go to your previous view."
 msgstr ""
-"Na `Barra de Ferramentas de Navegação do Mapa`, clique em |último zoom| "
-":sup:`Último Zoom` para ir para a visualização anterior."
+"Na `Barra de Ferramentas de Navegação do Mapa`, clique no botão"
+"|zoomLast| :sup:`Zoom Last` para ir para a visualização anterior."
 
 #: ../../docs/training_manual/basic_map/mapviewnavigation.rst:124
 msgid "zoomLast"
@@ -195,7 +194,7 @@ msgid ""
 "Click on |zoomNext| :sup:`Zoom Next` button to proceed to move forward in "
 "your history."
 msgstr ""
-"Clique em |Próximo zoom| :sup:`Próximo zoom` para prosseguir para avançar em"
+"Clique no botão |zoomNext| :sup:`Zoom Next` para prosseguir para avançar em"
 " seu histórico. "
 
 #: ../../docs/training_manual/basic_map/mapviewnavigation.rst:126
@@ -216,7 +215,7 @@ msgstr ""
 #: ../../docs/training_manual/basic_map/mapviewnavigation.rst:72
 msgid "Click on the |zoomFullExtent| :sup:`Zoom Full Extent` button."
 msgstr ""
-"Clique em |zoom Extensão Completa| :sup: botão `Zoom Extensão Completa`."
+"Clique no botão |zoomFullExtent| :sup:`Zoom Full Extent`."
 
 #: ../../docs/training_manual/basic_map/mapviewnavigation.rst:120
 msgid "zoomFullExtent"
@@ -231,7 +230,7 @@ msgid ""
 " in the real world."
 msgstr ""
 "Conforme você aumenta e diminui o zoom, observe que o valor "
-":guilabel:`Escala` na Barra de Status muda. O valor :guilabel:`Escala` "
+":guilabel:`Scale` na Barra de Status muda. O valor :guilabel:`Scale` "
 "representa a Escala do Mapa. Em geral, o número à direita de :guilabel:`:` "
 "representa quantas vezes o objeto que você está vendo no Tela do mapa é "
 "menor do que o objeto real no mundo real."

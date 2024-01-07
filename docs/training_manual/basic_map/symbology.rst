@@ -258,12 +258,12 @@ map.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |FR| replace:: Further Reading
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
-.. |TY| replace:: Try Yourself
-.. |WN| replace:: What's Next?
+.. |FA| replace:: Siga o Passo a Passo:
+.. |FR| replace:: Leitura Adicional
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmof
+.. |WN| replace:: O Que Vem a Seguir?
 .. |arrowDown| image:: /static/common/mActionArrowDown.png
    :width: 1.5em
 .. |basic| image:: /static/common/basic.png

@@ -336,7 +336,7 @@ msgstr ""
 
 #: ../../docs/training_manual/basic_map/overview.rst:143
 msgid "|checkbox|:guilabel:`Render`"
-msgstr "|checkbox|:guilabel:`Renderizar`"
+msgstr "|checkbox|:guilabel:`Render`"
 
 #: ../../docs/training_manual/basic_map/overview.rst:180
 msgid "checkbox"

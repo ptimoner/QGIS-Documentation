@@ -266,11 +266,11 @@ This is the topic of the next lesson.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
-.. |TY| replace:: Try Yourself
-.. |WN| replace:: What's Next?
+.. |FA| replace:: Siga o Passo a Passo:
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmo
+.. |WN| replace:: O Que Vem a Seguir?
 .. |basic| image:: /static/common/basic.png
 .. |básico| image:: /static/common/basic.png
 .. |dataSourceManager| image:: /static/common/mActionDataSourceManager.png

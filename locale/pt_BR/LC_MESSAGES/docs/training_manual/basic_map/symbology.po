@@ -179,8 +179,8 @@ msgid ""
 "click on the |symbology| :sup:`Open the Layer Styling panel` button. Change "
 "the color to one that fits the water layer."
 msgstr ""
-"Basta selecionar a camada: guilabel: `água` na legenda e depois clicar no "
-"ícone |simbologia| :sup:`Abrir o painel Estilo de camada`. Mude a cor para "
+"Basta selecionar a camada :guilabel:`water` na legenda e depois clicar no "
+"ícone |symbology| :sup:`Open the Layer Styling panel`. Mude a cor para "
 "uma que se ajuste à camada de água."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:68
@@ -282,8 +282,8 @@ msgid ""
 "button and see all the changes instantly. That panel also allows you to undo"
 " individual changes while symbolizing a layer."
 msgstr ""
-"Lembre-se: você pode usar  o botão |symbology| :sup:`Abrir Painel de Estilo "
-"de Camada` e veja todas as alterações instantaneamente. Esse painel também "
+"Lembre-se: você pode usar  o botão |symbology| :sup:`Open the Layer Styling panel` "
+"e veja todas as alterações instantaneamente. Esse painel também "
 "permite desfazer alterações individuais enquanto simboliza uma camada."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:113
