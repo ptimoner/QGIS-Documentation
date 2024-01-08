@@ -247,7 +247,7 @@ msgstr ""
 
 #: ../../docs/training_manual/basic_map/symbology.rst:91
 msgid "Change this to :guilabel:`No Pen`."
-msgstr "Troque para :guilabel:`Sem caneta`."
+msgstr "Troque para :guilabel:`No Pen`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:96
 #: ../../docs/training_manual/basic_map/symbology.rst:162
@@ -452,8 +452,8 @@ msgid ""
 ":guilabel:`No Pen` border style)."
 msgstr ""
 "Neste exemplo, o símbolo atual não tem contorno (ou seja, ele usa como "
-"estilo da borda :guilabel:`Sem caneta`)."
-
+"estilo da borda :guilabel:`No Pen`)."
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAWElEQVR42mNgGPTAxsZmJsVqQApgmGw1yApwKcQiT7phRBuCzzCSDSHGMKINIeDNmWQlA2IigKJwIssQkHdINgxfmBBtGDEBS3KCxBc7pMQgMYE5c/AXPwAwSX4lV3pTWwAAAABJRU5ErkJggg==
 #: ../../docs/training_manual/basic_map/symbology.rst:188
 msgid ""
 "Select the :guilabel:`Fill` level in the tree and click the |symbologyAdd| "
@@ -511,7 +511,7 @@ msgstr ""
 #: ../../docs/training_manual/basic_map/symbology.rst:211
 msgid "Set the border style to :guilabel:`No Pen`, as before."
 msgstr ""
-"Defina o estilo de borda para :guilabel:`Sem caneta`, como feito "
+"Defina o estilo de borda para :guilabel:`No Pen`, como feito "
 "anteriormente."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:212
@@ -519,8 +519,8 @@ msgid ""
 "Change the fill style to something other than :guilabel:`Solid` or "
 ":guilabel:`No brush`. For example:"
 msgstr ""
-"Mude o estilo de preenchimento para algo diferente de :guilabel:`Sólido` ou "
-":guilabel:`Sem pincel`. Por exemplo:"
+"Mude o estilo de preenchimento para algo diferente de :guilabel:`Solid` ou "
+":guilabel:`No brush`. Por exemplo:"
 
 #: ../../docs/training_manual/basic_map/symbology.rst:220
 msgid ""

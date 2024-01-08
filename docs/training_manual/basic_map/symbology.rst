@@ -262,7 +262,7 @@ map.
 .. |FR| replace:: Leitura Adicional
 .. |IC| replace:: Em Conclusão
 .. |LS| replace:: Lição:
-.. |TY| replace:: Tente Você Mesmof
+.. |TY| replace:: Tente Você Mesmo
 .. |WN| replace:: O Que Vem a Seguir?
 .. |arrowDown| image:: /static/common/mActionArrowDown.png
    :width: 1.5em

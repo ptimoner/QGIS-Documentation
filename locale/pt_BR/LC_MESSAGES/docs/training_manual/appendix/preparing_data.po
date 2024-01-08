@@ -105,8 +105,8 @@ msgid ""
 "Select :menuselection:`Layer --> Data Source Manager` to open the "
 ":guilabel:`Data Source Manager` dialog"
 msgstr ""
-"Selecione :menuselection:`Camada --> Gerenciador de Fonte de Dados` para "
-"abrir a caixa de diálogo :guilabel:`Gerenciador de Fonte de Dados`"
+"Selecione :menuselection:`Camada --> Data Source Manager` para "
+"abrir a caixa de diálogo :guilabel:`Data Source Manager`"
 
 #: ../../docs/training_manual/appendix/preparing_data.rst:36
 msgid ""
@@ -122,7 +122,7 @@ msgstr "Um mapa do mundo agora está visível na tela do mapa."
 
 #: ../../docs/training_manual/appendix/preparing_data.rst:44
 msgid "Close the :guilabel:`Data Source Manager` dialog"
-msgstr "Feche a caixa de diálogo :guilabel:`Gerenciador de Fonte de Dados`"
+msgstr "Feche a caixa de diálogo :guilabel:`Data Source Manager`"
 
 #: ../../docs/training_manual/appendix/preparing_data.rst:45
 msgid "Move to the area you'd like to use as study area"

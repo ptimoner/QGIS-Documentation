@@ -111,9 +111,9 @@ or to validate output of a spatial analysis.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
+.. |FA| replace:: Siga o Passo a Passo:
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
 .. |basic| image:: /static/common/basic.png
 .. |pan| image:: /static/common/mActionPan.png
    :width: 1.5em

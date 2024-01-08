@@ -26,81 +26,78 @@ It's important to know that the data you will be working with does not only
 represent **where** objects are in space, but also tells you **what** those
 objects are.
 
-From the previous exercise, you should have the ``protected_areas`` layer
-loaded in your map. If it is not loaded, then you can find the
-:file:`protected_areas.shp` *ESRI Shapefile* format dataset in directory
+Do exercício anterior, você deve ter a camada ``protected_areas``
+carregada no seu mapa. Se ela não estiver carregada, você pode encontrar o conjunto de dados
+:file:`protected_areas.shp` no diretório
 :file:`exercise_data/shapefile`.
 
 The polygons representing the protected areas constitute the **spatial data**,
 but we can learn more about the protected areas by exploring the
 **attribute table**.
 
-#. In the :guilabel:`Layers` panel, click on the ``protected_areas`` layer to
-   select it.
-#. In the :menuselection:`Layer` menu, click the |openTable|
-   :sup:`Open Attribute Table` button (also accessible from top toolbars buttons).
-   This will open a new window showing the attribute table of the ``protected_areas`` layer.
+#. No painel :guilabel:`Layers`, clique na camada ``protected_areas`` para selecioná-la.
+#. No painel :menuselection:`Layer`, clique no botão |openTable|
+   :sup:`Open Attribute Table` (também acessivel pelos botões das barras de ferramentas superiores).
+   Isto abrirá uma nova janela mostrando a tabela  de atributos da camada ``protected_areas``.
 
    .. figure:: img/attribute_data_preview.png
      :align: center
 
-   A row is called a **record** and is associated with a **feature**
-   in the Canvas Map, such as a polygon.
-   A column is called a **field** (or an **attribute**), and has a name that helps
-   describe it, such as ``name`` or ``id``.
-   Values in the cells are known as **attribute values**.
-   These definitions are commonly used in GIS, so it is good to become
-   familiar with them.
+   Uma linha é chamada de **record** e está associada a um **feature**
+   na Tela de Mapa, como um polígono.
+   Uma coluna é chamada de **field** (ou um **attribute**), e tem um nome que ajuda
+   a descrevê-lo, como ``name`` ou ``id``.
+   Valores nas células são conhecidos como **attribute values**.
+   Essas definições são comumente usadas em SIG, então é bom se familiarizar com elas.
 
-   In the ``protected_areas`` layer, there are two **features**, which are
-   represented by the two polygons we see on the Map Canvas.
+   Na camada ``protected_areas``, existem dois **features**, que são representadas pelos dois polígonos que vemos
+   na Tela de Mapa.
 
-   .. Note:: In order to understand what the **fields** and **attribute values**
-      represent, one may need to find documentation (or metadata) describing
-      the meaning of the attribute values.
-      This is usually available from the creator of the data set.
+   .. Note:: Para entender o que os campos e valores de atributo
+      representam, pode ser necessário encontrar documentação (ou metadados) que descrevam
+      o significado dos valores dos atributos.
+      Essa informação geralmente está disponível com o criador do conjunto de dados.
 
-Next, let's see how a record in the attribute table is linked to a polygon
-feature that we see on the Map Canvas.
+Em seguida, vamos ver como um registro na tabela de atributos está vinculado a um polígono que vemos na Tela de Mapa.
 
 #. Go back to the main QGIS window.
-#. In the :guilabel:`Edit --> Select` menu, click on the |selectRectangle| :guilabel:`Select Feature(s)` button.
-#. Make sure the ``protected_areas`` layer is still selected in the :guilabel:`Layers` panel.
-#. Move your mouse to the Map Canvas and left click on the smaller of the two polygons.
-   The polygon will turn yellow indicating it is selected.
+#. No menu :guilabel:`Edit --> Select`, clique no botão |selectRectangle| :guilabel:`Select Feature(s)`.
+#. Certifique-se que a camada ``protected_areas`` continua estando selecionada no painel :guilabel:`Layers`.
+#. Desloque o mouse até a Tela de Mapa e clique com o botão esquerdo no menor dos dois polígonos.
+   O polígono ficará amarelo, indicando que está selecionado.
 
    .. figure:: img/select_polygon.png
       :align: center
 
-#. Go back to the :guilabel:`Attribute Table` window, and you should see a
-   record (row) highlighted.
-   These are the attribute values of the selected polygon.
+#. Volte para a janela :guilabel:`Attribute Table`, e você deverá ver um
+   registro (linha) destacado.
+   Estes são os valores dos atributos do polígono selecionado.
 
    .. figure:: img/select_record.png
      :align: center
 
 You can also select a feature using the Attribute Table.
 
-#. In the :guilabel:`Attribute Table` window, on the far left,
-   click on the row number of the record that is currently not selected.
+#. Na janela :guilabel:`Attribute Table`, na extrema esquerda,
+   clique no número da linha do registro que atualmente não está selecionado.
 
    .. figure:: img/select_record2.png
      :align: center
 
-#. Go back to the main QGIS window and look at the Map Canvas. You should
-   see the larger of the two polygons colored yellow.
-#. To deselect the feature, go to the :guilabel:`Attribute Table` window
-   and click on |deselectActiveLayer| :sup:`Deselect all features from the layer` button.
+#. Volte para a janela principal do QGIS e olhe para a Tela de Mapa. Você deve
+   ver o maior dos dois polígonos colorido de amarelo.
+#. Para desselecionar a feição, vá até a janela :guilabel:`Attribute Table`
+   e clique no botão |deselectActiveLayer| :sup:`Deselect all features from the layer`.
 
-Sometimes there are many features shown on the Map Canvas and it might be difficult
-to see which feature is selected from the Attribute Table.  Another way to
-identify the location of a feature is to use the :guilabel:`Flash Feature`
-tool.
+Às vezes há muitas feições mostradas na Tela de Mapa e pode ser difícil
+ver qual feição está selecionada na Tabela de Atributos. Outra maneira de
+identificar a localização de uma feição é utilizar a ferramenta :guilabel:`Flash Feature`
+.
 
-#. In the :guilabel:`Attribute Table`, right-click on any cell in the
-   row that has the attribute value ``r2855697`` for the field ``full_id``.
-#. In the context menu, click on :guilabel:`Flash Feature` and watch the
-   Map Canvas.
+#. Na :guilabel:`Attribute Table`, clique com o botão direito em qualquer célula da
+   linha que possui o valor de atributo ``r2855697`` no campo ``full_id``.
+#. No menu de contexto, clique em :guilabel:`Flash Feature` e observe a
+   Tela de Mapa.
 
    .. figure:: img/flash_feature.png
      :align: center
@@ -108,18 +105,18 @@ tool.
    You should see the polygon flash red a few times.  If you missed it,
    try it again.
 
-Another useful tool is the :guilabel:`Zoom to Feature` tool, that tells QGIS to
-zoom to the feature of interest.
+Outra ferramenta útil é o :guilabel:`Zoom to Feature` tool, que indica ao QGIS para
+dar zoom na feição de interesse.
 
-#. In the :guilabel:`Attribute Table`, right-click on  any cell in the
-   row that has the attribute value ``r2855697`` for the field ``full_id``.
-#. In the context menu, click on :guilabel:`Zoom to Feature`
+#. Na :guilabel:`Attribute Table`, clique com o botão direito em qualquer célula da
+   linha que possui o valor de atributo ``r2855697`` no campo ``full_id``.
+#. No menu de contexto, clique em :guilabel:`Zoom to Feature`.
 
    .. figure:: img/zoom_to_feature.png
      :align: center
 
-   Look at the Map Canvas. The polygon should now occupy the extent
-   of the Map Canvas area.
+   Olhe para a Tela de Mapa. O polígono agora deve ocupar toda a extensão
+da área da Tela de Mapa.
 
 You may now close the attribute table.
 
@@ -128,36 +125,34 @@ You may now close the attribute table.
 |basic| |TY| Exploring Vector Data Attributes
 -------------------------------------------------------------------------------
 
-#. How many fields are available in the :guilabel:`rivers` layer?
+#. Quantos campos estão disponíveis na camada :guilabel:`rivers` ?
 #. Tell us a bit about the ``town`` places in your dataset.
-#. Open the attribute table for the :guilabel:`places` layer.
-   Which field would be the most useful to represent in label form, and why?
+#. Abra a tabela de atributos para a camada :guilabel:`places`.
+   Qual campo seria o mais útil para representar na forma de etiqueta (label),
+   e por quê ?
 
 .. admonition:: Answer
    :class: dropdown
 
-   * There should be 9 fields in the :guilabel:`rivers` layer:
+   * TDeve haver 9 campos na camada :guilabel:`rivers`:
 
-     #. Select the layer in the :guilabel:`Layers` panel.
-     #. Right-click and choose :guilabel:`Open Attribute Table`,
-        or press the |openTable| button on the :guilabel:`Attributes Toolbar`
-        (it can be enabled from :menuselection:`View --> Toolbars` menu).
-     #. Count the number of columns.
+     #. Selecione a camada no painel :guilabel:`Layers`.
+     #. Clique com o botão direito e escolha :guilabel:`Open Attribute Table`,
+        ou pressione o botão |openTable| no :guilabel:`Attributes Toolbar`
+        (pode ser ativada no menu :menuselection:`View --> Toolbars`).
+     #. Conte o número de colunas.
 
-     A quicker approach could be to double-click the :guilabel:`rivers` layer,
-     open the :menuselection:`Layer properties --> Fields` tab, where you will
-     find a numbered list of the table's fields.
+     Uma abordagem mais rápida pode ser dar um duplo clique na camada :guilabel:`rivers`,
+     abrir a aba :menuselection:`Layer properties --> Fields`, onde você
+     encontrará uma lista numerada dos campos da tabela.
 
-   * Information about towns is available in the :guilabel:`places` layer. Open its
-     attribute table as you did with the :guilabel:`rivers` layer:
-     there are two features whose :guilabel:`place`
-     attribute is set to ``town``: *Swellendam* and *Buffeljagsrivier*.
-     You can add comment on other fields from these two records, if you like.
+   * Informações sobre as cidades estão disponíveis na camada :guilabel:`places`. Abra sua tabela de atributos como você fez com a       camada :guilabel:`rivers`:
+     existem duas feições cujo atributo :guilabel:`place`
+     está definido como ``cidade``: *Swellendam* and *Buffeljagsrivier*.
+     Você pode adicionar comentários sobre outros campos desses dois registros, se desejar.
 
-   * The ``name`` field is the most useful to show as labels. This is because all its
-     values are unique for every object and are very unlikely to contain *NULL*
-     values. If your data contains some *NULL* values, do not worry as long as most
-     of your places have names.
+   * O campo ``name`` é o mais útil para mostrar como etiquetas (labels). Isso porque todos os seus valores são únicos para cada         objeto e é muito improvável que contenham valores *NULL*. Se seus dados contiverem alguns valores *NULL*, não se preocupe
+     enquanto a maioria dos seus locais tiverem nomes.
 
 |IC|
 -------------------------------------------------------------------------------
@@ -182,11 +177,11 @@ this in the next lesson.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
-.. |TY| replace:: Try Yourself
-.. |WN| replace:: What's Next?
+.. |FA| replace:: Siga o Passo a Passo:
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmo
+.. |WN| replace:: O Que Vem a Seguir?
 .. |basic| image:: /static/common/basic.png
 .. |deselectActiveLayer| image:: /static/common/mActionDeselectActiveLayer.png
    :width: 1.5em

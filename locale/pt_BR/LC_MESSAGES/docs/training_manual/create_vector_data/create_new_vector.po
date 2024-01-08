@@ -231,7 +231,7 @@ msgstr ""
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:100
 msgid "Click on |dataSourceManager| :sup:`Data Source Manager` button."
 msgstr ""
-"Clique em |Gerenciador de fonte de dados| :sup:botão `Gerenciador de Fonte "
+"Clique em |dataSourceManager| :sup:`Data Source Manager` "
 "de Dados`."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:387

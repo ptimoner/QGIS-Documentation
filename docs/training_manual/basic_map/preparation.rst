@@ -188,8 +188,8 @@ ele lembra quais camadas você carregou no seu mapa.
 |moderate| |TY| Load More Vector Data
 -------------------------------------------------------------------------------
 
-Load the following datasets from the :file:`exercise_data` folder into your map
-using any of the methods explained above:
+Carregue os seguintes conjuntos de dados a partir da pasta :file:`exercise_data` para o seu mapa
+usando qualquer um dos métodos explicados acima:
 
 * :guilabel:`buildings`
 * :guilabel:`water`
