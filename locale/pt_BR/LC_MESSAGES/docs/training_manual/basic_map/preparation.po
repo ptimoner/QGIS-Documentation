@@ -200,7 +200,7 @@ msgstr ""
 #: ../../docs/training_manual/basic_map/preparation.rst:82
 #: ../../docs/training_manual/basic_map/preparation.rst:197
 msgid "Answer"
-msgstr "Responda"
+msgstr "Resultado"
 
 #: ../../docs/training_manual/basic_map/preparation.rst:85
 msgid ""

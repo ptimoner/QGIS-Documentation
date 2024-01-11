@@ -293,7 +293,7 @@ msgstr ""
 #: ../../docs/training_manual/basic_map/symbology.rst:498
 #: ../../docs/training_manual/basic_map/symbology.rst:567
 msgid "Answer"
-msgstr "Responda"
+msgstr "Resultado"
 
 #: ../../docs/training_manual/basic_map/symbology.rst:116
 msgid "Your map should now look like this:"

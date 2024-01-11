@@ -312,10 +312,7 @@ programs.
 |WN|
 -------------------------------------------------------------------------------
 
-Features in a GIS layer aren't just pictures, but objects in space. For
-example, adjacent polygons know where they are in relation to one another. This
-is called **topology**. In the next lesson you'll see an example of why this can
-be useful.
+Features in a GIS layer aren't just pictures, but objects in space.
 
 
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE
@@ -324,12 +321,13 @@ be useful.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
-.. |TY| replace:: Try Yourself
-.. |WN| replace:: What's Next?
+.. |FA| replace:: Siga o Passo a Passo:
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmo
+.. |WN| replace:: O Que Vem a Seguir?
 .. |basic| image:: /static/common/basic.png
+.. |básico| image:: /static/common/basic.png
 .. |captureLine| image:: /static/common/mActionCaptureLine.png
    :width: 1.5em
 .. |capturePolygon| image:: /static/common/mActionCapturePolygon.png

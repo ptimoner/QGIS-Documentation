@@ -133,7 +133,7 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_classification/attribute_data.rst:140
 msgid "Answer"
-msgstr "Responda"
+msgstr "Resultado"
 
 #: ../../docs/training_manual/vector_classification/attribute_data.rst:149
 msgid "Count the number of columns."

@@ -291,7 +291,7 @@ msgstr ""
 #: ../../docs/training_manual/basic_map/overview.rst:128
 #: ../../docs/training_manual/basic_map/overview.rst:153
 msgid "Answer"
-msgstr "Responda"
+msgstr "Resultado"
 
 #: ../../docs/training_manual/basic_map/overview.rst:131
 msgid ""

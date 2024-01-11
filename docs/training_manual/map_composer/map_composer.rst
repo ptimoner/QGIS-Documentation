@@ -106,9 +106,9 @@ Ensure that yours is as well.
    :sup:`Move item content`.
 
    The map view updates as you zoom in or zoom out.
-#. If, for any reason, the map view does not refresh correctly,
-   you can force the map to refresh by clicking the
-   |refresh| :sup:`Refresh view` button.
+#. Se, por algum motivo, a visualização do mapa não atualizar corretamente,
+   você pode forçar a atualização do mapa clicando no botão
+   |refresh| :sup:`Refresh view`.
 
    Lembre-se de que o tamanho e a posição que você deu ao mapa não precisam
    ser finais.
@@ -173,7 +173,7 @@ First, let us add a title.
    #. Use essa interface para definir as opções de fonte e alinhamento
       na seção :guilabel:`Appearance`:
 
-      #. escolha uma fonte grande, mas sensível (o exemplo
+      #. Escolha uma fonte grande, mas sensível (o exemplo
          usará a fonte padrão com tamanho ``36``)
       #. Set the :guilabel:`Horizontal Alignment` to :guilabel:`Center`.
 
@@ -232,10 +232,10 @@ Let's add a new legend.
 Not everything on the legend is necessary, so let's remove some
 unwanted items.
 
-#. In the :guilabel:`Item Properties` tab, you'll find the
-   :guilabel:`Legend items` group.
-#. Uncheck the |unchecked| :guilabel:`Auto update` box, allowing you
-   to directly modify the legend items
+#. Na guia :guilabel:`Item Properties`, você encontrará o grupo
+   :guilabel:`Legend items`.
+#. Desmarque a caixa |unchecked| :guilabel:`Auto update`, permitindo
+   que você modifique diretamente os itens da legenda.
 #. Select the entry with :guilabel:`buildings`
 #. Apague isso da legenda clicando no botão |symbologyRemove|
 
@@ -317,7 +317,7 @@ For our purposes, we're going to use PDF.
 
 |IC|
 ----------------------------------------------------------------------
-Now you know how to create a basic static map layout.
+Agora você sabe como criar um layout básico de mapa.
 
 
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE

@@ -272,7 +272,7 @@ msgstr "Ajusta un formulario más apropiado para el campo :guilabel:`highway`."
 
 #: ../../docs/training_manual/create_vector_data/forms.rst:109
 msgid "Answer"
-msgstr "Responda"
+msgstr "Resultado"
 
 #: ../../docs/training_manual/create_vector_data/forms.rst:112
 msgid ""

@@ -146,7 +146,7 @@ msgstr ""
 
 #: ../../docs/training_manual/complete_analysis/raster_to_vector.rst:52
 msgid "Answer"
-msgstr "Responda"
+msgstr "Resultado"
 
 #: ../../docs/training_manual/complete_analysis/raster_to_vector.rst:56
 msgid ""
