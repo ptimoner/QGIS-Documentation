@@ -38,27 +38,27 @@ msgstr ""
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:36
 msgid "You will now see the *Print Layout* window:"
-msgstr "Agora você verá a janela *Layout de Impressão*:"
+msgstr "Agora você verá a janela *Print Layout*:"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:52
 msgid "|basic| |FA| Basic Map Composition"
-msgstr "|basic| |FA| Composición Básica del Mapa"
+msgstr "|basic| |FA| Composição básica do Mapa"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:54
 msgid ""
 "In this example, the composition was already the way we wanted it. Ensure "
 "that yours is as well."
 msgstr ""
-"En este ejemplo, la composición ya estaba de la forma en que la queremos. "
-"Asegúrate de que la tuya también está así."
+"Neste exemplo, a composição já estava do jeito que queríamos. "
+"Certifique-se de que a sua também está assim."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:65
 msgid ""
 "Now you've got the page layout the way you wanted it, but this page is still"
 " blank. It clearly lacks a map. Let's fix that!"
 msgstr ""
-"Ahora tienes la disposición de la página como la querías, pero esta página "
-"todavía está en blanco. Le falta el mapa claramente. ¡Vamos a solucionarlo!"
+"Agora você tem o layout da página como queria, mas esta página ainda está em "
+"branco. Está faltando o mapa, claramente. Vamos resolver isso!"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:337
 msgid "addMap"
@@ -71,15 +71,15 @@ msgstr ""
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:74
 msgid "Click and drag a box on the blank page:"
-msgstr "Haz clic y arrastra una caja en la página en blanco:"
+msgstr "Clique e arraste para criar uma caixa na página em branco:"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:79
 msgid "The map will appear on the page."
-msgstr "El mapa aparecerá en la página."
+msgstr "O mapa aparecerá na página."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:81
 msgid "Move the map by clicking and dragging it around:"
-msgstr "Mueve el mapa clicando y arrastrándolo:"
+msgstr "Mova o mapa clicando e arrastando:"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:86
 msgid "Resize it by clicking and dragging the boxes on the edges:"
@@ -91,24 +91,23 @@ msgid ""
 "project is set up. But not to worry! These instructions are general, so they"
 " will work the same regardless of what the map itself looks like."
 msgstr ""
-"Puede que tu mapa se vea muy diferente, ¡Por supuesto! Esto depende en cómo "
-"esta ajustado tu propio proyecto. ¡Pero no te preocupes! Estas instrucciones"
-" son generales, así que funcionarán adecuándose a la forma en que se vea el "
-"mapa."
+"Seu mapa pode parecer muito diferente, claro! Isso depende de como o seu "
+"próprio projeto está configurado. Mas não se preocupe! Estas instruções "
+"são gerais, então funcionarão adaptando-se à aparência do seu mapa."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:96
 msgid ""
 "Be sure to leave margins along the edges, and a space along the top for the "
 "title."
 msgstr ""
-"Asegúrate de ajustar los márgenes a lo largo de las esquinas, y dejar un "
-"espacio en la parte superior para el título."
+"Certifique-se de ajustar as margens ao longo das esquinas "
+"e deixar espaço na parte superior para o título."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:99
 msgid "Zoom in and out on the page (but not the map!) by using these buttons:"
 msgstr ""
-"Amplía y disminuye el zoom de la página (¡pero no del mapa!) utilizando esos"
-" botones:"
+"Amplie e diminua o zoom da página (mas não do mapa!) usando esses "
+"botões:"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:102
 msgid "|zoomFullExtent| |zoomIn| |zoomOut|"
@@ -168,16 +167,16 @@ msgid ""
 "Resize it and place it in the top center of the page. It can be resized and "
 "moved in the same way that you resized and moved the map."
 msgstr ""
-"Cambia el tamaño y sitúala en el centro superior de la página. Puede "
-"cambiarse de tamaño y ser movido de la misma forma que el mapa."
+"Redimensione e posicione no centro superior da página. Pode ser "
+"redimensionado e movido da mesma forma que o mapa."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:143
 msgid ""
 "As you move the title, you'll notice that guidelines appear to help you "
 "position the title in the center of the page."
 msgstr ""
-"Cuando muevas el título, notarás que aparecen líneas guía para ayudarte a "
-"posicionarlo en el centro de la página."
+"Quando mover o título, você notará que linhas guias aparecerão "
+"para ajudar a posicioná-lo no centro da página."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:149
 msgid "|alignLeft|"
@@ -213,11 +212,11 @@ msgstr ""
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:165
 msgid "Select the label by clicking on it."
-msgstr "Selecciona la etiqueta clicando en ella."
+msgstr "Selecione rótulo clicando nele."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:168
 msgid "Change the text of the label to \"|majorUrbanName|\":"
-msgstr "Cambia el texto de la etiqueta a \"|majorUrbanName|\":"
+msgstr "Mude o texto do rótulo para \"|majorUrbanName|\":"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:178
 msgid "Set the :guilabel:`Horizontal Alignment` to :guilabel:`Center`."
@@ -229,39 +228,39 @@ msgid ""
 "You can also change the font color, but it's probably best to keep it black "
 "as per the default."
 msgstr ""
-"También puedes cambiar el color de la fuente, pero probablemente sea mejor "
-"mantenerla en negro como por defecto."
+"Também pode alterar a cor da fonte, mas provavelmente seja melhor "
+"mantê-la preta como padrão."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:183
 msgid ""
 "The default setting is not to add a frame to the title's text box. However, "
 "if you wish to add a frame, you can do so:"
 msgstr ""
-"Los ajustes por defecto no añaden un marco a la caja de texto del título, si"
-" quieres añadir un marco, puedes hacerlo así:"
+"As configurações padrão não adicionam um quadro à caixa de texto do título, se "
+"qusier adicitonar um quadro, pode fazer o seguinte:"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:186
 msgid ""
 "In the :guilabel:`Item Properties` tab, scroll down until you see the "
 ":guilabel:`Frame` option."
 msgstr ""
-"En la pestaña :guilabel:`Propiedades del elemento`, desplázate hacia abajo "
-"hasta que veas la opción :guilabel:`Marco`."
+"Na guia :guilabel:`Propiedades del elemento`, role a tela para baixo "
+"até que você veja a opção :guilabel:`Frame`."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:188
 msgid ""
 "Click the :guilabel:`Frame` checkbox to enable the frame. You can also "
 "change the frame's color and width."
 msgstr ""
-"Haz clic en la casilla de verificación para habilitar el marco. También "
-"puedes cambiar el color del marco y su grosor."
+"Clique na caixa de seleção :guilabel:`Frame` para ativar o quadro. Também "
+"você pode alterar a cor e a largura do quadro."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:191
 msgid ""
 "In this example, we won't enable the frame, so here is our page so far:"
 msgstr ""
-"En este ejemplo, no habilitaremos los marcos, así que aquí está nuestra "
-"página hasta el momento:"
+"Neste exemplo, não habilitaremos os quadros, portanto, aqui está nossa "
+"página por agora:"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:197
 msgid ""
@@ -332,8 +331,8 @@ msgid ""
 "Not everything on the legend is necessary, so let's remove some unwanted "
 "items."
 msgstr ""
-"No necesitamos todo lo que está en la leyenda, así que elimina los elementos"
-" no deseados."
+"Não precisamos de tudo o que está na legenda, por isso remova os elementos "
+"indesejados."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:368
 msgid "unchecked"
@@ -341,7 +340,7 @@ msgstr ""
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:239
 msgid "Select the entry with :guilabel:`buildings`"
-msgstr "Selecione a entrada com :guilabel:`construções'."
+msgstr "Selecione a entrada com :guilabel:`buildings'."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:366
 msgid "symbologyRemove"
@@ -349,11 +348,11 @@ msgstr ""
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:242
 msgid "You can also rename items."
-msgstr "También puedes renombrar los elementos."
+msgstr "Também você pode renomear itens."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:244
 msgid "Select a layer from the same list."
-msgstr "Selecciona una capa de la misma lista."
+msgstr "Selectione uma camada da mesma lista."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:364
 msgid "symbologyEdit"
@@ -368,8 +367,8 @@ msgid ""
 "As the legend will likely be widened by the new layer names, you may wish to"
 " move and resize the legend and or map. This is the result:"
 msgstr ""
-"Como la leyenda cambiará de anchura con los nuevos nombres de capas, puede "
-"que desees mover y cambiar el tamaño de la leyenda y/o el mapa. Este es el "
+"Como a legenda mudará de largura com os novos nomes das camadas, você pode "
+"desejar mover e redimensionar a legenda e/ou o mapa. Este é o "
 "resultado:"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:264
@@ -378,7 +377,7 @@ msgstr "|basic| |FA| Exportando Tu Mapa"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:266
 msgid "Did you remember to save your work often?"
-msgstr "¿Te acordaste de guardar tu trabajo regularmente?"
+msgstr "Você se lembrou de salvar seu trabalho regularmente?"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:268
 msgid ""
@@ -411,7 +410,7 @@ msgstr ""
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:293
 msgid "For our purposes, we're going to use PDF."
-msgstr "Para nuestros propósitos, utilizaremos PDF."
+msgstr "Para os nossos objectivos, utilizaremos PDF."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:295
 msgid "Click the |saveAsPDF| :sup:`Export as PDF` button"

@@ -19,8 +19,8 @@ effectively.
 |basic| |FA| Classifying Nominal Data
 ----------------------------------------------------------------------
 
-#. Open the :guilabel:`Layer Properties` dialog for the ``landuse``
-   layer
+#. Abra a caixa de diálogo :guilabel:`Layer Properties` para a
+   camada ``landuse``
 #. Go to the :guilabel:`Symbology` tab
 #. Click on the dropdown that says :guilabel:`Single Symbol` and
    change it to :guilabel:`Categorized`:
@@ -28,8 +28,8 @@ effectively.
    .. figure:: img/categorised_styles.png
       :align: center
 
-#. In the new panel, change the :guilabel:`Value` to ``landuse`` and
-   the :guilabel:`Color ramp` to :guilabel:`Random colors`
+#. No novo painel, altere o valor (:guilabel:`Value`) para ``landuse`` e
+   o a paleta de cores (:guilabel:`Color ramp`) para :guilabel:`Random colors`
 #. Click the button labeled :guilabel:`Classify`
 
    .. figure:: img/categorised_style_settings.png
@@ -42,8 +42,8 @@ effectively.
    .. figure:: img/categorisation_result.png
       :align: center
 
-#. Click the arrow (or plus sign) next to ``landuse`` in the
-   :guilabel:`Layers` panel, you'll see the categories explained:
+#. Clique na seta (ou sinal de mais) ao lado de ``landuse`` no painel
+   :guilabel:`Layers`, você verá as categorias explicadas:
 
    .. figure:: img/categories_explained.png
       :align: center
@@ -51,10 +51,9 @@ effectively.
    Now our landuse polygons are colored and are classified so that
    areas with the same land use are the same color.
 
-#. If you wish to, you can change the symbol of each landuse
-   area by double-clicking the relevant color block in the
-   :guilabel:`Layers` panel or in the :guilabel:`Layer Properties`
-   dialog:
+#. Se desejar, você pode alterar o símbolo de cada área de uso do solo
+   clicando duas vezes no bloco de cor relevante no painel
+   :guilabel:`Layers` ou na caixa de diálogo :guilabel:`Layer Properties`:
 
    .. figure:: img/change_layer_color.png
       :align: center
@@ -64,12 +63,11 @@ Notice that there is one category that's empty:
 .. figure:: img/empty_category.png
    :align: center
 
-This empty category is used to color any objects which do not have a
-landuse value defined or which have a *NULL* value.
-It can be useful to keep this empty category so that areas with a
-*NULL* value are still represented on the map.
-You may like to change the color to more obviously represent a blank
-or *NULL* value.
+Esta categoria vazia é usada para colorir quaisquer objetos que não tenham
+um valor de uso do solo definido ou que tenham um valor *NULL*.
+Pode ser útil manter essa categoria vazia para que as áreas com um valor *NULL* ainda
+sejam representadas no mapa. Você pode querer mudar a cor para representar de forma mais 
+evidente um valor em branco ou *NULL*.
 
 Remember to save your map now so that you don't lose all your
 hard-earned changes!
@@ -106,11 +104,11 @@ QGIS and into a format we can print out, or make into an image or PDF? That's th
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
-.. |TY| replace:: Try Yourself
-.. |WN| replace:: What's Next?
+.. |FA| replace:: Siga o Passo a Passo:
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmo
+.. |WN| replace:: O Que Vem a Seguir?
 .. |basic| image:: /static/common/basic.png
 .. |calculateField| image:: /static/common/mActionCalculateField.png
    :width: 1.5em

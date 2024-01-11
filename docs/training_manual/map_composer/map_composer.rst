@@ -1,48 +1,48 @@
 |LS| Using Print Layout
 ======================================================================
 
-Now that you've got a map, you need to be able to print it or to
-export it to a document.
-The reason is, a GIS map file is not an image. Rather, it saves the
-state of the GIS program, with references to all the layers, their
-labels,colors, etc.
-So for someone who doesn't have the data or the same GIS program
-(such as QGIS), the map file will be useless.
-Luckily, QGIS can export its map file to a format that anyone's
-computer can read, as well as printing out the map if you have a
-printer connected.
-Both exporting and printing is handled via the *Print Layout*.
+Agora que você tem um mapa, é necessário ser capaz de imprimir ou
+exportá-lo para um documento.
+A razão disso é que um arquivo de mapa GIS não é uma imagem. Em vez disso, ele salva o
+estado do programa GIS, com referências a todas as camadas, suas
+etiquetas, cores, etc.
+Então, para alguém que não tem os dados ou o mesmo programa GIS
+(como o QGIS), o arquivo de mapa será inútil.
+Felizmente, o QGIS pode exportar seu arquivo de mapa para um formato que qualquer
+computador pode ler, além de imprimir o mapa se você tiver uma
+impressora conectada.
+Tanto a exportação quanto a impressão são gerenciadas através do *Print Layout*.
 
-**The goal for this lesson:** To use the QGIS *Print Layout* to create
-a basic map with all the required settings.
+**Objetivo desta lição:** Usar o *Print Layout* do QGIS para criar
+um mapa básico com todas as configurações necessárias.
 
 |basic| |FA| The Layout Manager
 ----------------------------------------------------------------------
 
-QGIS allows you to create multiple maps using the same map file.
-For this reason, it has a tool called the *Layout Manager*.
+O QGIS permite que você crie múltiplos mapas usando o mesmo arquivo de mapa.
+Por essa razão, ele possui uma ferramenta chamada *Layout Manager*.
 
-#. Click on the :menuselection:`Project --> Layout Manager...` menu
-   entry to open this tool.
-   You'll see a blank :guilabel:`Layout manager` dialog appear.
+#. Clique na entrada do menu :menuselection:`Project --> Layout Manager...` 
+   para abrir esta ferramenta.
+   Você verá um diálogo :guilabel:`Layout manager` em branco aparecer.
 
    .. figure:: img/layout_manager_dialog.png
       :align: center
 
-#. Under :guilabel:`New from Template`, select
-   :guilabel:`Empty layout` and press the :guilabel:`Create...` button.
-#. Give the new layout the name of |majorUrbanName| and
-   click :guilabel:`OK`.
+#. Em :guilabel:`New from Template`, selecione
+   :guilabel:`Empty layout` e pressione o botão :guilabel:`Create...`.
+#. Dê ao novo layout o nome de |majorUrbanName| ed
+   clique em :guilabel:`OK`.
 #. You will now see the *Print Layout* window:
 
    .. figure:: img/print_composer_dialog.png
       :align: center
    
-You could also create this new layout via the
-:menuselection:`Project --> New Print Layout...` menu.
+Você também poderia criar este novo layout através do menu
+:menuselection:`Project --> New Print Layout...`.
 
-Whichever route you take, the new print layout is now accessible from
-the :menuselection:`Project --> Layouts -->` menu, as in the image below.
+Independentemente do caminho que você escolher, o novo layout de impressão agora está
+acessível a partir do menu :menuselection:`Project --> Layouts -->`, conforme a imagem abaixo.
 
 .. figure:: img/print_composer_menu.png
    :align: center
@@ -54,10 +54,10 @@ the :menuselection:`Project --> Layouts -->` menu, as in the image below.
 In this example, the composition was already the way we wanted it.
 Ensure that yours is as well.
 
-#. Right-click on the sheet in the central part of the layout window
-   and choose :guilabel:`Page properties...` in the context menu.
-#. Check that the values in the :guilabel:`Item Properties` tab are
-   set to the following:
+#. Clique com o botão direito na folha na parte central da janela de layout
+   e escolha :guilabel:`Page properties...` no menu de contexto.
+#. Verifique se os valores na aba :guilabel:`Item Properties` estão
+   configurados da seguinte forma:
 
    * :guilabel:`Size`: ``A4``
    * :guilabel:`Orientation`: ``Landscape``
@@ -66,7 +66,7 @@ Ensure that yours is as well.
    page is still blank.
    It clearly lacks a map. Let's fix that!
 
-#. Click on the |addMap| :sup:`Add Map` button.
+#. Clique no botão |addMap| :sup:`Add Map`.
 
    With this tool activated, you will be able to place a map on the
    page.
@@ -101,27 +101,27 @@ Ensure that yours is as well.
 
    |zoomFullExtent| |zoomIn| |zoomOut|
 
-#. Zoom and pan the map in the main QGIS window.
-   You can also pan the map using the |moveItemContent|
-   :sup:`Move item content` tool.
+#. Amplie e mova o mapa na janela principal do QGIS.
+   Você também pode mover o mapa usando a ferramenta |moveItemContent|
+   :sup:`Move item content`.
 
    The map view updates as you zoom in or zoom out.
 #. If, for any reason, the map view does not refresh correctly,
    you can force the map to refresh by clicking the
    |refresh| :sup:`Refresh view` button.
 
-   Remember that the size and position you've given the map doesn't
-   need to be final.
-   You can always come back and change it later if you're not
-   satisfied.
-   For now, you need to ensure that you've saved your work on this
-   map.
-   Because a *Print Layout* in QGIS is part of the main map file,
-   you must save your project.
+   Lembre-se de que o tamanho e a posição que você deu ao mapa não precisam
+   ser finais.
+   Você sempre pode voltar e alterá-los mais tarde se não estiver
+   satisfeito. 
+   Por enquanto, certifique-se de ter salvo seu trabalhoneste mapa.
+   Como um *Print Layout* no QGIS faz
+   parte do arquivo principal do mapa, 
+   você deve salvar o seu projeto.
 
-#. Go to the :menuselection:`Layout -->` |fileSave|
+#. Vá para :menuselection:`Layout -->` |fileSave|
    :menuselection:`Save Project`.
-   This is a convenient shortcut to the one in the main dialog.
+   Este é um atalho conveniente para o da caixa de diálogo principal.
 
 |basic| |FA| Adding a Title
 ----------------------------------------------------------------------
@@ -132,10 +132,10 @@ They need some context, which is what you'll provide for them by
 adding map elements.
 First, let us add a title.
 
-#. Click on the |label| :sup:`Add Label` button
-#. Click on the page, above the map, accept the suggested values in
-   the :guilabel:`New Item Properties` dialog, and a label will
-   appear at the top of the map.
+#. Clique no botão |label| :sup:`Add Label`
+#. Clique na página, acima do mapa, aceite os valores sugeridos na caixa
+   de diálogo :guilabel:`New Item Properties`, e uma etiqueta aparecerá
+   no topo do mapa.
 #. Resize it and place it in the top center of the page.
    It can be resized and moved in the same way that you resized and
    moved the map.
@@ -143,17 +143,17 @@ First, let us add a title.
    As you move the title, you'll notice that guidelines appear to
    help you position the title in the center of the page.
 
-   However, there is also a tool in the Actions Toolbar to help
-   position the title relative to the map (not the page):
+   Entretanto, há também uma ferramenta na Barra de Ferramentas de Ações 
+   para ajudar a posicionar o título em relação ao mapa (não à página):
 
    |alignLeft|
 
 #. Click the map to select it
 #. Hold in :kbd:`Shift` on your keyboard and click on the label so
    that both the map and the label are selected.
-#. Look for the |alignLeft| :sup:`Align selected items left` button
-   and click on the dropdown arrow next to it to reveal the
-   positioning options and click |alignHCenter|
+#. Procure o botão |alignLeft| :sup:`Align selected items left`
+   e clique na seta suspensa ao lado dele para revelar as opções de 
+   posicionamento e clique |alignHCenter|
    :guilabel:`Align center`:
 
    .. figure:: img/align_center_dropdown.png
@@ -163,18 +163,18 @@ First, let us add a title.
    To center the contents of the label:
 
    #. Select the label by clicking on it.
-   #. Click on the :guilabel:`Item Properties` tab in the side panel
-      of the layout window.
+   #. Clique na guia :guilabel:`Item Properties` no painel lateral
+      da janela de layout.
    #. Change the text of the label to "|majorUrbanName|":
 
       .. figure:: img/title_font_alignment.png
          :align: center
 
-   #. Use this interface to set the font and alignment options
-      under the :guilabel:`Appearance` section:
+   #. Use essa interface para definir as opções de fonte e alinhamento
+      na seção :guilabel:`Appearance`:
 
-      #. Choose a large but sensible font (the example will use the
-         default font with a size of ``36``)
+      #. escolha uma fonte grande, mas sensível (o exemplo
+         usará a fonte padrão com tamanho ``36``)
       #. Set the :guilabel:`Horizontal Alignment` to :guilabel:`Center`.
 
       You can also change the font color, but it's probably best to
@@ -198,11 +198,11 @@ First, let us add a title.
    around now that you've aligned them, you can lock items into place:
 
    #. Select both the label and the map items
-   #. Click the |lockItems| :sup:`Lock Selected Items` button in
-      the *Actions* Toolbar.
+   #. Clique no botão |lockItems| :sup:`Lock Selected Items` na
+      barra de ferramentas *Actions*.
 
-      .. note:: Click the |unlockAll| :sup:`Unlock All Items` button
-       in the *Actions* Toolbar to be able to edit the items again.
+      .. note:: Clique no botão |unlockAll| :sup:`Unlock All Items`
+       na barra de ferramentas *Actions* para poder editar os itens novamente.
 
 
 |basic| |FA| Adding a Legend
@@ -216,8 +216,8 @@ forests.
 Let's add a new legend.
 
 #. Click on the |addLegend| :sup:`Add Legend` button
-#. Click on the page to place the legend, accept the suggested values
-   in the :guilabel:`New Item Properties` dialog,
+#. Clique na página para colocar a legenda, aceite os valores sugeridos
+   na caixa de diálogo :guilabel:`New Item Properties`,
 #. A legend is added to the layout page, showing layers symbology
    as set in the main dialog.
 #. As usual, you can click and move the item to where you want it:
@@ -237,13 +237,13 @@ unwanted items.
 #. Uncheck the |unchecked| :guilabel:`Auto update` box, allowing you
    to directly modify the legend items
 #. Select the entry with :guilabel:`buildings`
-#. Delete it from the legend by clicking the |symbologyRemove| button
+#. Apague isso da legenda clicando no botão |symbologyRemove|
 
 You can also rename items.
 
 #. Select a layer from the same list.
-#. Click the |symbologyEdit| :sup:`Edit selected item properties` button.
-#. Rename the layers to ``Places``, ``Roads and Streets``,
+#. Clique no botão |symbologyEdit| :sup:`Edit selected item properties`.
+#. Renomeie as camadas para ``Places``, ``Roads and Streets``,
    ``Surface Water``, and ``Rivers``.
 
 You can also reorder the items:
@@ -269,32 +269,31 @@ Finally the map is ready for export! You'll see the export buttons
 near the top left corner of the layout window:
 
 * |filePrint| :sup:`Print Layout`: interfaces with a printer.
-  Since the printer options will differ depending on the model of
-  printer that you're working with, it's probably better to consult the
-  printer manual or a general guide to printing for more information on
-  this topic.
+  Como as opções de impressora podem variar dependendo do modelo da
+  impressora com a qual você está trabalhando, provavelmente é melhor
+  consultar o manual da impressora ou um guia geral de impressão
+  para obter mais informações sobre esse tópico."
 
   The other buttons allow you to export the map page to a file.
-* |saveMapAsImage| :sup:`Export as Image`: gives you a selection
-  of various common image formats to choose from.
-  This is probably the simplest option, but the image it creates is
-  "dead" and difficult to edit.
-* |saveAsSVG| :sup:`Export as SVG`: If you're sending the map to a
-  cartographer (who may want to edit the map for publication),
-  it's best to export as an SVG. SVG stands for "Scalable Vector Graphic",
-  and can be imported to programs like `Inkscape <https://inkscape.org/>`_
-  or other vector image editing software.
-* |saveAsPDF| :sup:`Export as PDF`: If you need to send the map to a client,
-  it's most common to use a PDF, because it's easier to set up printing
-  options for a PDF.
-  Some cartographers may prefer PDF as well, if they have a program
-  that allows them to import and edit this format.
+* |saveMapAsImage| :sup:`Export as Image`: Fornece uma seleção de
+  vários formatos comuns de imagem para escolher.
+  Esta é provavelmente a opção mais simples, mas a imagem que cria é
+  "fixa"" e difícil de editar.
+* |saveAsSVG| :sup:`Export as SVG`: Se você estiver enviando o mapa para
+  um cartógrafo (que pode querer editar o mapa para publicação), é melhor
+  exportar como SVG. SVG significa 'Scalable Vector Graphic'
+  (Gráfico Vetorial Escalável) e pode ser importado para programas como o
+  `Inkscape <https://inkscape.org/>`_ ou outros softwares de edição de imagens vetoriais.
+* |saveAsPDF| :sup:`Export as PDF`: Se você precisar enviar o mapa para um cliente,
+  é mais comun utilzar um PDF, porque é mais fácil configurar as opções
+  de impressão para um PDF. Alguns cartógrafos também podem preferir o PDF
+  si tiverem um programa que lhes permita importar e editar este formato.
 
 For our purposes, we're going to use PDF.
 
 #. Click the |saveAsPDF| :sup:`Export as PDF` button
-#. Choose a save location and a file name as usual.
-   The following dialog will show up.
+#. Escolha um local de salvamento e um nome de arquivo como de costume.
+   A seguinte caixa de diálogo aparecerá.
 
    .. figure:: img/layout_export_pdf.png
       :align: center
@@ -304,8 +303,8 @@ For our purposes, we're going to use PDF.
    
    QGIS will proceed to the map export and push a message
    on top of the print layout dialog as soon as it finishes.
-#. Click the hyperlink in the message to open the folder in which
-   the PDF has been saved in your system's file manager
+#. Clique no hiperlink na mensagem para abrir a pasta na qual o PDF
+   foi salvo no gerenciador de arquivos do seu sistema.
 #. Open it and see how your layout looks.
 
    Everything is OK?
@@ -318,9 +317,7 @@ For our purposes, we're going to use PDF.
 
 |IC|
 ----------------------------------------------------------------------
-Now you know how to create a basic static map layout. We can go a step
-further and create a map layout that adapts dynamically, with more
-layout items.
+Now you know how to create a basic static map layout.
 
 
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE
@@ -329,9 +326,10 @@ layout items.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
+.. |FA| replace:: Siga o Passo a Passo:
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |WN| replace:: O Que Vem a Seguir?
 .. |addLegend| image:: /static/common/mActionAddLegend.png
    :width: 1.5em
 .. |addMap| image:: /static/common/mActionAddMap.png

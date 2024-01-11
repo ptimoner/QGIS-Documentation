@@ -48,11 +48,11 @@ Depending on the styles you chose for your map in earlier lessons, you might
 find that the labels are not appropriately formatted and either overlap or
 are too far away from their point markers.
 
-.. note::  Above, you used the |labelingSingle| button in the
-   :guilabel:`Label Toolbar` to open the :guilabel:`Layer Styling` panel. As
-   with :guilabel:`Symbology`, the same label options are available via both
-   the :guilabel:`Layer Styling` panel and the :guilabel:`Layer Properties`
-   dialog. Here, you'll use the :guilabel:`Layer Properties` dialog.
+.. note::  Acima, você usou o botão |labelingSingle| no
+   :guilabel:`Label Toolbar` para abrir o painel :guilabel:`Layer Styling`. Assim como
+   em :guilabel:`Symbology`, as mesmas opções de etiqueta estão disponíveis tanto no 
+   painel :guilabel:`Layer Styling` como na caixa de diálogo :guilabel:`Layer Properties`. 
+   Aqui, você usará a caixa de diálogo:`Layer Properties` dialog.
 
 #. Open the :guilabel:`Layer Properties` dialog by double-clicking on the
    ``places`` layer
