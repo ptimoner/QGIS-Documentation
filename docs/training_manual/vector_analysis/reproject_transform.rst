@@ -1,53 +1,53 @@
 |LS| Reprojecting and Transforming Data
 ======================================================================
 
-Let us talk about Coordinate Reference Systems (CRSs) again.
-We have touched on this briefly before, but haven't discussed what it
-means practically.
+Falemos novamente sobre Sistemas de Referência de Coordenadas (CRSs). Já mencionamos isso
+brevemente antes, mas não discutimos o que isso
+significa na prática.
 
 **The goal for this lesson:** To reproject and transform vector datasets.
 
 |basic| |FA| Projections
 ----------------------------------------------------------------------
 
-The CRS that all the data, as well as the map itself are in right now
-is called *WGS84*.
-This is a very common Geographic Coordinate System (GCS) for
-representing data.
-But there's a problem, as we will see.
+O Sistema de Referência de Coordenadas (CRS) no qual todos os dados,
+assim como o próprio mapa, estão agora é chamado WGS84.
+Este é um Sistema de Coordenadas Geográficas (GCS) muito
+comum para representação de dados. No entanto, há um problema,
+como veremos.
 
 #. Save your current map
-#. Then open the map of the world which you will find under
+#. Em seguida, abra o mapa do mundo, que você encontrará no arquivo
    :file:`exercise_data/world/world.qgs`
 #. Zoom in to South Africa by using the :guilabel:`Zoom In` tool
-#. Try setting a scale in the :guilabel:`Scale` field, which is in the
-   *Statusbar* along the bottom of the screen.
-   While over South Africa, set this value to ``1:5 000 000``
-   (one to five million).
+#. ente definir uma escala no campo :guilabel:`Scale` que está na Barra de Status ao
+   *Statusbar* longo da parte inferior da tela.
+   Enquanto estiver sobre a África do Sul, defina esse valor para ``1:5 000 000``
+   (um para cinco milhões).
 #. Pan around the map while keeping an eye on the :guilabel:`Scale`
    field
 
-Notice the scale changing? That's because you are moving away from the
-one point that you zoomed into at ``1:5 000 000``, which was at the
-center of your screen.
-All around that point, the scale is different.
+Perceba a mudança na escala? Isso ocorre porque você está se afastando do ponto
+para o qual você ampliou em ``1:5 000 000``, que estava no centro da sua
+tela. Ao redor desse ponto, a
+escala é diferente.
 
 To understand why, think about a globe of the Earth.
 It has lines running along it from North to South.
 These longitude lines are far apart at the equator, but they meet at
 the poles.
 
-In a GCS, you are working on this sphere, but your screen is flat.
-When you try to represent the sphere on a flat surface, distortion
-occurs, similar to what would happen if you cut open a tennis ball and
-tried to flatten it out.
-What this means on a map is that the longitude lines stay equally far
-apart from each other, even at the poles (where they are supposed to
-meet).
-This means that, as you travel away from the equator on your map, the
-scale of the objects that you see gets larger and larger.
-What this means for us, practically, is that there is no constant
-scale on our map!
+Em um GCS, você está trabalhando nesta esfera, mas a sua tela é plana.
+Quando você tenta representar a esfera em uma superfície plana,
+ocorre distorção,
+semelhante ao que aconteceria se cortasse uma bola de tênis e tentasse aplainá-la.
+O que isso significa em um mapa é que as linhas de longitude permanecem igualmente
+distantes uma das outras, mesmo nos polos (onde deveriam se encontrar).
+Isso significa que, à medida que você se afasta do equador no seu mapa,
+a escala dos objetos que você vê fica
+cada vez maior. O que isso significa para
+nós, na prática, é que não há escala
+constante no nosso mapa!"
 
 To solve this, let's use a Projected Coordinate System (PCS) instead.
 A PCS "projects" or converts the data in a way that makes allowance
@@ -174,11 +174,12 @@ QGIS' various vector analysis tools.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |FR| replace:: Further Reading
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
-.. |WN| replace:: What's Next?
+.. |FA| replace:: Siga o Passo a Passo:
+.. |FR| replace:: Leitura Adicional
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmo
+.. |WN| replace:: O Que Vem a Seguir?
 .. |basic| image:: /static/common/basic.png
 .. |hard| image:: /static/common/hard.png
 .. |moderate| image:: /static/common/moderate.png

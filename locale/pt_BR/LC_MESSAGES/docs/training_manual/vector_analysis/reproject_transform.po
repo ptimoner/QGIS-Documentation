@@ -26,14 +26,13 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:2
 msgid "|LS| Reprojecting and Transforming Data"
-msgstr "|LS| Reproyectando y Transformando Datos"
+msgstr "|LS| Reprojetando e Transformando Dados"
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:8
 msgid ""
 "**The goal for this lesson:** To reproject and transform vector datasets."
 msgstr ""
-"**El objetivo de esta lección:** Reproyectar y transformar conjuntos de "
-"datos vectoriales."
+"**O objetivo desta lição:** Reprojetar e transformar conjuntos de dados vetoriais.."
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:11
 msgid "|basic| |FA| Projections"
@@ -54,7 +53,7 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:27
 msgid "Pan around the map while keeping an eye on the :guilabel:`Scale` field"
-msgstr "Percorra o mapa enquanto observa o campo :guilabel:`Escala`"
+msgstr "Percorra o mapa enquanto observa o campo :guilabel:`Scale`"
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:35
 msgid ""
@@ -62,9 +61,9 @@ msgid ""
 "along it from North to South. These longitude lines are far apart at the "
 "equator, but they meet at the poles."
 msgstr ""
-"Para entender por qué, piensa en el Globo Terráqueo. Tiene lineas "
-"discurriendo de Norte a Sur. Estas líneas están alejadas en el ecuador, pero"
-" se encuentran en los polos."
+"Para entender o motivo, pense em um globo da Terra. Ele tem linhas que o percorrem de "
+"Norte a Sul. Essas linhas de longitude estão distantes no equador, "
+"mas se encontram nos polos."
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:52
 msgid ""
@@ -73,14 +72,14 @@ msgid ""
 "scale change and corrects it. Therefore, to keep the scale constant, we "
 "should reproject our data to use a PCS."
 msgstr ""
-"Para solucionar esto, utilicemos en su lugar un Sistema de Coordenadas "
-"Proyectado (SCP). Un SCP \"proyecta\" o convierte los datos en una forma que"
-" permite a la escala cambiar y corregirse. Además, para mantener la escala "
-"constante, deberiamos reproyectar nuestros datos a usar un SCP."
+"Para resolver isso, vamos usar um Sistema de Coordenadas Projetadas (PCS) em vez disso. "
+"Um PCS \"projeta\" ou converte os dados de uma maneira que permite a variação "
+"de escala e a corrige. Portanto, para manter a escala constante, devemos reprojetar "
+"nossos dados para usar um PCS."
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:59
 msgid "|basic| |FA| \"On the Fly\" Reprojection"
-msgstr "|basic| |FA| Reproyección \"Al Vuelo\""
+msgstr "|basic| |FA| Reprojeção \"On the Fly\""
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:61
 msgid ""

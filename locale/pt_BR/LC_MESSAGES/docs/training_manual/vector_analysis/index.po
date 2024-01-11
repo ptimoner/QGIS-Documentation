@@ -34,15 +34,15 @@ msgid ""
 "said and done, this doesn't really tell you anything that a normal, non-GIS "
 "map can't."
 msgstr ""
-"Ahora que has editado algunos elementos, debes querer saber qué más se puede"
-" hacer con ellos. Tener elementos con atributos está bien, pero cuando todo "
-"está dicho y hecho, esto no te dice realmente nada que un mapa normal no-GIS"
-" no pueda."
+"Agora que você editou alguns elementos, você deve querer saber o que "
+"mais pode fazer com elas. Ter elementos com atributos é bom, mas, "
+"quando tudo está dito e feito, isso realmente não lhe diz "
+"nada que um mapa normal, não-GIS, não possa."
 
 #: ../../docs/training_manual/vector_analysis/index.rst:10
 msgid "The key advantage of a GIS is this: *a GIS can answer questions.*"
 msgstr ""
-"La principal ventaja de un SIG es esta: *un SIG puede responder preguntas.*"
+"A principal vantagem de um SIG é esta: *um SIG pode responder a perguntas*."
 
 #: ../../docs/training_manual/vector_analysis/index.rst:12
 msgid ""
@@ -51,37 +51,37 @@ msgid ""
 "looking for a residential property in |majorUrbanName| for clients who have "
 "the following criteria:"
 msgstr ""
-"En los próximos tres módulos, intentaremos responder una *pregunta de "
-"investigación* utilizando funciones SIG. Por ejemplo, eres un agente del "
-"estado y estás buscando una propiedad residencial en |majorUrbanName| para "
-"clientes que tienen los siguientes criterios:"
+"Nos próximos três módulos, tentaremos responder a uma pergunta de pesquisa "
+"usando funções de SIG. Por exemplo, você é um agente do estado e está procurando "
+"uma propriedade residencial em |majorUrbanName| para clientes que atendem aos "
+"seguintes critérios:"
 
 #: ../../docs/training_manual/vector_analysis/index.rst:17
 msgid "It needs to be in |majorUrbanName|."
-msgstr "Tiene que estar en |majorUrbanName|."
+msgstr "Tem que estar em |majorUrbanName|."
 
 #: ../../docs/training_manual/vector_analysis/index.rst:18
 msgid "It must be within reasonable driving distance of a school (say 1km)."
 msgstr ""
-"Debe estar en una distancia razonable en coche a una escuela (digamos 1km)."
+"Deve estar dentro de uma distância razoável de carro de uma escola (digamos 1km)."
 
 #: ../../docs/training_manual/vector_analysis/index.rst:19
 msgid "It must be more than 100m squared in size."
-msgstr "Debe tener un tamaño de más de 100m cuadrados."
+msgstr "Deve ter uma extensão de mais de 100 metros quadrados."
 
 #: ../../docs/training_manual/vector_analysis/index.rst:20
 msgid "Closer than 50m to a main road."
-msgstr "A menos de 50m de una carretera principal."
+msgstr "A menos de 50 metros de uma estrada principal."
 
 #: ../../docs/training_manual/vector_analysis/index.rst:21
 msgid "Closer than 500m to a restaurant."
-msgstr "A menos de 500m de un restaurante."
+msgstr "A menos de 500m de um restaurante."
 
 #: ../../docs/training_manual/vector_analysis/index.rst:23
 msgid ""
 "Within the next few modules, we'll harness the power of GIS analysis tools "
 "to locate suitable farm properties for this new residential development."
 msgstr ""
-"En los próximos módulos, emplearemos el poder de las herramientas de "
-"análisis SIG para localizar propiedades agrarias para este nuevo proyecto "
-"residencial."
+"Nos próximos módulos, vamos aproveitar o poder das ferramentas de análise SIG "
+"para localizar propriedades adequadas para esse novo "
+"desenvolvimento residencial."

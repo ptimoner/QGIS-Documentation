@@ -245,9 +245,8 @@ even nice to look at!
 Changing symbols for whole layers is useful, but the information contained
 within each layer is not yet available to someone reading these maps. What are
 the streets called? Which administrative regions do certain areas belong to?
-What are the relative surface areas of the farms? All of this information is
-still hidden. The next lesson will explain how to represent this data on your
-map.
+All of this information is still hidden. The next lesson will explain how to 
+represent this data on your map.
 
 .. note::  Did you remember to save your map recently?
 
