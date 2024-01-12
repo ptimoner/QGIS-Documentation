@@ -316,10 +316,10 @@ msgid ""
 "deleting important data. Edit mode is switched on or off individually for "
 "each layer."
 msgstr ""
-"Para empezar a digitalizar, necesitarás introducir **modo de edición**. Los "
-"software SIG normalmente lo requieren para prevenir que edites o borres "
-"accidentalmente datos importantes. El modo edición se activa o desactiva "
-"individualmente para cada capa."
+"Para começar a digitalizar, você precisará ativar o **modo de edição**. Os softwares "
+"SIG geralmente exigem isso para evitar que você edite ou exclua dados "
+"importantes acidentalmente. O modo de edição é ativado ou desativado "
+"individualmente para cada camada."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:143
 msgid "To enter edit mode for the ``school_property`` layer:"
@@ -416,7 +416,7 @@ msgstr ""
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:173
 msgid "The first feature you'll be digitizing is the |schoolAreaType1|:"
-msgstr "A primeiro elemento que você irá digitalizar é a |schoolAreaType1|:"
+msgstr "O primeiro elemento que você irá digitalizar é a campo esportivo:"
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:178
 msgid ""
@@ -427,11 +427,11 @@ msgstr ""
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:179
 msgid ""
+"Place more points by clicking further along the edge, until the shape you're "
+"drawing completely covers the field."
+msgstr ""
 "Coloque mais pontos clicando mais adiante ao longo da borda, até que a forma "
 "que você está desenhando cubra completamente o campo."
-msgstr ""
-"Sitúa más puntos clicando puntos adicionales en el borde, hasta que la forma"
-" que estés dibujando cubra completamente el campo."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:185
 msgid ""
@@ -491,14 +491,13 @@ msgstr ""
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:213
 msgid ""
+"Remember, if you've made a mistake while digitizing a feature, you can always "
+"edit it after you're done creating it. If you've made a mistake, continue "
+"digitizing until you're done creating the feature as above. Then: "
+msgstr ""
 "Lembre-se, se cometeu um erro ao digitalizar uma característica, pode sempre "
 "editá-la depois de terminar a criação. Se cometeu um erro, continue digitalizando "
 "até terminar a criação da característica conforme acima. Em seguida:"
-msgstr ""
-"Recuerda, si has cometido un error cuando digitalizabas el elemento, siempre"
-" puedes editarlo después de haberlo creado. Si has cometido un error, "
-"continúa digitalizando hasta que termines de crear el elemento como hasta "
-"ahora. Entonces:"
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:217
 msgid "Click on |vertexToolActiveLayer| :sup:`Vertex Tool` button."
