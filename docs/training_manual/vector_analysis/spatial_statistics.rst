@@ -8,8 +8,8 @@ Spatial statistics allows you to analyze and understand what is going
 on in a given vector dataset.
 QGIS includes many useful tools for statistical analysis.
 
-**The goal for this lesson:** To know how to use QGIS' spatial
-statistics tools within the :guilabel:`Processing Toolbox`.
+**O objetivo desta lição:** aprender como usar as ferramentas de
+estatísticas espaciais do QGIS dentro do:guilabel:`Processing Toolbox`.
 
 |basic| |FA| Create a Test Dataset
 ----------------------------------------------------------------------
@@ -22,47 +22,47 @@ want to create the points in.
 We will use the area covered by streets.
 
 #. Start a new project
-#. Add your ``roads`` dataset, as well as ``srtm_41_19`` (elevation
-   data) found in :file:`exercise_data/raster/SRTM/`.
+#. Adicione o conjunto de dados ``roads``, assim como o ``srtm_41_19`` (dado de
+   altitude) encontrado em :file:`exercise_data/raster/SRTM/`.
 
-   .. note:: You might find that the SRTM DEM layer has a different
-      CRS to that of the roads layer.
-      QGIS is reprojecting both layers in a single CRS.
-      For the following exercises this difference does not matter,
-      but feel free to reproject (as shown earlier in this module).
+   .. note:: Você pode perceber que a camada SRTM DEM tem um SRC
+      diferente da camada de estradas. O QGIS está reprojetando
+      ambas as camadas em um único SRC. Para os exercícios seguintes,
+      essa diferença não importa, mas sinta-se à vontade para reprojetar
+      (como mostrado anteriormente neste módulo).
 
-#. Open :guilabel:`Processing` toolbox
-#. Use the
+#. Abra o :guilabel:`Processing` toolbox
+#. Use a ferramenta
    :menuselection:`Vector Geometry --> Minimum bounding geometry`
-   tool to generate an area enclosing all the roads by selecting
-   ``Convex Hull`` as the :guilabel:`Geometry Type`:
+   para gerar uma área que envolve todas as estradas, selecionando
+   ``Convex Hull`` para :guilabel:`Geometry Type`:
 
    .. figure:: img/roads_hull_setup.png
       :align: center
 
-   As you know, if you don't specify the output, *Processing* creates
-   temporary layers.
-   It is up to you to save the layers immediately or at a later stage.
+   Como você sabe, se você não especificar a saída, o *Processamento*
+   cria camadas temporárias. Fica a seu critério salvar as camadas
+   imediatamente ou em um momento posterior.
 
 Creating random points
 ......................................................................
 
-* Create 100 random points in this area using the tool at
+* Crie 100 pontos aleatórios nesta área usando a ferramenta
   :menuselection:`Vector Creation --> Random points in layer bounds`,
-  with a minimum distance of ``0.0``:
+  com uma distância mínima de ``0.0``:
 
   .. figure:: img/random_points_setup.png
      :align: center
 
-  .. note:: The yellow warning sign tells you that that parameter
-     concerns distances.
-     The :guilabel:`Bounding geometry` layer is in a Geographical
-     Coordinate System and the algorithm is just reminding you this.
-     For this example we won't use this parameter so you can ignore
-     it.
+  .. note:: O sinal de aviso amarelo informa que esse parâmetro
+     se refere a distâncias.
+     A camada :guilabel:`Bounding geometry` layer está em um Sistema
+     de Coordenadas Geográficas e o algoritmo está apenas lembrando
+     você disso. Para este exemplo, não usaremos esse parâmetro,
+     então você pode ignorá-lo.
 
-If needed, move the generated random point to the top of the legend
-to see them better:
+Se necessário, mova os pontos aleatórios gerados para o
+topo da legenda para vê-los melhor:
 
 .. figure:: img/random_points_result.png
    :align: center
@@ -70,16 +70,15 @@ to see them better:
 Sampling the data
 ......................................................................
 
-To create a sample dataset from the raster, you'll need to use the
-:menuselection:`Raster Analysis --> Sample raster values` algorithm. This tool samples the raster at the locations of the points and
-adds the raster values in new field(s) depending on the number of bands in the raster.
+Para criar um conjunto de dados de amostra a partir do raster, você precisará usar o algoritmo
+:menuselection:`Raster Analysis --> Sample raster values`. Essa ferramenta amostra o raster nos locais dos pontos e adiciona os valores do raster em novos campos, dependendo do número de bandas no raster.
 
 #. Open the :guilabel:`Sample raster values` algorithm dialog
-#. Select ``Random_points`` as the layer containing sampling
-   points, and the SRTM raster as the band to get values from.
-   The default name of the new field is ``rvalue_N``, where ``N`` is
-   the number of the raster band.
-   You can change the name of the prefix if you want.
+#. Selecione ``Random_points`` como a camada contendo pontos de amostragem,
+   e o raster SRTM como a banda para obter valores.
+   O nome padrão do novo campo é ``rvalue_N``, onde ``N`` é
+   o número da banda do raster. Você pode
+   alterar o nome do prefixo se desejar.
 
    .. figure:: img/sample_raster_dialog.png
       :align: center
@@ -95,8 +94,8 @@ A possible sample layer is shown here:
 .. figure:: img/random_samples_result.png
    :align: center
 
-The sample points are classified using the ``rvalue_1`` field such
-that red points are at a higher altitude.
+Os pontos de amostra são classificados usando o campo ``rvalue_1``,
+de modo que os pontos vermelhos estão a uma altitude mais elevada.
 
 You will be using this sample layer for the rest of the statistical
 exercises.
@@ -106,22 +105,22 @@ exercises.
 
 Now get the basic statistics for this layer.
 
-#. Click on the |sum| :sup:`Show statistical summary` icon in the
+#. Clique no ícone |sum| :sup:`Show statistical summary` no
    :guilabel:`Attributes Toolbar`.
-   A new panel will pop up.
+   Um novo painel aparecerá.
 #. In the dialog that appears, specify the ``Sampled Points`` layer as
    the source.
-#. Select the *rvalue_1* field in the field combo box.
-   This is the field you will calculate statistics for.
+#. Selecione o campo *rvalue_1* na caixa de seleção de campos.
+   Este é o campo para o qual você calculará estatísticas.
 #. The :guilabel:`Statistics` Panel will be automatically updated
    with the calculated statistics:
 
    .. figure:: img/basic_statistics_results.png
       :align: center
 
-   .. note:: You can copy the values by clicking on the |editCopy|
-      :sup:`Copy Statistics To Clipboard` button and paste the results
-      into a spreadsheet.
+   .. note:: Você pode copiar os valores clicando no botão |editCopy|
+      :sup:`Copy Statistics To Clipboard` e colar os resultados
+      em uma planilha.
 
 #. Close the :guilabel:`Statistics` Panel when done
 
@@ -171,8 +170,8 @@ Missing (null) values
 |IC|
 ----------------------------------------------------------------------
 
-QGIS has a number of tools for analyzing the spatial statistical
-properties of datasets.
+O QGIS possui várias ferramentas para analisar as propriedades
+estatísticas espaciais de conjuntos de dados.
 
 
 |WN|
@@ -189,11 +188,11 @@ That is what we will do in the next module!
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
-.. |TY| replace:: Try Yourself
-.. |WN| replace:: What's Next?
+.. |FA| replace:: Siga o Passo a Passo:
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmo
+.. |WN| replace:: O Que Vem a Seguir?
 .. |basic| image:: /static/common/basic.png
 .. |editCopy| image:: /static/common/mActionEditCopy.png
    :width: 1.5em

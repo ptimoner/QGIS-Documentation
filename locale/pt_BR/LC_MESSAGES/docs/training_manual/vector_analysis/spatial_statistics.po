@@ -26,14 +26,14 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:2
 msgid "|LS| Spatial Statistics"
-msgstr "|LS| Estadísticas Espaciales"
+msgstr "|LS| Estatísticas Espaciais"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:4
 msgid ""
 "Lesson developed by Linfiniti and S Motala (Cape Peninsula University of "
 "Technology)"
 msgstr ""
-"Lección desarrollada por Linfiniti y S Motala (Universidad Tecnológica de "
+"Lições desenvolvidas por Linfiniti y S Motala (Universidad Tecnológica de "
 "Península del Cabo)"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:7
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:15
 msgid "|basic| |FA| Create a Test Dataset"
-msgstr "|basic| |FA| Crear un Conjunto de Datos de Prueba"
+msgstr "|basic| |FA| Criar um Conjunto de Dados de Teste"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:391
 msgid "basic"
@@ -78,20 +78,20 @@ msgstr "Iniciar um novo projeto"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:48
 msgid "Creating random points"
-msgstr "Creación de puntos al azar"
+msgstr "Criação de pontos aleatórios"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:71
 msgid "Sampling the data"
-msgstr "Muestreo de los datos"
+msgstr "Amostrando os dados"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:77
 msgid "Open the :guilabel:`Sample raster values` algorithm dialog"
 msgstr ""
-"Abra a caixa de diálogo do algoritmo :guilabel:`Amostrar valores do raster`"
+"Abra a caixa de diálogo do algoritmo :guilabel:`Sample raster value`"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:87
 msgid "Press :guilabel:`Run`"
-msgstr "Pressione :guilabel:`Executar`"
+msgstr "Pressione :guilabel:`Run`"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:89
 msgid ""
@@ -100,12 +100,12 @@ msgid ""
 "name you have chosen."
 msgstr ""
 "Agora você pode verificar os dados amostrados do arquivo raster na tabela de"
-" atributos da camada ``Pontos Amostrados``. Eles estarão em um novo campo "
+" atributos da camada ``Random Points``. Eles estarão em um novo campo "
 "com o nome que você escolheu."
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:93
 msgid "A possible sample layer is shown here:"
-msgstr "Aquí tienes una posible capa de muestreo:"
+msgstr "Uma possível camada de amostra é mostrada aqui:"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:101
 msgid ""
@@ -117,11 +117,11 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:105
 msgid "|basic| |FA| Basic Statistics"
-msgstr "|basic| |FA| Estadísticas Básicas"
+msgstr "|basic| |FA| Estatísticas Básicas"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:107
 msgid "Now get the basic statistics for this layer."
-msgstr "Ahora obtén lsa estadísticas básica de esta capa."
+msgstr "Agora, obtenha as estatísticas básicas para esta camada."
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:399
 msgid "sum"
@@ -132,7 +132,7 @@ msgid ""
 "In the dialog that appears, specify the ``Sampled Points`` layer as the "
 "source."
 msgstr ""
-"Na caixa de diálogo que aparece, especifique a camada ``Pontos amostrados`` "
+"Na caixa de diálogo que aparece, especifique a camada ``Random Points`` "
 "como fonte."
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:116
@@ -140,7 +140,7 @@ msgid ""
 "The :guilabel:`Statistics` Panel will be automatically updated with the "
 "calculated statistics:"
 msgstr ""
-"O painel :guilabel:`Estatísticas` será atualizado automaticamente com as "
+"O painel :guilabel:`Statistics` será atualizado automaticamente com as "
 "estatísticas calculadas:"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:392
@@ -203,17 +203,17 @@ msgid ""
 "clustered around the mean. The smaller the standard deviation, the closer "
 "values tend to be to the mean."
 msgstr ""
-"La desviación estándar. Da una indicación de cómo de cerca se agrupan los "
-"valores alrededor de la media. Cuanto menor sea la desviación estándar, más "
-"cerca estarán los valores a la media."
+"O desvio padrão dá uma indicação de quão próximos os valores se "
+"agrupam em torno da média. Quanto menor o desvio padrão, mais "
+"próximos os valores estarão da média."
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:153
 msgid "Minimum"
-msgstr "Mĩnimo"
+msgstr "Mínimo"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:153
 msgid "The minimum value."
-msgstr "El valor mínimo"
+msgstr "O valor mínimo"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:156
 msgid "Maximum"
@@ -221,7 +221,7 @@ msgstr "Máximo"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:156
 msgid "The maximum value."
-msgstr "El valor máximo."
+msgstr "O valor máximo."
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:159
 msgid "Range"
@@ -229,7 +229,7 @@ msgstr "Intervalo"
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:159
 msgid "The difference between the minimum and maximum values."
-msgstr "La diferencia entre los valores mínimo y máximo."
+msgstr "A diferença entre os valores mínimo e máximo."
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:162
 msgid "Q1"

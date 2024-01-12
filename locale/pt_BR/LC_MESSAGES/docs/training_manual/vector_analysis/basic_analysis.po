@@ -197,7 +197,7 @@ msgstr ""
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:178
 msgid "|basic| |FA| Analyzing the Problem: Distances From Schools and Roads"
 msgstr ""
-"|basic| |FA| Analizando el Problema: Distancias Desde Colegios y Carreteras."
+"|basic| |FA| Analisando o Problema: Distâncias a partir de Escolas e Estradas."
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:180
 msgid "QGIS allows you to calculate distances between any vector object."
@@ -209,11 +209,11 @@ msgstr "Clique duas vezes nele para abrir a caixa de diálogo do algoritmo"
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:234
 msgid "Now your map will look something like this:"
-msgstr "Ahora tu mapa se parece un poco a esto:"
+msgstr "Agora, seu mapa se parece um pouco com isso:"
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:261
 msgid "Now there are no unnecessary subdivisions."
-msgstr "Ahora no hay subdivisiones innecesarias."
+msgstr "Agora não há subdivisões desnecessárias."
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:273
 msgid "|basic| |TY| Distance from schools"
@@ -222,16 +222,16 @@ msgstr "|basic| |TY| Distancia desde colegios."
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:275
 msgid "Use the same approach as above and create a buffer for your schools."
 msgstr ""
-"Usa el mismo enfoque que anteriormente y crea un buffer para tus colegios. "
+"Use a mesma abordagem que anteriormente e crie um buffer para suas escolas."
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:280
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:392
 msgid "Answer"
-msgstr "Resposta"
+msgstr "Result"
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:297
 msgid "To this:"
-msgstr "Para isso:"
+msgstr "Com isso:"
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:308
 msgid "|basic| |FA| Overlapping Areas"
@@ -254,8 +254,8 @@ msgid ""
 "You may remove the two buffer layers and only keep the one that shows where "
 "they overlap, since that's what we really wanted to know in the first place:"
 msgstr ""
-"Usted puede borrar las dos capas buffer y solo mantener la que muestra la "
-"superposición, dado que eso era lo que queriamos conocer en primer lugar:"
+"Você pode excluir as duas camadas de buffer e manter apenas aquela que mostra a sobreposição, "
+"já que era isso que queríamos saber inicialmente:"
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:348
 msgid ""
@@ -287,10 +287,10 @@ msgid ""
 "and within 50m of a road. We now need to reduce that selection to only show "
 "buildings which are within 500m of a restaurant."
 msgstr ""
-"Ahora tenemos una capa que nos muestra los edificios en un radio de 1km de "
-"una escuela y a menos de 50m de una carretera. Ahora tenemos que reducir la "
-"selección para que sólo nos muestre los edificios que están a menos de 500 "
-"metros de un restaurante."
+"Agora temos uma camada que mostra os edifícios em um raio de 1 km de "
+"uma escola e a menos de 50 m de uma estrada. Agora precisamos refinar "
+"a seleção para mostrar apenas os edifícios que estão a menos de "
+"500 metros de um restaurante."
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:387
 msgid ""

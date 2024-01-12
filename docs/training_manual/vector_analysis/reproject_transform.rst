@@ -20,7 +20,7 @@ como veremos.
 #. Em seguida, abra o mapa do mundo, que você encontrará no arquivo
    :file:`exercise_data/world/world.qgs`
 #. Zoom in to South Africa by using the :guilabel:`Zoom In` tool
-#. Intente definir uma escala no campo :guilabel:`Scale` que está na Barra de Status ao
+#. Tente definir uma escala no campo :guilabel:`Scale` que está na Barra de Status ao
    *Statusbar* longo da parte inferior da tela.
    Enquanto estiver sobre a África do Sul, defina esse valor para ``1:5 000 000``
    (um para cinco milhões).

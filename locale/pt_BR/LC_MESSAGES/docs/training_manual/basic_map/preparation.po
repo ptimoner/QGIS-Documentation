@@ -68,10 +68,7 @@ msgid ""
 msgstr ""
 "As capturas de tela para este curso foram tiradas no QGIS 3.4 em execução no"
 " Linux. Dependendo da sua configuração, as telas que você encontra podem "
-"parecer um pouco diferentes. No entanto, todos os mesmos botões ainda "
-"estarão disponíveis e as instruções funcionarão em qualquer sistema "
-"operacional. Você precisará do QGIS 3.4 (a versão mais recente no momento de"
-" redação) para usar este curso."
+"parecer um pouco diferentes."
 
 #: ../../docs/training_manual/basic_map/preparation.rst:22
 msgid "Let's get started right away!"
