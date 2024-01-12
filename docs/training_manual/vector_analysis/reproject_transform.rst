@@ -20,7 +20,7 @@ como veremos.
 #. Em seguida, abra o mapa do mundo, que você encontrará no arquivo
    :file:`exercise_data/world/world.qgs`
 #. Zoom in to South Africa by using the :guilabel:`Zoom In` tool
-#. ente definir uma escala no campo :guilabel:`Scale` que está na Barra de Status ao
+#. Intente definir uma escala no campo :guilabel:`Scale` que está na Barra de Status ao
    *Statusbar* longo da parte inferior da tela.
    Enquanto estiver sobre a África do Sul, defina esse valor para ``1:5 000 000``
    (um para cinco milhões).
@@ -62,16 +62,16 @@ By default, QGIS reprojects data "on the fly". What this means is that even if
 the data itself is in another CRS, QGIS can project it as if it were in a CRS of
 your choice.
 
-You can change the CRS of the project by clicking on the
-|projectionEnabled| :sup:`Current projection` button in the bottom
-right corner of QGIS.
+Você pode alterar o SRC do projeto clicando no botão
+|projectionEnabled| :sup:`Current projection` no canto
+inferior dieito do QGIS.
 
-#. In the dialog that appears, type the word ``global`` into the
-   :guilabel:`Filter` field.
-   A few CRSs should appear in the
-   :guilabel:`Predefined Reference Systems` field below.
-#. Select :guilabel:`WGS 84 / NSIDC EASE-Grid 2.0 Global | EPSG:6933`
-   entry by clicking on it, and then click :guilabel:`OK`.
+#. Na janela que aparece, digite a palavra ``global`` no campo
+   :guilabel:`Filter`.
+   Alguns SRCs deveriam aparecer no campo
+   :guilabel:`Predefined Reference Systems` abaixo.
+#. Selecione a entrada :guilabel:`WGS 84 / NSIDC EASE-Grid 2.0 Global | EPSG:6933`
+   clicando nela, e em seguida, clique em :guilabel:`OK`.
 
    Notice how the shape of South Africa changes.
    All projections work by changing the apparent shapes of objects on
@@ -84,12 +84,12 @@ right corner of QGIS.
 "On the fly" reprojection is also used for combining datasets that are
 in different CRSs.
 
-#. Add another vector layer to your map which has the data for South
-   Africa only.
-   You will find it as :file:`exercise_data/world/RSA.shp`.
-#. Load it. 
-   A quick way to see its CRS is by hovering the mouse over the layer
-   in the legend. It is ``EPSG:3410``.
+#. Adicione outra camada vetorial ao seu mapa que contehna os dados apenas
+   para África do Sul.
+   Você encontrará isso em :file:`exercise_data/world/RSA.shp`.
+#. Carregue os dados. 
+   Uma maneira rápido de ver o SRC é passar o mouse sobre a camada
+   na legenda. É ``EPSG:3410``.
 
    What do you notice?
 
@@ -100,36 +100,36 @@ in different CRSs.
 |moderate| |FA| Saving a Dataset to Another CRS
 ----------------------------------------------------------------------
 
-Sometimes you need to export an existing dataset with another CRS.
-As we will see in the next lesson, if you need to make distance
-calculations on layer, it is always better to have the layer in a
-projected coordinate system.
+Às vezes, você precisa exportar um conjunto de dados existente com outro SRC.
+Como veremos na próxima lição, se você precisar fazer cálculos de
+distância em uma camada, é sempre melhor ter a camada
+em um sistema de coordenadas projetado.
 
-Be aware that the 'on the fly' reprojection is related to the
-**project** and not to single layers.
-This means that a layer can have a different CRS from the project even
-if you see it in the *correct* position.
+Esteja ciente de que a reprojeção 'on the fly' está 
+relacionada ao **projeto** e não a camadas individuais.
+Isso significa que uma camada pode ter um SRC diferente do
+projeto, mesmo que você a veja na posição *correta*.
 
 You can easily export the layer with another CRS.
 
-#. Add the ``buildings`` dataset from :file:`training_data.gpkg`
-#. Right-click on the ``buildings`` layer in the :guilabel:`Layers`
-   panel
+#. Adicione o conjunto de dados ``buildings`` do :file:`training_data.gpkg`
+#. Clique com o botão direito na camada ``buildings`` no paienl 
+   :guilabel:`Layers`
 #. Select :menuselection:`Export --> Save Features As...` in the menu
    that appears.
    You will be shown the :guilabel:`Save Vector Layer as...` dialog.
-#. Click on the :guilabel:`Browse` button next to the
-   :guilabel:`File name` field
-#. Navigate to :file:`exercise_data/` and specify the name of the new
-   layer as :file:`buildings_reprojected.shp`.
-#. Change the value of the :guilabel:`CRS`.
-   Only the recent CRSs used will be shown in the drop-down menu.
-   Click on the |setProjection| :sup:`Select projection` button next
-   to the drop-down menu.
-#. The :guilabel:`Coordinate Reference System Selector` dialog will
-   appear.
-   In its :guilabel:`Filter` field, search for ``34S``.
-#. Select :guilabel:`WGS 84 / UTM zone 34S | EPSG:32734` from the list
+#. Clique no botão :guilabel:`Browse` ao lado do campo
+   :guilabel:`File name`
+#. Navegue até :file:`exercise_data/` e especifique o nome da nova
+   camada como :file:`buildings_reprojected.shp`.
+#. Altere o valor do :guilabel:`CRS`.
+   Apenas os SRCs recentemente utilizados serão exibidos no menu suspenso.
+   Clique no botão |setProjection| :sup:`Select projection` ao lado
+   do menu suspenso.
+#. A janela :guilabel:`Coordinate Reference System Selector` vai
+   aparecer.
+   No campo :guilabel:`Filter`, procure ``34S``.
+#. Selecione :guilabel:`WGS 84 / UTM zone 34S | EPSG:32734` na lista
 
    .. figure:: img/CRSselector.png
       :align: center
@@ -153,19 +153,11 @@ Different projections are useful for different purposes. By choosing the
 correct projection, you can ensure that the features on your map are being
 represented accurately.
 
-|FR|
-----------------------------------------------------------------------
-
-Materials for the *Advanced* section of this lesson were taken from `this
-article <https://anitagraser.com/2012/03/18/beautiful-global-projections-adding-custom-projections-to-qgis/>`_.
-
-Read further information on :ref:`Coordinate Reference Systems <gis_coord_ref_system>`.
-
 |WN|
 ----------------------------------------------------------------------
 
-In the next lesson you will learn how to analyze vector data using
-QGIS' various vector analysis tools.
+Na próxima lição, você aprenderá como analisar dados vetoriais 
+usando diversas ferramentas de análise vetorial do QGIS.
 
 
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE

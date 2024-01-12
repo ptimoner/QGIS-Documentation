@@ -1,11 +1,11 @@
 |LS| Vector Analysis
 ======================================================================
 
-Vector data can also be analyzed to reveal how different features
-interact with each other in space.
-There are many different analysis-related functions, so we won't go
-through them all. Rather, we will pose a question and try to solve it
-using the tools that QGIS provides.
+Os dados vetoriais também podem ser analisados para revelar como diferentes
+características interagem entre si no espaço. Existem muitas funções
+relacionadas à análise, então não passaremos por todas elas.
+Em vez disso, formularemos uma pergunta e tentaremos resolvê-la
+usando as ferramentas fornecidas pelo QGIS.
 
 **The goal for this lesson:** To ask a question and solve it using
 analysis tools.
@@ -32,7 +32,7 @@ For example, you are an estate agent and you are looking for a
 residential property in |majorUrbanName| for clients who have the
 following criteria:
 
-#. It needs to be in |majorUrbanName|
+#. Precisar esta em |majorUrbanName|
 #. It must be within reasonable driving distance of a school (say 1km)
 #. It must be more than 100m squared in size
 #. Closer than 50m to a main road
@@ -49,18 +49,18 @@ To answer these questions, we are going to need the following data:
 #. The location of schools and restaurants
 #. The size of buildings
 
-These data are available through OSM, and you should find that the
-dataset you have been using throughout this manual also can be used
-for this lesson.
 
-If you want to download data from another area, jump to the
-:ref:`Introduction Chapter <tm_preparing_data>` to read how to do it.
 
-.. note:: Although OSM downloads have consistent data fields, the
-    coverage and detail does vary.
-    If you find that your chosen region does not contain information
-    on restaurants, for example, you may need to chose a different
-    region.
+
+
+
+
+
+
+
+
+
+
 
 
 |basic| |FA| Start a Project and get the Data
@@ -481,11 +481,11 @@ distance along roads from one point to another.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
-.. |TY| replace:: Try Yourself
-.. |WN| replace:: What's Next?
+.. |FA| replace:: Siga o Passo a Passo:
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmo
+.. |WN| replace:: O Que Vem a Seguir?
 .. |basic| image:: /static/common/basic.png
 .. |calculateField| image:: /static/common/mActionCalculateField.png
    :width: 1.5em

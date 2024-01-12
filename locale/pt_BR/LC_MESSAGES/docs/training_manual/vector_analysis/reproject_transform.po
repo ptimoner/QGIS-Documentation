@@ -32,11 +32,11 @@ msgstr "|LS| Reprojetando e Transformando Dados"
 msgid ""
 "**The goal for this lesson:** To reproject and transform vector datasets."
 msgstr ""
-"**O objetivo desta lição:** Reprojetar e transformar conjuntos de dados vetoriais.."
+"**O objetivo desta lição:** Reprojetar e transformar conjuntos de dados vetoriais."
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:11
 msgid "|basic| |FA| Projections"
-msgstr "|basic| |FA| Proyecciones"
+msgstr "|basic| |FA| Projeções"
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:250
 msgid "basic"
@@ -100,8 +100,8 @@ msgid ""
 "Notice how the shape of South Africa changes. All projections work by "
 "changing the apparent shapes of objects on Earth."
 msgstr ""
-"Observa cómo cambia la forma de Sudáfrica. Todas las proyecciones funcionan "
-"cambiando las formas aparentes de los objetos de la Tierra."
+"Observe como a forma da Africa do Sul muda. Todas as projecões funcionam "
+"alterando as formas aparentes dos objetos da Terra."
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:79
 msgid "Zoom to a scale of ``1:5 000 000`` again, as before."
@@ -120,12 +120,12 @@ msgid ""
 "\"On the fly\" reprojection is also used for combining datasets that are in "
 "different CRSs."
 msgstr ""
-"La transformación\" al vuelo\" también se usa para combinar conjuntos de "
-"datos que están en diferentes SRCs."
+"A reprojecão \"On the fly\" se usa também para combinar conjuntos de "
+"dados que estão em diferentes SRCs."
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:94
 msgid "What do you notice?"
-msgstr "¿Qué observas?"
+msgstr "O que você observa ?"
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:96
 msgid ""
@@ -152,9 +152,8 @@ msgid ""
 "Select :menuselection:`Export --> Save Features As...` in the menu that "
 "appears. You will be shown the :guilabel:`Save Vector Layer as...` dialog."
 msgstr ""
-"Selecione :menuselection:`Exportar --> Salvar Feição Como...` no menu que "
-"aparece. Você verá a caixa de diálogo :guilabel:`Salvar Camada Vetorial "
-"como...`."
+"Selecione :menuselection:`Export --> Save Features As...` no menu que "
+"aparece. Você verá a caixa de diálogo :guilabel:`Save Vector Layer as...`"
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:255
 msgid "setProjection"
@@ -165,8 +164,8 @@ msgid ""
 "Leave the other options unchanged. The :guilabel:`Save Vector Layer as...` "
 "dialog now looks like this:"
 msgstr ""
-"Deixe as outras opções inalteradas. A caixa de diálogo :guilabel:`Salvar "
-"Camada Vetorial como...` agora fica assim:"
+"Deixe as outras opções inalteradas. A caixa de diálogo :guilabel:`Save "
+"Vector Layer as...` agora fica assim:"
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:143
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:207
@@ -251,9 +250,9 @@ msgid ""
 "correct projection, you can ensure that the features on your map are being "
 "represented accurately."
 msgstr ""
-"Proyecciones diferentes son útiles para diferentes propósitos. Eligiendo la "
-"proyección correcta, puedes asegurarte que los elementos de tu mapa se están"
-" representando de forma precisa."
+"Diferentes projeções são úteis para diferentes propósitos. "
+"Ao escolher a projeção correta, você pode garantir que as "
+"características no seu mapa estejam sendo representadas com precisão."
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:225
 msgid "|FR|"
