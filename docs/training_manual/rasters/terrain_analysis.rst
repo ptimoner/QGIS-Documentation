@@ -15,39 +15,39 @@ more information about the terrain.
 |basic| |FA| Calculating a Hillshade
 ----------------------------------------------------------------------
 
-We are going to use the same DEM layer as in the previous lesson.
-If you are starting this chapter from scratch, use the
-:guilabel:`Browser` panel and load the
+Vamos utilizar a mesma camada MDE que utilizámos na lição anterior.
+Se está a começar este capítulo do zero, use o painel
+:guilabel:`Browser` e carregue o arquivo
 :file:`raster/SRTM/srtm_41_19.tif`.
 
-The DEM layer shows you the elevation of the terrain, but it can
-sometimes seem a little abstract.
-It contains all the 3D information about the terrain that you need,
-but it doesn't look like a 3D object.
-To get a better impression of the terrain, it is possible to calculate
-a *hillshade*, which is a raster that maps the terrain using light and
-shadow to create a 3D-looking image.
+A camada MDE mostra-lhe a elevação do terreno, mas pode
+as vezes, parecer um pouco abstrata.
+Contém toda a informação 3D sobre o terreno de que necessita,
+mas não se parece com um objeto 3D.
+Para obter uma melhor impressão do terreno, é possível calcular
+um *hillshade* (relevo sombreado), que é uma imagem raster que mapeia o terreno
+usando luz e sombra para criar uma imagem de aspeto 3D.
 
-We are going to use algorithms in the
-:menuselection:`Raster --> Raster terrain analysis` menu.
+Vamos utilizar algoritmos do menu
+:menuselection:`Raster --> Raster terrain analysis`.
 
-#. Click on the :menuselection:`Hillshade` menu
-#. The algorithm allows you to specify the position of the light
-   source: :guilabel:`Azimuth` has values from 0 (North) through 90
-   (East), 180 (South) and 270 (West), while the
-   :guilabel:`Vertical angle` sets how high the light source is
-   (0 to 90 degrees).
+#. Clique no menu :menuselection:`Hillshade`
+#. O algoritmo permite-lhe especificar a posição da luz:
+   :guilabel:`Azimuth` tem valores de 0 (Norte) a 90
+   (Este), 180 (Sul) e 270 (Oeste), enquanto que o
+   :guilabel:`Vertical angle` define a altura da fonte de luz
+   (0 a 90 graus).
 #. We will use the following values:
 
    * :guilabel:`Z factor` at ``1.0``
-   * :guilabel:`Azimuth (horizontal angle)` at ``300.0``\°
-   * :guilabel:`Vertical angle` at ``40.0``\°
+   * :guilabel:`Azimuth (horizontal angle)` para ``300.0``\°
+   * :guilabel:`Vertical angle` para ``40.0``\°
 
    .. figure:: img/hillshade_explanation.png
       :align: center
 
-#. Save the file in a new folder :file:`exercise_data/raster_analysis/`
-   with the name ``hillshade``
+#. Salve o resultado numa nova pasta :file:`exercise_data/raster_analysis/`
+   com o nome de ``hillshade``
 #. Finally click on :guilabel:`Run`
 
 You will now have a new layer called :guilabel:`hillshade` that looks like
@@ -69,23 +69,23 @@ time of day. But it can also be used for aesthetic purposes, to make the map
 look better. The key to this is setting the hillshade to being mostly
 transparent.
 
-#. Change the symbology of the original :guilabel:`srtm_41_19` layer to use the
-   :guilabel:`Pseudocolor` scheme as in the previous exercise
-#. Hide all the layers except the :guilabel:`srtm_41_19` and :guilabel:`hillshade`
-   layers
-#. Click and drag the :guilabel:`srtm_41_19` to be beneath the :guilabel:`hillshade`
-   layer in the :guilabel:`Layers` panel
-#. Set the :guilabel:`hillshade` layer to be transparent by clicking on the
-   :guilabel:`Transparency` tab in the layer properties
-#. Set the :guilabel:`Global opacity` to ``50%``.
+#. Altere a simbologia da camada orginal :guilabel:`srtm_41_19` para utilizar
+   o esquema :guilabel:`Pseudocolor` como no exercício anterior
+#. Esconda todas as camadas exceto as camadas :guilabel:`srtm_41_19` e
+   :guilabel:`hillshade`
+#. Clique e arraste a camada :guilabel:`srtm_41_19` para ficar por baixo da camada :guilabel:`hillshade`
+   no painel :guilabel:`Layers`
+#. Defina a camada :guilabel:`hillshade` para ser transparente clicando na guia
+   :guilabel:`Transparency` nas propriedades da camada
+#. Defina a :guilabel:`Global opacity` para ``50%``.
 
    You'll get a result like this:
 
    .. figure:: img/hillshade_pseudocolor.png
       :align: center
 
-#. Switch the :guilabel:`hillshade` layer off and back on in the
-   :guilabel:`Layers` panel to see the difference it makes.
+#. Desligue e volte a ligar a camada :guilabel:`hillshade` no painel
+   :guilabel:`Layers` para ver a diferença que faz.
 
 Using a hillshade in this way, it's possible to enhance the topography of the
 landscape. If the effect doesn't seem strong enough to you, you can change the
@@ -316,11 +316,11 @@ That's the topic for the next lesson, starting in the next module.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
-.. |TY| replace:: Try Yourself
-.. |WN| replace:: What's Next?
+.. |FA| replace:: Siga o Passo a Passo:
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmo
+.. |WN| replace:: O Que Vem a Seguir?
 .. |basic| image:: /static/common/basic.png
 .. |identify| image:: /static/common/mActionIdentify.png
    :width: 1.5em

@@ -49,16 +49,14 @@ use the merge algorithm.
    Consider instead to create a raster catalog as described in the
    :ref:`Create a Virtual Raster <tm_virtual_raster>` section.
 
-#. Click on the :guilabel:`Merge` algorithm from the
-   :menuselection:`GDAL --> Raster miscellaneous` menu.
-#. As we did for the
-   :ref:`Create a Virtual raster <tm_virtual_raster>`, use the
-   :guilabel:`...` button to choose which layers you want to merge.
+#. Clique no algoritmo :guilabel:`Merge` no menu
+   :menuselection:`GDAL --> Raster miscellaneous`.
+#. Use the
+   :guilabel:`...` button to choose
+   which layers you want to merge.
 
-   You can also specify a Virtual raster as input, and then all of the
-   rasters that it consists of will be processed.
-#. If you know the GDAL library, you can also add your own options by
-   opening the :guilabel:`Advanced parameters` menu.
+#. Se você conhece a biblioteca GDAL, também pode adicionar suas próprias opções
+   abrindo o menu :guilabel:`Advanced parameters`.
 
 .. figure:: img/merge_rasters.png
    :align: center

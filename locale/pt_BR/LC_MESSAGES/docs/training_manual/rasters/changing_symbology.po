@@ -26,13 +26,13 @@ msgstr ""
 
 #: ../../docs/training_manual/rasters/changing_symbology.rst:2
 msgid "|LS| Changing Raster Symbology"
-msgstr "|LS| Cambiando la Simbología Ráster"
+msgstr "|LS| Alterando a Simbologia Raster"
 
 #: ../../docs/training_manual/rasters/changing_symbology.rst:9
 msgid ""
 "**The goal for this lesson:** To change the symbology for a raster layer."
 msgstr ""
-"**El objetivo de esta lección:** Cambiar la simbología de una capa ráster."
+"**O objetivo desta lição:** Alterar a simbologia de uma camada raster."
 
 #: ../../docs/training_manual/rasters/changing_symbology.rst:13
 msgid "|basic| |TY|"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../../docs/training_manual/rasters/changing_symbology.rst:116
 msgid "You'll see the raster looking like this:"
-msgstr "Verás el ráster con este aspecto:"
+msgstr "Você verá o raster parecendo assim:"
 
 #: ../../docs/training_manual/rasters/changing_symbology.rst:121
 msgid ""
@@ -160,14 +160,14 @@ msgstr ""
 
 #: ../../docs/training_manual/rasters/changing_symbology.rst:180
 msgid "Reference"
-msgstr "Referencia"
+msgstr "Referência"
 
 #: ../../docs/training_manual/rasters/changing_symbology.rst:182
 msgid ""
 "The SRTM dataset was obtained from `http://srtm.csi.cgiar.org/ "
 "<http://srtm.csi.cgiar.org/>`_"
 msgstr ""
-"El conjunto de datos SRTM fue obtenido de `http://srtm.csi.cgiar.org/ "
+"Os dados SRTM foram obtido em `http://srtm.csi.cgiar.org/ "
 "<http://srtm.csi.cgiar.org/>`_"
 
 #: ../../docs/training_manual/rasters/changing_symbology.rst:186
@@ -179,5 +179,5 @@ msgid ""
 "Now that we can see our data displayed properly, let's investigate how we "
 "can analyze it further."
 msgstr ""
-"Ahora que podemos ver nuestros datos adecuadamente representados, "
-"investiguemos cómo podemos analizarlos todavía mejor."
+Agora que podemos ver os nossos dados corretamente representados, "
+"vamos investigar como podemos analisá-los ainda melhor."
