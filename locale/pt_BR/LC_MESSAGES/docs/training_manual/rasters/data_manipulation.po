@@ -140,7 +140,8 @@ msgid ""
 "If you need to create a new raster layer and save it to disk you can use the"
 " merge algorithm."
 msgstr ""
-"Se você precisar fundir as quatro camadas, obter um novo raster e salvá-lo em disco, poderá "
+"Se você precisar fundir as quatro camadas, obter um "
+"novo raster e salvá-lo em disco, poderá "
 "usar o algoritmo de fusão."
 
 #: ../../docs/training_manual/rasters/data_manipulation.rst:126
