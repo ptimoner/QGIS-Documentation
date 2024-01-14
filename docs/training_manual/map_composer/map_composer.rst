@@ -318,9 +318,7 @@ For our purposes, we're going to use PDF.
 
 |IC|
 ----------------------------------------------------------------------
-Now you know how to create a basic static map layout. We can go a step
-further and create a map layout that adapts dynamically, with more
-layout items.
+Now you know how to create a basic static map layout.
 
 
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE

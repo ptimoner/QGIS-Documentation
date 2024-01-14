@@ -94,9 +94,8 @@ You can also use this field to set the Map Scale manually.
 
 #. Select :guilabel:`1:5000`.  This will also update the map scale in the Map Canvas.
 
-Now you know the basics of navigating the Map Canvas. Check out the User Manual on 
-:ref:`Zooming and Panning<zoom_pan>` to learn about alternative ways of navigating 
-the Map Canvas.
+Now you know the basics of navigating the Map Canvas.
+
 
 |IC|
 -------------------------------------------------------------------------------
