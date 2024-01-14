@@ -152,12 +152,6 @@ layer saved along with the ``slope``.
 |moderate| |FA| Reclassifying the Raster
 ----------------------------------------------------------------------
 
-We have used the *Raster calculator* to do calculations on raster
-layers.
-There is another powerful tool that we can use to extract information
-from existing layers.
-
-Back to the ``aspect`` layer.
 We know now that it has numerical values within a range from 0 through
 360.
 What we want to do is to *reclassify* this layer to other discrete
