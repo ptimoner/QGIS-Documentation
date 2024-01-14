@@ -137,7 +137,7 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:101
 msgid "|moderate| |FA| Saving a Dataset to Another CRS"
-msgstr "|moderate| |FA| Guardando un Conjunto de Datos en Otro SRC"
+msgstr "|moderate| |FA| Salvando um conjunto de Dados em Outro SRC"
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:252
 msgid "moderate"

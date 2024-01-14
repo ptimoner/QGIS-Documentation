@@ -235,7 +235,7 @@ msgstr "Com isso:"
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:308
 msgid "|basic| |FA| Overlapping Areas"
-msgstr "|basic| |FA| Areas que se sobrepõe."
+msgstr "|basic| |FA| Áreas sobrepostas"
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:328
 msgid "Click :guilabel:`Run`."
@@ -275,7 +275,7 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:380
 msgid "|moderate| |TY| Further Filter our Buildings"
-msgstr "|moderate| |TY| Filtrado adicional de nuestros Edificios"
+msgstr "|moderate| |TY| Filtrado adicional do nossos Edifícios"
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:495
 msgid "moderate"
@@ -326,7 +326,7 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:419
 msgid "|basic| |FA| Select Buildings of the Right Size"
-msgstr "|basic| |FA| Seleccione las Construcciones de Tamaño Adecuado"
+msgstr "|basic| |FA| Selecionar Edifícios com a Dimensão Certa"
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:421
 msgid ""

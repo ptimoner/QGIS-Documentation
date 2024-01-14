@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../docs/training_manual/rasters/changing_symbology.rst:38
 msgid "|basic| |FA| Changing Raster Layer Symbology"
-msgstr "|basic| |FA| Cambiando Simbología de la Capa Ráster"
+msgstr "|basic| |FA| Alterar a Simbologia da Camada Raster"
 
 #: ../../docs/training_manual/rasters/changing_symbology.rst:40
 msgid "You have two different options to change the raster symbology:"

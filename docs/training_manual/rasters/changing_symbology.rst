@@ -124,7 +124,7 @@ displayed, going from blue for the lower areas to red for the higher
 ones.
 
 
-|FA| Changing the transparency
+|FA| Alterar a Transparência
 ----------------------------------------------------------------------
 
 Sometimes changing the transparency of the whole raster layer can help

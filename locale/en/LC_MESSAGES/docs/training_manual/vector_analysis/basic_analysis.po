@@ -572,7 +572,7 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:346
 msgid "|basic| |FA| Extract the Buildings"
-msgstr ""
+msgstr "|basic| |FA| Extrair os Edifícios"
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:348
 msgid ""
