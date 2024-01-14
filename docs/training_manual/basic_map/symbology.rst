@@ -242,11 +242,11 @@ even nice to look at!
 |WN|
 -------------------------------------------------------------------------------
 
-Changing symbols for whole layers is useful, but the information contained
-within each layer is not yet available to someone reading these maps. What are
-the streets called? Which administrative regions do certain areas belong to?
-All of this information is still hidden. The next lesson will explain how to 
-represent this data on your map.
+Alterar símbolos para camadas inteiras é útil, mas as informações contidas
+em cada camada ainda não estão disponíveis para alguém que está lendo esses mapas.
+Como se chamam as ruas? A quais regiões administrativas pertencem certas áreas?
+Toda essa informação ainda está oculta. A próxima lição explicará como
+representar esses dados em seu mapa.
 
 .. note::  Did you remember to save your map recently?
 

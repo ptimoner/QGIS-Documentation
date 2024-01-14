@@ -73,8 +73,8 @@ msgstr ""
 "Abra um novo projeto em branco e usando os passos aprendidos em :ref:`Criar "
 "um mapa`, carregue as camadas ``áreas_protegidas``, ``estradas`` e "
 "``edifícios`` vistas anteriormente para o projeto. A visualização do "
-"resultado deve ser semelhante ao trecho em: número ref: "
-"`figura_estradas_edifícios_adicionado` abaixo (as cores não importam):"
+"resultado deve ser semelhante ao trecho em "
+" :numref:`figure_roads_buildings_added` abaixo (as cores não importam):"
 
 #: ../../docs/training_manual/basic_map/mapviewnavigation.rst:27
 msgid "Protected areas, roads and buildings added"
@@ -274,9 +274,7 @@ msgid ""
 "Manual on :ref:`Zooming and Panning<zoom_pan>` to learn about alternative "
 "ways of navigating the Map Canvas."
 msgstr ""
-"Agora você conhece o básico sobre como navegar na tela de mapas. Confira o "
-"Manual do Usuário em :ref:`Zoom e panorâmica` para aprender sobre formas "
-"alternativas de navegar na tela de mapas. "
+"Agora você conhece o básico sobre como navegar na tela de mapas."
 
 #: ../../docs/training_manual/basic_map/mapviewnavigation.rst:102
 msgid "|IC|"

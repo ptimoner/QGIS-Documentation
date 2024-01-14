@@ -221,7 +221,7 @@ msgstr "Mude o texto do rótulo para \"|majorUrbanName|\":"
 #: ../../docs/training_manual/map_composer/map_composer.rst:178
 msgid "Set the :guilabel:`Horizontal Alignment` to :guilabel:`Center`."
 msgstr ""
-"Configurar o :guilabel:`Alinhamento horizontal' para :guilabel:`Centro'."
+"Configurar o :guilabel:`Horizontal Alignment' para :guilabel:`Center'."
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:180
 msgid ""

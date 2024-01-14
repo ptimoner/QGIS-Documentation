@@ -112,8 +112,8 @@ msgid ""
 "the :guilabel:`Layer Styling` panel. You can use this panel to change some "
 "properties of the layer: by default, changes will be applied immediately!"
 msgstr ""
-"O botão |symbology|  na parte superior do painel :guilabel:`Camadas` abrirá "
-"o painel :guilabel:`Estilos de Camada`. Você pode usar este painel para "
+"O botão |symbology|  na parte superior do painel :guilabel:`Layers` abrirá "
+"o painel :guilabel:`Layer Styling`. Você pode usar este painel para "
 "alterar algumas propriedades da camada: por padrão, as alterações serão "
 "aplicadas imediatamente!"
 
@@ -126,8 +126,8 @@ msgid ""
 "In the :guilabel:`Layer Properties` window, select the |symbology| "
 ":guilabel:`Symbology` tab:"
 msgstr ""
-"Na janela :guilabel:`Propriedades da Camada`, selecione a guia |symbology| "
-":guilabel:`Simbologia`: "
+"Na janela :guilabel:`Layer Properties`, selecione a guia |symbology| "
+":guilabel:`Symbology`: "
 
 #: ../../docs/training_manual/basic_map/symbology.rst:45
 msgid ""
@@ -146,8 +146,8 @@ msgid ""
 "Click :guilabel:`OK` again in the :guilabel:`Layer Properties` window, and "
 "you will see the color change being applied to the layer."
 msgstr ""
-"Clique novamente em :guilabel:`OK` na janela :guilabel:`Propriedades da "
-"Camada` e você vai ver a mudança de cor ser aplicada à camada."
+"Clique novamente em :guilabel:`OK` na janela :guilabel:`Layer "
+"Properties` e você vai ver a mudança de cor ser aplicada à camada."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:52
 #: ../../docs/training_manual/basic_map/symbology.rst:102
@@ -160,9 +160,9 @@ msgid ""
 "the :guilabel:`Layer Styling` panel instead of the :guilabel:`Layer "
 "Properties` menu."
 msgstr ""
-"Mude a cor da camada :guilabel:`água` para azul claro. Tente usar o painel "
-":guilabel:`Estilo de Camada` em vez do menu :guilabel:`Propriedades da "
-"Camada`."
+"Mude a cor da camada :guilabel:`water` para azul claro. Tente usar o painel "
+":guilabel:`Layer Styling` em vez do menu :guilabel:`Layer "
+"Properties`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:57
 msgid "Solution"
@@ -215,7 +215,7 @@ msgid ""
 "Open the :guilabel:`Layer Properties` window for the :guilabel:`landuse` "
 "layer."
 msgstr ""
-"Abra a janela :guilabel:`Propriedades da camada` para a camada "
+"Abra a janela :guilabel:`Layer Properties` para a camada "
 ":guilabel:`landuse`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:84
@@ -234,16 +234,16 @@ msgid ""
 "the :guilabel:`Simple fill` option."
 msgstr ""
 "Na árvore de camadas de símbolos, expanda o dropdown "
-":guilabel:`Preenchimento` e selecione a opção :guilabel:`Preenchimento "
-"simples`. "
+":guilabel:`Fill` e selecione a opção :guilabel:`Simple "
+"fill`. "
 
 #: ../../docs/training_manual/basic_map/symbology.rst:89
 msgid ""
 "Click on the :guilabel:`Stroke style` dropdown. At the moment, it should be "
 "showing a short line and the words :guilabel:`Solid Line`."
 msgstr ""
-"Clique no drop-down :guilabel:`Estilo de traço`. No momento, deve mostrar "
-"uma linha curta e as palavras :guilabel:`Linha Cheia`."
+"Clique no drop-down :guilabel:`Stroke style`. No momento, deve mostrar "
+"uma linha curta e as palavras :guilabel:`Solid Line`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:91
 msgid "Change this to :guilabel:`No Pen`."
@@ -265,7 +265,7 @@ msgid ""
 "Change the :guilabel:`water` layer's symbology again so that it has a darker"
 " blue outline."
 msgstr ""
-"Altere a simbologia da camada :guilabel:`água` novamente para que ela tenha "
+"Altere a simbologia da camada :guilabel:`water` novamente para que ela tenha "
 "um contorno azul mais escuro."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:106
@@ -325,7 +325,7 @@ msgid ""
 ":guilabel:`Stroke style` settings for the polygons."
 msgstr ""
 "Sinta-se à vontade para experimentar diferentes configurações de "
-":guilabel:`Estilo de preenchimento` e :guilabel: `Estilo de traço` para os "
+":guilabel:`Fill style` e :guilabel: `Stroke style` para os "
 "polígonos."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:135
@@ -401,7 +401,7 @@ msgid ""
 ":guilabel:`buildings` layer disappears and reappears."
 msgstr ""
 "Teste os efeitos dando zoom in e out em seu mapa e observando quando a "
-"camada :guilabel: `buildings` desaparece e reaparece."
+"camada :guilabel:`buildings` desaparece e reaparece."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:167
 msgid ""
@@ -443,7 +443,7 @@ msgid ""
 "clicking :guilabel:`Simple fill` in the symbol layers tree)."
 msgstr ""
 "Volte ao painel de propriedades de símbolo da camada :guilabel:`landuse` "
-"(clicando em :guilabel:`Preenchimento simplesl` na árvore de camadas do "
+"(clicando em :guilabel:`Simple fill` na árvore de camadas do "
 "símbolo)."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:182
@@ -460,7 +460,7 @@ msgid ""
 ":sup:`Add symbol layer` button. The dialog will change to look something "
 "like this, with a new symbol layer added:"
 msgstr ""
-"Selecione o nível :guilabel:`Preenchimento` na árvore e clique no botão "
+"Selecione o nível :guilabel:`Fill` na árvore e clique no botão "
 "|symbologyAdd| :sup:`Adicionar camada de símbolo`. A caixa de diálogo mudará"
 " para algo parecido com isto, com uma nova camada de símbolo adicionada:"
 
@@ -506,7 +506,7 @@ msgstr ""
 #: ../../docs/training_manual/basic_map/symbology.rst:209
 msgid "With the new :guilabel:`Simple Fill` symbol layer selected:"
 msgstr ""
-"Com a nova camada de símbolo :guilabel:`Preenchimento simples` selecionada:"
+"Com a nova camada de símbolo :guilabel:`Simple Fill` selecionada:"
 
 #: ../../docs/training_manual/basic_map/symbology.rst:211
 msgid "Set the border style to :guilabel:`No Pen`, as before."
@@ -684,9 +684,9 @@ msgid ""
 msgstr ""
 "Quando terminar, lembre-se de salvar o próprio símbolo para não perder seu "
 "trabalho se você mudar o símbolo novamente no futuro. Você pode salvar seu "
-"estilo de símbolo atual clicando no botão :guilabel:`Salvar Estilo...` na "
-"parte inferior da caixa de diálogo :guilabel:`Propriedades da Camada`. "
-"Usaremos o formato :guilabel:`Arquivo de Estilo QGIS QML`. "
+"estilo de símbolo atual clicando no botão :guilabel:`Save Style...` na "
+"parte inferior da caixa de diálogo :guilabel:`Layer Properties`. "
+"Usaremos o formato :guilabel:`QGIS QML Style File`. "
 
 #: ../../docs/training_manual/basic_map/symbology.rst:313
 msgid ""
@@ -697,7 +697,7 @@ msgid ""
 msgstr ""
 "Salve seu estilo na pasta :file:`solution/styles/better_roads.qml`. Você "
 "pode carregar um estilo salvo anteriormente a qualquer momento, clicando no "
-"botão :guilabel:`Carregar Estilo...`. Antes de alterar um estilo, lembre-se "
+"botão :guilabel:`Load Style...`. Antes de alterar um estilo, lembre-se "
 "de que qualquer estilo não salvo que você estiver substituindo será perdido."
 " "
 
@@ -715,7 +715,7 @@ msgstr ""
 "Faça as estradas estreitas e amarelas, com um contorno  fino cinza claro e "
 "uma linha preta fina no meio. Lembre-se de que pode ser necessário alterar a"
 " ordem de renderização da camada na caixa de diálogo "
-":menuselection:`Avancçado --> Níveis de símbolo...`."
+":menuselection:`Advanced --> Symbol levels...`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:335
 msgid "To make the required symbol, you need three symbol layers:"
@@ -771,7 +771,7 @@ msgstr ""
 msgid "Create a new project and add only the :guilabel:`roads` dataset."
 msgstr ""
 "Crie um novo projeto e adicione apenas o conjunto de dados "
-":guilabel:`estradas`."
+":guilabel:`roads`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:365
 msgid ""
@@ -783,8 +783,7 @@ msgstr ""
 "Aplique o arquivo de estilo: arquivo:`demostrações_níveis_avançados.qml` "
 "fornecido em :arquivo:`exercício_dados/estilos` à camada. Isso pode ser "
 "feito através da caixa de combinação :seleção de menu:`Estilo --> Carregar "
-"estilo...` na parte inferior da caixa de diálogo :guilabel:`Propriedades da "
-"camada`."
+"estilo...` na parte inferior da caixa de diálogo :guilabel:`Layer Properties`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:369
 msgid "Zoom in to the |majorUrbanName| area."
@@ -824,7 +823,7 @@ msgid ""
 msgstr ""
 "Além de definir cores de preenchimento e usar padrões predefinidos, você "
 "pode usar diferentes tipos de camadas de símbolos. O único tipo que usamos "
-"até agora foi o tipo :guilabel:`Preenchimento simples`. Os tipos de camada "
+"até agora foi o tipo :guilabel:`Simple Fill`. Os tipos de camada "
 "de símbolos mais avançados permitem que você personalize seus símbolos ainda"
 " mais. "
 
@@ -856,8 +855,8 @@ msgid ""
 ":guilabel:`Symbol layer type` dropdown:"
 msgstr ""
 "Você pode acessar os vários tipos de camadas de símbolos selecionando "
-":guilabel:`Marcador simples` na árvore de camadas de símbolos e, em seguida,"
-" clique no menu :guilabel:`Tipo de camada de símbolo`: "
+":guilabel:`Simple marker` na árvore de camadas de símbolos e, em seguida,"
+" clique no menu :guilabel:`Symbol layer type`: "
 
 #: ../../docs/training_manual/basic_map/symbology.rst:416
 msgid ""
@@ -873,9 +872,9 @@ msgid ""
 "pale green fill, with a :guilabel:`Size` of ``3.00`` and a :guilabel:`Stroke"
 " width` of ``0.5``."
 msgstr ""
-"Em caso de dúvida, use um círculo :guilabel:`Marcador simples` com borda "
-"branca e preenchimento verde claro, com um :guilabel:`Tamanho` de ``3,00`` e"
-" a :guilabel:`Largura da linha` de``0,5``."
+"Em caso de dúvida, use um círculo :guilabel:`Simple marker` com borda "
+"branca e preenchimento verde claro, com um :guilabel:`Size` de ``3,00`` e"
+" a :guilabel:`Stroke width` de``0,5``."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:424
 msgid "Line Symbol Layer Types"
@@ -890,15 +889,15 @@ msgid ""
 "Change the :guilabel:`Symbol layer type` for the :guilabel:`roads` layer's "
 "topmost symbol layer to :guilabel:`Marker line`:"
 msgstr ""
-"Altere o :guilabel:`Tipo de camada de símbolo` da camada de símbolo mais "
-"alta da camada de :guilabel:`roads` para :guilabel:`Linha de marcador`:"
+"Altere o :guilabel:`Symbol layer type` da camada de símbolo mais "
+"alta da camada de :guilabel:`roads` para :guilabel:`Marker line`:"
 
 #: ../../docs/training_manual/basic_map/symbology.rst:434
 msgid ""
 "Select the :guilabel:`Simple marker` layer in the symbol layers tree. Change"
 " the symbol properties to match this dialog:"
 msgstr ""
-"Selecione a camada :guilabel:`Marcador simples` na árvore de camadas de "
+"Selecione a camada :guilabel:`Simple marker` na árvore de camadas de "
 "símbolos. Altere as propriedades do símbolo para corresponder a esta caixa "
 "de diálogo: "
 
@@ -907,7 +906,7 @@ msgid ""
 "Select the :guilabel:`Marker line` layer and change the interval to "
 "``1.00``:"
 msgstr ""
-"Selecione a camada :guilabel:`Linha de marcador` e altere o intervalo para "
+"Selecione a camada :guilabel:`Marker line` e altere o intervalo para "
 "``1.00``:"
 
 #: ../../docs/training_manual/basic_map/symbology.rst:445
@@ -946,8 +945,8 @@ msgid ""
 "Change the :guilabel:`Symbol layer type` for the :guilabel:`water` layer, as"
 " before for the other layers."
 msgstr ""
-" Mude o :guilabel:`Tipo de camada de símbolo` para a camada "
-":guilabel:`água`, como antes para as outras camadas."
+" Mude o :guilabel:`Symbol layer type` para a camada "
+":guilabel:`water`, como antes para as outras camadas."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:462
 msgid "Investigate what the different options on the list can do."
@@ -962,13 +961,13 @@ msgid ""
 "If in doubt, use the :guilabel:`Point pattern fill` with the following "
 "options:"
 msgstr ""
-"Se estiver em dúvida, utilize :guilabel:`Padrão de preenchimento de pontos` "
+"Se estiver em dúvida, utilize :guilabel:`Point pattern fill` "
 "com as seguintes opções:"
 
 #: ../../docs/training_manual/basic_map/symbology.rst:473
 msgid "Add a new symbol layer with a normal :guilabel:`Simple fill`."
 msgstr ""
-"Adicione uma nova camada de símbolos com :guilabel:`Preenchimento simples`."
+"Adicione uma nova camada de símbolos com :guilabel:`Simple fill`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:474
 msgid "Make it the same light blue with a darker blue border."
@@ -980,7 +979,7 @@ msgid ""
 "down` button:"
 msgstr ""
 "Mova-a para debaixo da camada de padrão de preenchimento de ponto usando o "
-"botão :guilabel:`Mover para baixo`."
+"botão :guilabel:`Move down`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:481
 msgid ""
@@ -1044,15 +1043,15 @@ msgstr "Vamos tentar!"
 
 #: ../../docs/training_manual/basic_map/symbology.rst:525
 msgid "Select the :guilabel:`water` layer."
-msgstr "Selecione a camada :guilabel: `água`."
+msgstr "Selecione a camada :guilabel: `water`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:526
 msgid ""
 "Click on :guilabel:`Simple fill` and change the :guilabel:`Symbol layer "
 "type` to :guilabel:`Geometry generator`."
 msgstr ""
-"Clique em :guilabel:`Preenchimento simples` e mude o :guilabel:`Tipo de "
-"camada de símbolo` para :guilabel:`Gerador de Geometria`."
+"Clique em :guilabel:`Simple fill` e mude o :guilabel:`Symbol layer "
+"type` para :guilabel:`Geometry generator`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:532
 msgid ""
@@ -1062,7 +1061,7 @@ msgid ""
 msgstr ""
 "Antes de começar a escrever a consulta espacial, temos que escolher o Tipo "
 "de Geometria para saída. Neste exemplo, criaremos centróides para cada "
-"feição, então altere o Tipo de Geometria para :guilabel:`Ponto/Multiponto`."
+"feição, então altere o Tipo de Geometria para :guilabel:`Point / Multipoint`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:535
 msgid "Now let's write the query in the query panel::"
@@ -1074,7 +1073,7 @@ msgid ""
 "layer is rendered as a point layer! We have just run a spatial operation "
 "within the layer symbology itself, isn't that amazing?"
 msgstr ""
-"Quando você clica em :guilabel:`OK`, você verá que a camada :guilabel:`água`"
+"Quando você clica em :guilabel:`OK`, você verá que a camada :guilabel:`water`"
 " é renderizada como uma camada de ponto! Acabamos de executar uma operação "
 "espacial na própria simbologia da camada, não é incrível?"
 
@@ -1092,8 +1091,7 @@ msgid ""
 ":guilabel:`Simple fill` underneath the :guilabel:`Geometry generator` one."
 msgstr ""
 "O Gerador de geometria é apenas outro nível de símbolo. Tente adicionar "
-"outro :guilabel:`Preenchimento simples` abaixo do :guilabel:`Gerador de "
-"geometry`. "
+"outro :guilabel:`Simple fill` abaixo do :guilabel:`Geometry generator`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:559
 msgid ""
@@ -1134,7 +1132,7 @@ msgid ""
 "Click on :guilabel:`Marker` of the Geometry generator symbology and change "
 "the circle with another shape as your wish."
 msgstr ""
-"Clique em :guilabel:`Marcador` da simbologia do gerador de geometria e "
+"Clique em :guilabel:`Marker` da simbologia do gerador de geometria e "
 "altere o círculo com outra forma como desejar."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:575
@@ -1177,16 +1175,16 @@ msgid ""
 "Click on the menu item :menuselection:`File --> Document Properties`. This "
 "will give you the :guilabel:`Document Properties` dialog."
 msgstr ""
-"Clique no item de menu :menuselection:`Arquivo --> Propriedades do Desenho`."
-" Isso fará com que seja aberta a janela :guilabel:`Propriedades do Desenho`."
+"Clique no item de menu :menuselection:`Arquivo --> Document Properties`."
+" Isso fará com que seja aberta a janela :guilabel:`Document Properties`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:597
 msgid "Change the :guilabel:`Units` to :guilabel:`px`."
-msgstr "Troque :guilabel:`Unidades` para :guilabel:`px`."
+msgstr "Troque :guilabel:`Units` para :guilabel:`px`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:598
 msgid "Change the :guilabel:`Width` and :guilabel:`Height` to ``100``."
-msgstr "Altere :guilabel:`Largura` e :guilabel:`Altura` para ``100``."
+msgstr "Altere :guilabel:`Width` e :guilabel:`Height` para ``100``."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:599
 msgid "Close the dialog when you are done."
@@ -1202,7 +1200,7 @@ msgstr ""
 
 #: ../../docs/training_manual/basic_map/symbology.rst:602
 msgid "Select the :guilabel:`Circle` tool:"
-msgstr "Selecione a ferramenta :guilabel:`Elipse`."
+msgstr "Selecione a ferramenta :guilabel:`Circle`."
 
 #: ../../docs/training_manual/basic_map/symbology.rst:607
 msgid ""

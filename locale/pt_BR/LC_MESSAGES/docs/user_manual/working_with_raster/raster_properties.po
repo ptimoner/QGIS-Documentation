@@ -38,8 +38,7 @@ msgstr ""
 "Para visualizar e definir as propriedades de uma camada raster, clique duas "
 "vezes no nome da camada na legenda do mapa ou clique com o botão direito do "
 "mouse no nome da camada e escolha :guilabel:`Propriedades` no menu de "
-"contexto. Isso abrirá a caixa de diálogo :guilabel:`Propriedades da Camada "
-"Raster`."
+"contexto. Isso abrirá a caixa de diálogo :guilabel:`Raster Layer Properties`."
 
 #: ../../docs/user_manual/working_with_raster/raster_properties.rst:18
 msgid "There are several tabs in the dialog:"

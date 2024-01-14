@@ -24,7 +24,7 @@ Por essa razão, ele possui uma ferramenta chamada *Layout Manager*.
 
 #. Clique na entrada do menu :menuselection:`Project --> Layout Manager...` 
    para abrir esta ferramenta.
-   Você verá um diálogo :guilabel:`Layout manager` em branco aparecer.
+   Você verá uma caixa de diálogo :guilabel:`Layout manager` aparecer.
 
    .. figure:: img/layout_manager_dialog.png
       :align: center
@@ -114,7 +114,7 @@ Ensure that yours is as well.
    ser finais.
    Você sempre pode voltar e alterá-los mais tarde se não estiver
    satisfeito. 
-   Por enquanto, certifique-se de ter salvo seu trabalhoneste mapa.
+   Por enquanto, certifique-se de ter salvo seu trabalho neste mapa.
    Como um *Print Layout* no QGIS faz
    parte do arquivo principal do mapa, 
    você deve salvar o seu projeto.

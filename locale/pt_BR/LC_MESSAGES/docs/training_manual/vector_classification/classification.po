@@ -66,19 +66,19 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_classification/classification.rst:24
 msgid "Go to the :guilabel:`Symbology` tab"
-msgstr "Vá para a aba :guilabel:`Simbologia`."
+msgstr "Vá para a aba :guilabel:`Symbology`."
 
 #: ../../docs/training_manual/vector_classification/classification.rst:25
 msgid ""
 "Click on the dropdown that says :guilabel:`Single Symbol` and change it to "
 ":guilabel:`Categorized`:"
 msgstr ""
-"Clique no menu suspenso que diz :guilabel:`Simbologia Simples` e altere-o "
-"para :guilabel:`Categorizado`:"
+"Clique no menu suspenso que diz :guilabel:`Single Symbol` e altere-o "
+"para :guilabel:`Categorized`:"
 
 #: ../../docs/training_manual/vector_classification/classification.rst:33
 msgid "Click the button labeled :guilabel:`Classify`"
-msgstr "Clique no botão com o rótulo :guilabel:`Classificar'."
+msgstr "Clique no botão com o rótulo :guilabel:`Classify`."
 
 #: ../../docs/training_manual/vector_classification/classification.rst:38
 #: ../../docs/training_manual/vector_classification/classification.rst:172

@@ -89,7 +89,7 @@ msgid ""
 "tab of the :guilabel:`Layer Styling` panel"
 msgstr ""
 "Clique no botão |labelingSingle| Barra de Ferramentas para abrir a guia "
-":guilabel:`Rótulos` do painel :guilabel:`Estilização da camada`."
+":guilabel:`Labels` do painel :guilabel:`Layer Styling`."
 
 #: ../../docs/training_manual/vector_classification/label_tool.rst:25
 msgid ""

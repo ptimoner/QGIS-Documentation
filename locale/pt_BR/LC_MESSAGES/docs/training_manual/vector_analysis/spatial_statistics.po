@@ -397,7 +397,7 @@ msgid ""
 msgstr ""
 "O histograma de um conjunto de dados mostra a distribuição de seus valores. "
 "A maneira mais simples de demonstrar isso no QGIS é através do histograma da"
-" imagem, disponível na caixa de diálogo :guilabel:`Propriedades da Camada` "
+" imagem, disponível na caixa de diálogo :guilabel:`Layer Properties` "
 "de qualquer camada da imagem (conjunto de dados raster)."
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:269

@@ -1,6 +1,6 @@
 .. _tm_working_vector_data:
 
-|LS| Vector Attribute Data
+|LS| Atributos de Dados Vetoriais
 ===============================================================================
 
 Os dados vetoriais são, sem dúvida, o tipo de dados mais comum no uso diário de SIG (Sistemas de Informação Geográfica). O modelo vetorial representa a localização e a forma de características geográficas usando pontos, linhas e polígonos (e para dados 3D também superfícies e volumes), enquanto suas outras propriedades são incluídas como atributos (muitas vezes apresentados como uma tabela no QGIS).
@@ -134,7 +134,7 @@ You may now close the attribute table.
 .. admonition:: Answer
    :class: dropdown
 
-   * TDeve haver 9 campos na camada :guilabel:`rivers`:
+   * Deve haver 9 campos na camada :guilabel:`rivers`:
 
      #. Selecione a camada no painel :guilabel:`Layers`.
      #. Clique com o botão direito e escolha :guilabel:`Open Attribute Table`,

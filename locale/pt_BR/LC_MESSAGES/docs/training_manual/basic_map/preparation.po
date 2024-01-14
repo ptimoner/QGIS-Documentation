@@ -460,7 +460,7 @@ msgid ""
 ":menuselection:`Data Source Manager --> Browser` tab, with the same "
 "functionality."
 msgstr ""
-"Ative o painel :guilabel:`Navegador` em :menuselection:`Exibir --> Painéis "
+"Ative o painel :guilabel:`Browser` em :menuselection:`View --> Panels "
 "-->` e use-o para adicionar seus dados. É um atalho útil para a guia "
 ":menuselection:`Data Source Manager --> Browser`, com a mesma "
 "funcionalidade. "
@@ -476,7 +476,7 @@ msgstr ""
 
 #: ../../docs/training_manual/basic_map/preparation.rst:189
 msgid "|moderate| |TY| Load More Vector Data"
-msgstr "|moderate| |TY|  Carregar Mais Dados Vetoriais "
+msgstr "|moderate| |TY| Carregar Mais Dados Vetoriais "
 
 #: ../../docs/training_manual/basic_map/preparation.rst:285
 msgid "moderate"
@@ -496,7 +496,7 @@ msgstr ":guilabel:`buildings`"
 
 #: ../../docs/training_manual/basic_map/preparation.rst:195
 msgid ":guilabel:`water`"
-msgstr ":guilabel:`água`"
+msgstr ":guilabel:`water`"
 
 #: ../../docs/training_manual/basic_map/preparation.rst:200
 msgid "Your map should have seven layers:"
@@ -625,7 +625,7 @@ msgid ""
 " with the QGIS interface. This is the topic of the next lesson."
 msgstr ""
 "Agora você está familiarizado com a função básica do botão "
-":guilabel:``Open Data Source Manager`, mas e todos os outros? "
+":guilabel:`Open Data Source Manager`, mas e todos os outros? "
 "Como funciona essa interface? Antes de continuarmos, vamos dar uma olhada em"
 " algumas interações básicas com a interface do QGIS. Este é o tema da "
 "próxima lição."
