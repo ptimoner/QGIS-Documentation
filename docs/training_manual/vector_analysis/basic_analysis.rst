@@ -137,8 +137,7 @@ remain clean.
 Feel free to choose the best workflow for yourself.
 
 .. note:: In this example, we are using the *WGS 84 / UTM zone 34S*
-   CRS, but you should use a UTM CRS which is more appropriate for
-   your region.
+   CRS.
 
 #. Right click the :guilabel:`roads` layer in the :guilabel:`Layers`
    panel
@@ -467,13 +466,6 @@ the name ``solution``.
 Using the GIS problem solving approach together with QGIS vector
 analysis tools, you were able to solve a problem with multiple
 criteria quickly and easily.
-
-|WN|
-----------------------------------------------------------------------
-
-In the next lesson, we will look at how to calculate the shortest
-distance along roads from one point to another.
-
 
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE
    This will be automatically updated by the find_set_subst.py script.

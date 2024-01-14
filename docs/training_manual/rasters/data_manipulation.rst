@@ -40,75 +40,6 @@ There we have it - four aerial images covering our study area.
 
 .. _tm_virtual_raster:
 
-|basic| |FA| Create a Virtual Raster
-----------------------------------------------------------------------
-
-Now as you can see from this, your solution layer lies across all four
-images.
-What this means is that you are going to have to work with four
-rasters all the time.
-That's not ideal. It would be better to have one file to work with.
-
-Luckily, QGIS allows you to do exactly this, and without needing to
-actually create a new raster file.
-You can create a **Virtual Raster**.
-This is also often called a *Catalog*, which explains its function.
-It's not really a new raster.
-Rather, it is a way to organize your existing rasters into one
-catalog: one file for easy access.
-
-To make a catalog we will use the
-:menuselection:`Processing --> Toolbox`.
-
-#. Open the :guilabel:`Build virtual raster` algorithm from the
-   :menuselection:`GDAL --> Raster miscellaneous`;
-#. In the dialog that appears, click on the :guilabel:`...` button
-   next to the :guilabel:`Input layers` parameter and check all the
-   layers or use the :guilabel:`Select All` button;
-#. Uncheck :guilabel:`Place each input file into a separate band`.
-   Notice the text field below.
-   What this dialog is actually doing is that it is writing that text
-   for you.
-   It is a long command that QGIS is going to run.
-
-   .. note:: Keep in mind that you can copy and paste the text in the
-       ``OSGeo Shell`` (Windows user) or ``Terminal`` (Linux and OSX
-       users) to run the command.
-       You can also create a script for each GDAL command.
-       This is very handy when the procedure is taking a long time or
-       when you want to schedule specific tasks.
-       Use the :guilabel:`Help` button to get more help on the syntax
-       of the command.
-
-#. Finally click on :guilabel:`Run`.
-
-.. note:: As you know from the previous modules,
-   :guilabel:`Processing` creates temporary layers by default. 
-   To save the file click on the :guilabel:`...` button.
-
-.. figure:: img/build_virtual_raster.png
-   :align: center
-
-You can now remove the original four rasters from the
-:guilabel:`Layers` Panel and leave only the output virtual catalog
-raster.
-
-
-|hard| Transforming Raster Data
-----------------------------------------------------------------------
-
-Reprojecting rasters
-......................................................................
-
-Open :guilabel:`Warp (reproject)` from 
-:menuselection:`GDAL --> Raster projections`.
-
-You can also reproject virtual rasters (catalogs), enable
-multithreaded processing, and more.
-
-.. figure:: img/warp_rasters.png
-   :align: center
-
 Merging rasters
 ......................................................................
 
@@ -117,8 +48,6 @@ use the merge algorithm.
 
 .. note:: Depending on how many raster files you are merging and their
    resolution, the new raster file created can be really big.
-   Consider instead to create a raster catalog as described in the
-   :ref:`Create a Virtual Raster <tm_virtual_raster>` section.
 
 #. Click on the :guilabel:`Merge` algorithm from the
    :menuselection:`GDAL --> Raster miscellaneous` menu.

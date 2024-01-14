@@ -17,4 +17,3 @@ QGIS Training Manual
    vector_analysis/index
    rasters/index
    qgis_plugins/index
-   complete_analysis/index

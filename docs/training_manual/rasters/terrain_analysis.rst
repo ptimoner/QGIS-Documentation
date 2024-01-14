@@ -179,9 +179,7 @@ in :menuselection:`Raster analysis` in the
 
    .. figure:: img/reclassify_table.png
       :align: center
-
-   The method used by the algorithm to treat the threshold values of
-   each class is defined by the :guilabel:`Range boundaries`.
+      
 #. Save the layer as :file:`reclassified.tif` in the
    :file:`exercise_data/raster_analysis/` folder
 
@@ -288,21 +286,8 @@ We can use the *Value Tool* plugin to solve this problem.
 
 You've seen how to derive all kinds of analysis products from a DEM.
 These include hillshade, slope and aspect calculations.
-You've also seen how to use the raster calculator to further analyze
-and combine these results.
 Finally you learned how to reclassify a layer and how to query the
 results.
-
-|WN|
-----------------------------------------------------------------------
-
-Now you have two analyses: the vector analysis which shows you the
-potentially suitable plots, and the raster analysis that shows you the
-potentially suitable terrain.
-How can these be combined to arrive at a final result for this
-problem?
-That's the topic for the next lesson, starting in the next module.
-
 
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE
    This will be automatically updated by the find_set_subst.py script.

@@ -113,13 +113,6 @@ There are many useful plugins available for QGIS. Using the built-in tools for
 installing and managing these plugins, you can find new plugins and make
 optimum use of them.
 
-|WN|
--------------------------------------------------------------------------------
-
-Next we'll look at how to use layers that are hosted on remote servers in real
-time.
-
-
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE
    This will be automatically updated by the find_set_subst.py script.
    If you need to create a new substitution manually,
