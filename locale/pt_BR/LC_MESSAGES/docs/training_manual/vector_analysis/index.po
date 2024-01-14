@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../docs/training_manual/vector_analysis/index.rst:3
 msgid "|MOD| Vector Analysis"
-msgstr "|LS| Análisis Vectorial"
+msgstr "|LS| Análise Vetorial"
 
 #: ../../docs/training_manual/vector_analysis/index.rst:5
 msgid ""

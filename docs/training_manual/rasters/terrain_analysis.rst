@@ -131,7 +131,7 @@ sunlight.
 
 Use o algoritmo :guilabel:`Aspect` em
 :menuselection:`Processing --> Raster terrain analysis` para obter uma camada 
-``aspect``salvada juntamente com a camada ``slope``.
+``aspect`` salvada juntamente com a camada ``slope``.
 
 .. admonition:: Answer
    :class: dropdown
