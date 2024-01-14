@@ -190,7 +190,7 @@ msgstr "A nova camada deve aparecer no seu painel :guilabel:`Camadas`."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:84
 msgid "|basic| |FA| Data Sources"
-msgstr "|basic| |FA| Fuentes de Datos"
+msgstr "|basic| |FA| Fontes de Dados"
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:86
 msgid ""
@@ -557,7 +557,7 @@ msgstr ""
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:238
 msgid "|basic| |TY| Digitizing Polygons"
-msgstr "|básico| |TY| Digitalizando polígonos"
+msgstr "|básico| |TY| Digitalizando Polígonos"
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:240
 msgid ""

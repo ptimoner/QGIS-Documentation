@@ -320,7 +320,7 @@ msgstr "Como de costume, você pode clicar e mover o item para onde quiser:"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:230
 msgid "|moderate| |FA| Customizing Legend Items"
-msgstr "|moderate| |FA| Personalizando Elementos de la Leyenda"
+msgstr "|moderate| |FA| Personalização dos Itens da Legenda"
 
 #: ../../docs/training_manual/map_composer/map_composer.rst:353
 msgid "moderate"

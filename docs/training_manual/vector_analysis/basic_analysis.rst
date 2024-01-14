@@ -339,7 +339,7 @@ Você pode encontrá-la no grupo :menuselection:`Vector Overlay` na caixa :guila
 
 .. _select-by-location:
 
-|basic| |FA| Extract the Buildings
+|basic| |FA| Extrair os Edifícios
 ----------------------------------------------------------------------
 
 Now you've got the area that the buildings must overlap.
