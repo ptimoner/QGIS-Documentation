@@ -123,10 +123,12 @@ optimum use of them.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
-.. |WN| replace:: What's Next?
+.. |FA| replace:: Siga o Passo a Passo:
+.. |FR| replace:: Leitura Adicional
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmo
+.. |WN| replace:: O Que Vem a Seguir?
 .. |addHtml| image:: /static/common/mActionAddHtml.png
    :width: 1.5em
 .. |basic| image:: /static/common/basic.png
