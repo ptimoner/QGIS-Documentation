@@ -136,8 +136,8 @@ Vamos mostrar a última opção, para que o :file:`training_data.gpkg` permaneç
 limpo.
 Sinta-se à vontade para escolher o melhor fluxo de trabalho para você.
 
-.. note:: In this example, we are using the *WGS 84 / UTM zone 34S*
-   CRS.
+.. note:: Neste exemplo, estamos utilizando o SRC *WGS 84 / UTM zone 34S*
+   .
    
 
 #. Clique com o botão direito na camada :guilabel:`roads` no painel

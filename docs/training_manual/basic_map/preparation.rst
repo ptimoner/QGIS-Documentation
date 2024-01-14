@@ -182,7 +182,9 @@ the :guilabel:`Browser`.
   and use it to add your data. It's a handy shortcut for the :menuselection:`Data Source
   Manager --> Browser` tab, with the same functionality.
 
-.. note:: "Remember to save your project frequently! The project file doesn't contain any of the data itself, but it remembers which layers you loaded into your map.
+.. note:: Lembre-se de salvar seu projeto com frequência! O arquivo do projeto
+   não contém nenhum dado em si, mas lembra quais camadas você
+   carregou no seu mapa.
 
 |moderate| |TY| Load More Vector Data
 -------------------------------------------------------------------------------
