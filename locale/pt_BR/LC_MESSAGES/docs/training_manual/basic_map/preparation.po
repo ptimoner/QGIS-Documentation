@@ -153,9 +153,9 @@ msgid ""
 "you can see a ``protected_areas`` item in the :guilabel:`Layers` panel "
 "(bottom left) with its features shown in the main map canvas."
 msgstr ""
-"Clique em :guilabel:`Adicionar` aqui também. Os dados que você especificou "
+"Clique em :guilabel:`Add` aqui também. Os dados que você especificou "
 "agora serão carregados: você pode ver um item ``protected_areas`` no painel "
-":guilabel:`Camadas` (canto inferior esquerdo) com seus recursos mostrados na"
+":guilabel:`Layers` (canto inferior esquerdo) com seus recursos mostrados na"
 " tela principal do mapa. "
 
 #: ../../docs/training_manual/basic_map/preparation.rst:67
@@ -323,7 +323,7 @@ msgid ""
 "A :guilabel:`roads` layer is added to the :guilabel:`Layers` panel with "
 "features displayed on the map canvas."
 msgstr ""
-"Uma camada :guilabel:`roads` é adicionada ao painel :guilabel:`Camadas` com "
+"Uma camada :guilabel:`roads` é adicionada ao painel :guilabel:`Layers` com "
 "as feições exibidos na tela do mapa."
 
 #: ../../docs/training_manual/basic_map/preparation.rst:137
@@ -447,7 +447,7 @@ msgid ""
 msgstr ""
 "Clique duas vezes na camada  |polygonLayer| :guilabel:`landuse` ou selecione"
 " e arraste e solte na tela do mapa. Uma nova camada é adicionada ao painel "
-":guilabel:`Camadas` e seus recursos são exibidos na tela do mapa."
+":guilabel:`Layers` e seus recursos são exibidos na tela do mapa."
 
 #: ../../docs/training_manual/basic_map/preparation.rst:288
 msgid "polygonLayer"

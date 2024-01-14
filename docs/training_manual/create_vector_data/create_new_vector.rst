@@ -210,9 +210,10 @@ To enter edit mode for the ``school_property`` layer:
 #. Close the attribute table.
 #. To save the new feature we just created, click on |saveEdits| :sup:`Save Edits` button.
 
-Remember, if you've made a mistake while digitizing a feature, you can always
-edit it after you're done creating it. If you've made a mistake, continue
-digitizing until you're done creating the feature as above. Then:
+Lembre-se de que, se você cometer um erro ao digitalizar um recurso, sempre poderá
+editá-lo depois de terminar de criá-lo. Se você tiver cometido um erro,
+continue digitalização até que você tenha terminado de criar o recurso conforme 
+descrito acima. Em seguida:
 
 #. Click on |vertexToolActiveLayer| :sup:`Vertex Tool` button.
 #. Hover the mouse over a vertex you want to move and left click on the vertex.

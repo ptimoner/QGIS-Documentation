@@ -109,11 +109,11 @@ msgstr "Zoom para uma escala de ``1:5 000 000`` novamente, como antes."
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:80
 msgid "Pan around the map."
-msgstr "Desplázate sobre el mapa."
+msgstr "Percorra o mapa."
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:82
 msgid "Notice how the scale stays the same!"
-msgstr "¡Observa cómo la escala permanece igual!"
+msgstr "Observe como a escala permanece a mesma!"
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:84
 msgid ""
@@ -132,7 +132,7 @@ msgid ""
 "The layer is visible even if it has a different CRS from the "
 ":guilabel:`continents` one."
 msgstr ""
-"A camada é visível mesmo que tenha um SRC diferente do mostrado em "
+"A camada é visível mesmo que tenha um SRC diferente do mostrado na camada "
 ":guilabel:`continents`."
 
 #: ../../docs/training_manual/vector_analysis/reproject_transform.rst:101

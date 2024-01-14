@@ -80,7 +80,7 @@ msgid ""
 "Click on the ``places`` layer in the :guilabel:`Layers` panel so that it is "
 "highlighted"
 msgstr ""
-"Clique na camada ``lugares`` no painel :guilabel:`Camadas` para que fique "
+"Clique na camada ``places`` no painel :guilabel:`Layers` para que fique "
 "realçada"
 
 #: ../../docs/training_manual/vector_classification/label_tool.rst:22
@@ -355,7 +355,7 @@ msgid ""
 "be suitable for viewing at this scale."
 msgstr ""
 "Ajuste o mapa para a escala ``1:100000``. Você pode fazer isso digitando na "
-"caixa :guilabel:`Scale` na :guilabel:`Barra de Status`. Modifique seus "
+"caixa :guilabel:`Scale` na :guilabel:`Status Bar`. Modifique seus "
 "rótulos para que sejam adequados para visualização nesta escala."
 
 #: ../../docs/training_manual/vector_classification/label_tool.rst:177

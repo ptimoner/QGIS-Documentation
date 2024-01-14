@@ -101,9 +101,9 @@ msgid ""
 "different vector layer type is \"built differently\" in the background, so "
 "once you've created the layer, you can't change its type."
 msgstr ""
-"Es importante decidir qué tipo de conjunto de datos quieres en este punto. "
-"Cada tipo de capa vectorial esta \"construida de forma diferente\" en sus "
-"bases, así que una vez hayas creado la capa, no puedes cambiar su tipo."
+"É importante decidir que tipo de conjunto de dados você deseja nesse momento."
+"Cada tipo de camada vetorial é \"criado de forma diferente\" em suas "
+"bases, portanto, uma vez criada a camada, não é possível alterar seu tipo."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:36
 msgid ""
@@ -126,9 +126,9 @@ msgid ""
 "This has no impact on the rest of the dialog, but it will cause the correct "
 "type of geometry to be used when the vector dataset is created."
 msgstr ""
-"Esto no tiene impaco en el resto del cuadro de diálogo, pero hará que se use"
-" el tipo correcto de geometría cuando el conjunto de datos vectorial se "
-"cree."
+"Isso não tem impacto sobre o restante da caixa de diálogo, mas fará "
+"com que o tipo correto de geometria seja usado quando o "
+"conjunto de dados vetoriais for criado."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:47
 msgid ""
@@ -186,7 +186,7 @@ msgstr "Clique :guilabel:`OK`."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:79
 msgid "The new layer should appear in your :guilabel:`Layers` panel."
-msgstr "A nova camada deve aparecer no seu painel :guilabel:`Camadas`."
+msgstr "A nova camada deve aparecer no seu painel :guilabel:`Layers`."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:84
 msgid "|basic| |FA| Data Sources"
@@ -230,8 +230,7 @@ msgstr ""
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:100
 msgid "Click on |dataSourceManager| :sup:`Data Source Manager` button."
 msgstr ""
-"Clique em |dataSourceManager| :sup:`Data Source Manager` "
-"de Dados`."
+"Clique em |dataSourceManager| :sup:`Data Source Manager`."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:387
 msgid "dataSourceManager"
@@ -282,7 +281,7 @@ msgid ""
 "Click on the |zoomIn| :sup:`Zoom In` button, and zoom to the area "
 "highlighted in blue below:"
 msgstr ""
-"Clique em ||zoomIn| :sup:`Zoom In` e amplie a área destacada em azul "
+"Clique em |zoomIn| :sup:`Zoom In` e amplie a área destacada em azul "
 "abaixo:"
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:401
@@ -306,7 +305,7 @@ msgid ""
 "Select ``school_property`` layer in the :guilabel:`Layers` pane and drag it "
 "to the top."
 msgstr ""
-"Selecione a camada ``escola_propriedade`` no painel :guilabel:`Camadas` e "
+"Selecione a camada ``school_property`` no painel :guilabel:`Layers` e "
 "arraste-a para o topo."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:139
@@ -389,7 +388,7 @@ msgid ""
 "Notice that the layer ``school_property`` in the :guilabel:`Layers` panel "
 "now has the pencil icon, indicating that it is in edit mode."
 msgstr ""
-"Observe que a camada ``school_property`` no painel :guilabel:`Camadas` "
+"Observe que a camada ``school_property`` no painel :guilabel:`Layers` "
 "agora tem o ícone de lápis, indicando que está em modo de edição."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:164
@@ -449,12 +448,12 @@ msgstr "Preencha os valores conforme abaixo:"
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:192
 msgid "Click :guilabel:`OK`, and you have created a new feature!"
-msgstr "Clique em :guilabel:`OK`, e você criou um novo recurso!"
+msgstr "Clique em :guilabel:`OK`, e você criou uma nova feição!"
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:197
 msgid "In the :guilabel:`Layers` panel select the ``school_property`` layer."
 msgstr ""
-"No painel :guilabel:`Camadas` selecione a camada ``school_property``."
+"No painel :guilabel:`Layers` selecione a camada ``school_property``."
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:198
 msgid ""
@@ -564,8 +563,7 @@ msgid ""
 "Digitize the school itself and the upper field. Use this image to assist "
 "you:"
 msgstr ""
-"Digitaliza la propia escuela y el campo superior. Utiliza esta imagen para "
-"asistirte:"
+"Digitalize a própria escola e o campo superior. Use essa imagem como ajuda: "
 
 #: ../../docs/training_manual/create_vector_data/create_new_vector.rst:245
 msgid "Remember that each new feature needs to have a unique ``id`` value!"
