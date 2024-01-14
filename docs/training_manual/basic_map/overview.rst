@@ -116,7 +116,7 @@ the :ref:`locator_options` section of the QGIS User Manual.
 .. tip:: With the shortcut :kbd:`Ctrl+K` you can easily access the bar.
 
 
-|basic| |TY| 1
+|basic| |TY|
 -------------------------------------------------------------------------------
 
 Try to identify the four elements listed above on your own screen, without
