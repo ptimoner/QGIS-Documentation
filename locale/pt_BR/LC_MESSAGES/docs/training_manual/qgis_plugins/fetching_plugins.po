@@ -34,21 +34,21 @@ msgid ""
 "activate them. To do this, you will learn how to use the :guilabel:`Plugin "
 "Installer` and :guilabel:`Plugin Manager`."
 msgstr ""
-"Para comenzar a utilizar complementos, necesitas saber como descargarlos, "
-"instalarlos y activarlos. Para esto, aprenderás cómo utilizar el "
-":guilabel:`Instalador de complementos` y el :guilabel:`Administrador de "
-"complementos`."
+"Para começar a utilizar complementos, precisa saber como baixar, "
+"instalar e ativá-los. Para isso, você aprenderá como utilizar o "
+":guilabel:`Plugin Installer` e o :guilabel:`Plugin "
+"Manager`."
 
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:8
 msgid ""
 "**The goal for this lesson:** To understand and use QGIS' plugin system."
 msgstr ""
-"**El objetivo de esta lección:** Entender el uso del sistema de complementos"
+"**O objetivo desta lição:** Entender o uso do sistema de complementos"
 " de QGIS."
 
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:11
 msgid "|basic| |FA| Managing Plugins"
-msgstr "|basic| |FA| Manejando Complementos"
+msgstr "|basic| |FA| Gerenciar Complementos"
 
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:119
 msgid "basic"
@@ -59,14 +59,13 @@ msgid ""
 "To open the :guilabel:`Plugin Manager`, click on the menu item "
 ":menuselection:`Plugins --> Manage and Install Plugins`."
 msgstr ""
-"Para abrir el :guilabel:`Administrador de complementos`, haz clic en el "
-"elemento del menú :menuselection:`Complementos --> Administrar e instalar "
-"complementos...`."
+"Para abrir o :guilabel:`Plugin Manager`, clique no "
+"elemento do menu :menuselection:`Plugins --> Manage and Install Plugins`"
 
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:15
 msgid "In the dialog that opens, find the :guilabel:`Processing` plugin:"
 msgstr ""
-"En el cuadro de diálogo que se abre, encuentra el complemento "
+"Na caixa de diálogo que se abre, você vai encontrar o complemento "
 ":guilabel:`Processing`:"
 
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:20
@@ -76,7 +75,7 @@ msgstr ""
 
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:21
 msgid "Click :guilabel:`Close`."
-msgstr "Haz clic en :guilabel:`Cerrar`."
+msgstr "Clique em :guilabel:`Close`."
 
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:22
 msgid ""
@@ -87,31 +86,31 @@ msgid ""
 "because they are part of the :guilabel:`Processing` plugin, which needs to "
 "be activated to use them."
 msgstr ""
-"Observando o menu, você notará que o menu :guilabel:`Processar` desapareceu."
+"Observando o menu, você notará que o menu :guilabel:`Processing` desapareceu."
 " Isso significa que muitas das funções de processamento que você estava "
-"usando antes desapareceram! Por exemplo, veja os menus :menuselection:`Vetor"
+"usando antes desapareceram! Por exemplo, veja os menus :menuselection:`Vector"
 " -->` e :menuselection:`Raster -->`. Isso ocorre porque eles fazem parte do "
-"complemento :guilabel:`Processar`, que precisa ser ativado para usá-los."
+"complemento :guilabel:`Processing`, que precisa ser ativado para usá-los."
 
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:27
 msgid ""
 "Open the :guilabel:`Plugin Manager` again and reactivate the "
 ":guilabel:`Processing` plugin by clicking in the checkbox next to it."
 msgstr ""
-"Abra o :guilabel:`Gerenciador de Complementos` novamente e reative o "
-"complemento em :guilabel:`Processar` clicando na caixa de seleção ao lado."
+"Abra o :guilabel:`Plugin Manager` novamente e reative o "
+"complemento :guilabel:`Processing` clicando na caixa de seleção ao lado."
 
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:29
 msgid ""
 ":guilabel:`Close` the dialog. The :guilabel:`Processing` menu and functions "
 "should be available again."
 msgstr ""
-":guilabel:`Fechar` a caixa de diálogo. O menu e as funções "
-":guilabel:`Processar` devem estar disponíveis novamente."
+"Feche a caixa de diálogo. O menu e as funções "
+":guilabel:`Processing` devem estar disponíveis novamente."
 
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:36
 msgid "|basic| |FA| Installing New Plugins"
-msgstr "|basic| |FA| Instalación de Nuevos Complementos"
+msgstr "|basic| |FA| Instalação de novos complementos"
 
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:38
 msgid ""
@@ -127,8 +126,8 @@ msgid ""
 "Manager` dialog. The plugins available for you to install will be listed "
 "here. This list will vary depending on your existing system setup."
 msgstr ""
-"Selecione a opção :guilabel:`Não instalado` na caixa de diálogo "
-":guilabel:`Gerenciador de complementos`. Os complementos disponíveis para "
+"Selecione a opção :guilabel:`Not Installed` na caixa de diálogo "
+":guilabel:`Plugin Manager`. Os complementos disponíveis para "
 "você instalar serão listados aqui. Essa lista varia dependendo da "
 "configuração do sistema existente."
 
@@ -247,4 +246,4 @@ msgstr ""
 #: ../../docs/training_manual/qgis_plugins/fetching_plugins.rst:106
 msgid "Next we'll introduce you to some useful plugins as examples."
 msgstr ""
-"A continuación te introduciremos algunos complementos útiles con ejemplos."
+"Agora vamos ver dois complementos úteis com alguns exemplos."

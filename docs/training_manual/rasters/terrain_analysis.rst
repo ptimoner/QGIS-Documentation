@@ -103,42 +103,40 @@ Remember to save the project when you are done.
 you want to build houses on the land there, then you need land
 that is relatively flat.
 
-To calculate the slope, you need to use the :menuselection:`Slope` algorithm
-of the :menuselection:`Processing --> Raster terrain analysis`.
+Para calcular o declive, você precisa utilizar o algoritmo :menuselection:`Slope`
+em :menuselection:`Processing --> Raster terrain analysis`.
 
 #. Open the algorithm
-#. Choose :guilabel:`srtm_41_19` as the :guilabel:`Elevation layer`
-#. Keep the :guilabel:`Z factor` at ``1.0``
-#. Save the output as a file with the name ``slope`` in the same folder as the
+#. Selecione :guilabel:`srtm_41_19` como :guilabel:`Elevation layer`
+#. Mantém o :guilabel:`Z factor` em ``1.0``
+#. Salve o resultado como arquivo nomeado ``slope`` na mesma pasta que a camada
    ``hillshade``
 #. Click on :guilabel:`Run`
 
-Now you'll see the slope of the terrain, each pixel holding the corresponding
-slope value. Black pixels show flat terrain and white pixels, steep terrain:
+Agora verá o declive do terreno, cada pixel com o valor de declive correspondente. Os pixéis pretos mostram um terreno plano e os pixéis brancos, um terreno íngreme:
 
 .. figure:: img/slope_raster.png
    :align: center
 
 
-|moderate| |TY| Calculating the aspect
+|moderate| |TY| Calculando o Aspecto (Orientação das Vertentes)
 ----------------------------------------------------------------------
 
-*Aspect* is the compass direction that the slope of the terrain faces. An aspect
-of 0 means that the slope is North-facing, 90 East-facing, 180 South-facing, and
-270 West-facing.
+O *aspecto* é a direção da bússola para a qual a inclinação do terreno está virada. Um aspeto de 0 significa que a inclinação está virada para Norte,
+90 virado para Leste, 180 virado para Sul e 270 virado para Oeste.
 
 Since this study is taking place in the Southern Hemisphere, properties should
 ideally be built on a north-facing slope so that they can remain in the
 sunlight.
 
-Use the :guilabel:`Aspect` algorithm of the
-:menuselection:`Processing --> Raster terrain analysis` to get the ``aspect``
-layer saved along with the ``slope``.
+Use o algoritmo :guilabel:`Aspect` em
+:menuselection:`Processing --> Raster terrain analysis` para obter uma camada 
+``aspect``salvada juntamente com a camada ``slope``.
 
 .. admonition:: Answer
    :class: dropdown
 
-   Set your :guilabel:`Aspect` dialog up like this:
+   Defina a caixa de diálogo :guilabel:`Aspect` desse jeito:
 
    .. figure:: img/answer_dem_aspect.png
       :align: center
@@ -149,19 +147,13 @@ layer saved along with the ``slope``.
         :align: center
 
 
-|moderate| |FA| Reclassifying the Raster
+|moderate| |FA| Reclassificar o Raster
 ----------------------------------------------------------------------
 
-We have used the *Raster calculator* to do calculations on raster
-layers.
-There is another powerful tool that we can use to extract information
-from existing layers.
+Sabemos agora que tem valores numéricos num intervalo de 0 a 360.
 
-Back to the ``aspect`` layer.
-We know now that it has numerical values within a range from 0 through
-360.
-What we want to do is to *reclassify* this layer to other discrete
-values (from 1 to 4), depending on the aspect:
+O que queremos é *reclassificar* esta camada para outros valores discretos
+(de 1 a 4), dependendo do aspecto:
 
 * 1 = North (from 0 to 45 and from 315 to 360);
 * 2 = East (from 45 to 135)
@@ -171,43 +163,41 @@ values (from 1 to 4), depending on the aspect:
 This operation can be achieved with the raster calculator, but the
 formula would become very very large.
 
-The alternative tool is the :guilabel:`Reclassify by table` tool
-in :menuselection:`Raster analysis` in the
+A ferramenta alternativa é algoritmo :guilabel:`Reclassify by table`
+em :menuselection:`Raster analysis` no
 :guilabel:`Processing Toolbox`.
 
 #. Open the tool
-#. Choose :guilabel:`aspect` as the ``Input raster layer``
-#. Click on the :guilabel:`...` of :guilabel:`Reclassification table`.
-   A table-like dialog will pop up, where you can choose the minimum,
-   maximum and new values for each class.
+#. Escolhe :guilabel:`aspect` como ``Input raster layer``
+#. Clique em :guilabel:`...` do :guilabel:`Reclassification table`.
+   Aparece uma caixa de diálogo semelhante a uma tabela, onde pode escolher os
+   valores mínimo, máximo e novo para cada classe.
 #. Click on the :guilabel:`Add row` button and add 5 rows.
    Fill in each row as the following picture and click :guilabel:`OK`:
 
    .. figure:: img/reclassify_table.png
       :align: center
 
-   The method used by the algorithm to treat the threshold values of
-   each class is defined by the :guilabel:`Range boundaries`.
-#. Save the layer as :file:`reclassified.tif` in the
-   :file:`exercise_data/raster_analysis/` folder
+#. Salve a camada as :file:`reclassified.tif` na pasta
+   :file:`exercise_data/raster_analysis/`
 
    .. figure:: img/reclassify_setup.png
       :align: center
 
 #. Click on :guilabel:`Run`
 
-If you compare the native :guilabel:`aspect` layer with the
-:guilabel:`reclassified` one, there are not big differences.
-But by looking at the legend, you can see that the values go from
+Se compararmos a camada original :guilabel:`aspect` com a camada
+:guilabel:`reclassified`, não existem grandes diferenças. Mas ao olhar para a
+legenda, pode ver que os valores vão de
 ``1`` to ``4``.
 
 Let us give this layer a better style.
 
-#. Open the :guilabel:`Layer Styling` panel
-#. Choose :guilabel:`Paletted/Unique values`, instead of
+#. Abra o painel the :guilabel:`Layer Styling`
+#. Selecione :guilabel:`Paletted/Unique values`, em vez de
    :guilabel:`Singleband gray`
-#. Click on the :guilabel:`Classify` button to automatically fetch the
-   values and assign them random colors:
+#. Clique no botão :guilabel:`Classify` para obter automaticamente
+   os valores e atribuir-lhes cores aleátorias:
 
    .. figure:: img/unique_style.png
       :align: center
@@ -218,72 +208,70 @@ that they have been randomly generated):
 .. figure:: img/reclassify_result.png
    :align: center
 
-With this reclassification and the paletted style applied to the
-layer, you can immediately differentiate the aspect areas.
+Com esta reclassificação e o estilo de paleta aplicado à camada, é possível 
+diferenciar imediatamente as áreas de aspecto.
 
 
-|basic| |FA| Querying the raster
+|basic| |FA| Consultar o raster
 ----------------------------------------------------------------------
 
-Unlike vector layers, raster layers don't have an attribute table.
-Each pixel contains one or more numerical values (singleband or
-multiband rasters).
+Ao contrário das camadas vectoriais, as camadas raster não
+têm uma tabela de atributos. Cada pixel contém um ou mais valores
+numéricos (rasters de banda única ou raster de banda única ou multibanda).
 
-All the raster layers we used in this exercise consist of just one
-band.
-Depending on the layer, pixel values may represent elevation, aspect
-or slope values.
+Todas as camadas raster que utilizámos neste exercício consistem apenas numa banda. Dependendo da camada, os valores de pixel podem
+representar valores de elevação, aspeto ou declive.
 
-How can we query the raster layer to get the value of a pixel?
-We can use the |identify| :sup:`Identify Features` button!
+Como podemos consultar o raster para obter o valor de um pixel?
+Podemos utilizar o botão |identify| :sup:`Identify Features`!
 
 #. Select the tool from the Attributes toolbar.
-#. Click on a random location of the :guilabel:`srtm_41_19` layer.
-   :guilabel:`Identify Results` will appear with the value of the
-   band at the clicked location:
+#. Clique numa localização aleatória da camada :guilabel:`srtm_41_19`.
+   :guilabel:`Identify Results` aparecerá com o valor da banda no
+   pixel clicado:
 
    .. figure:: img/identify_raster.png
       :align: center
 
-#. You can change the output of the :guilabel:`Identify Results` panel
-   from the current ``tree`` mode to a ``table`` one by selecting
-   :guilabel:`Table` in the :guilabel:`View` menu at the bottom of the
-   panel:
+#. Você pode alterar o resultado do painel :guilabel:`Identify Results`
+   do modo atual ``tree`` para o modo ``table`` selecionando
+   :guilabel:`Table` no menu :guilabel:`View` na parte inferior do
+   painel:
 
    .. figure:: img/identify_raster_table.png
       :align: center
 
-Clicking each pixel to get the value of the raster could become
-annoying after a while.
-We can use the *Value Tool* plugin to solve this problem.
+Clicando em cada pixel para obter o valor do raster pode ser
+cansativo depois de um tempo.
+Podemos utilizar o plugin (complemento) *Value Tool* para resolver este problema.
 
 #. Go to :menuselection:`Plugins --> Manage/Install Plugins...`
-#. In the :guilabel:`All` tab, type ``value t`` in the search box
-#. Select the *Value Tool* plugin, press :guilabel:`Install Plugin`
-   and then :guilabel:`Close` the dialog.
+#. Na guia :guilabel:`All`, digite ``value t`` na caixa de pesquisa.
+#. Selecione o plugin *Value Tool*, pressione :guilabel:`Install Plugin`
+   e depois no botão :guilabel:`Close` para fechar a janela.
 
    .. figure:: img/value_tool.png
       :align: center
 
-   The new :guilabel:`Value Tool` panel will appear.
+   O novo painel :guilabel:`Value Tool` aparecerá.
 
-   .. tip:: If you close the panel you can reopen it by enabling it in
-      the :menuselection:`View --> Panels --> Value Tool` or by
-      clicking on the icon in the toolbar.
+   .. tip:: Si você fechar o painel, poderá abri-lo novamente em
+      :menuselection:`View --> Panels --> Value Tool` ou clicando
+      no ícone na barra de ferramentas.
 
-#. To use the plugin just check the :guilabel:`Enable` checkbox and be
-   sure that the ``srtm_41_19`` layer is active (checked) in the
-   :guilabel:`Layers` panel.
+#. Para utilizar o plugin certifique-se que a caixa :guilabel:`Enable` esteja
+   ativada assim como a camada ``srtm_41_19`` no painel
+   :guilabel:`Layers`.
 #. Move the cursor over the map to see the value of the pixels.
 
    .. figure:: img/value_tool_query.png
       :align: center
 
-#. But there is more.
-   The Value Tool plugin allows you to query **all** the active raster
-   layers in the :guilabel:`Layers` panel.
-   Set the :guilabel:`aspect` and :guilabel:`slope` layers active
-   again and hover the mouse on the map:
+#. Mas tem mais!
+   O plugin Value Tool plugin permite consultar **todos** os raster que
+   estão ativos no painel :guilabel:`Layers`.
+   Ative as camadas :guilabel:`aspect` e :guilabel:`slope`
+   e move o cursor sobre o mapa:
 
    .. figure:: img/value_tool_query_multi.png
       :align: center
@@ -292,23 +280,9 @@ We can use the *Value Tool* plugin to solve this problem.
 |IC|
 ----------------------------------------------------------------------
 
-You've seen how to derive all kinds of analysis products from a DEM.
-These include hillshade, slope and aspect calculations.
-You've also seen how to use the raster calculator to further analyze
-and combine these results.
-Finally you learned how to reclassify a layer and how to query the
-results.
-
-|WN|
-----------------------------------------------------------------------
-
-Now you have two analyses: the vector analysis which shows you the
-potentially suitable plots, and the raster analysis that shows you the
-potentially suitable terrain.
-How can these be combined to arrive at a final result for this
-problem?
-That's the topic for the next lesson, starting in the next module.
-
+Você viu como derivar o MDE para obter o relevo sombreado, o declive e o
+aspecto. No final também aprendeu como reclassificar uma camada e consultar
+os valores dos raster.
 
 .. Substitutions definitions - AVOID EDITING PAST THIS LINE
    This will be automatically updated by the find_set_subst.py script.

@@ -47,8 +47,8 @@ msgid ""
 "**The goal for this lesson:** To use terrain analysis tools to derive more "
 "information about the terrain."
 msgstr ""
-"**O objetivo desta lição:** Utilizar ferramentas análise do terreno para obter mais "
-"informações sobre o terreno".
+"**O objetivo desta lição:** Utilizar ferramentas análise do terreno para obter "
+mais informações sobre o terreno".
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:16
 msgid "|basic| |FA| Calculating a Hillshade"
@@ -148,7 +148,7 @@ msgstr "Vamos encontrar as melhores áreas para eles."
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:115
 msgid "|moderate| |FA| Calculating the Slope"
-msgstr "|moderate| |FA| Calculo de la Pendiente"
+msgstr "|moderate| |FA| Cálculo do declive"
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:566
 msgid "moderate"
@@ -159,18 +159,18 @@ msgid ""
 "*Slope* informs about how steep the terrain is. If, for example, you want to"
 " build houses on the land there, then you need land that is relatively flat."
 msgstr ""
-"*Inclinação* informa sobre a inclinação do terreno. Se, por exemplo, você "
+"O **declive** informa sobre a inclinação do terreno. Se, por exemplo, você "
 "quiser construir casas no terreno, precisará de um terreno relativamente "
 "plano."
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:124
 msgid "Open the algorithm"
-msgstr "Abrir o algoritmo"
+msgstr "Abra o algoritmo"
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:129
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:436
 msgid "Click on :guilabel:`Run`"
-msgstr "Clique em :guilabel:`Executar`"
+msgstr "Clique em :guilabel:`Run`"
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:145
 msgid ""
@@ -334,7 +334,7 @@ msgid ""
 "Click on the :guilabel:`Add row` button and add 5 rows. Fill in each row as "
 "the following picture and click :guilabel:`OK`:"
 msgstr ""
-"Clique no botão :guilabel:`Adicionar linha` e adicione 5 linhas. Preencha "
+"Clique no botão :guilabel:`Add row` e adicione 5 linhas. Preencha "
 "cada linha como a seguinte figura e clique em :guilabel:`OK`:"
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:443
@@ -346,7 +346,7 @@ msgid ""
 "The output should look like this (you can have different colors given that "
 "they have been randomly generated):"
 msgstr ""
-"A saída deve ficar assim (você pode ter cores diferentes, pois foram geradas"
+"O resultado deve ficar assim (você pode ter cores diferentes, pois foram geradas"
 " aleatoriamente):"
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:564
@@ -355,13 +355,12 @@ msgstr ""
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:479
 msgid "Select the tool from the Attributes toolbar."
-msgstr "Selecione a ferramenta na barra de ferramentas Atributos."
+msgstr "Selecione a ferramenta na Attributes toolbar"
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:499
 msgid "Go to :menuselection:`Plugins --> Manage/Install Plugins...`"
 msgstr ""
-"Vá para  :menuselection:`Complementos --> Gerenciar/Instalar "
-"Complementos...`"
+"Vá para  :menuselection:`Plugins --> Manage/Install Plugins...`"
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:516
 msgid "Move the cursor over the map to see the value of the pixels."

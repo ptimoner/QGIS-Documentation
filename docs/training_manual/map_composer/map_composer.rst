@@ -14,7 +14,7 @@ impressora conectada.
 Tanto a exportação quanto a impressão são gerenciadas através do *Print Layout*.
 
 **Objetivo desta lição:** Usar o *Print Layout* do QGIS para criar
-um mapa básico com todas as configurações necessárias.
+um mapa base com todas as configurações necessárias.
 
 |basic| |FA| The Layout Manager
 ----------------------------------------------------------------------

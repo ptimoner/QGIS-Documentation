@@ -11,49 +11,52 @@ and get acquainted with some useful plugins.
 |basic| |FA| The QuickMapServices Plugin
 -------------------------------------------------------------------------------
 
-The QuickMapServices plugin is a simple and easy to use plugin that adds base maps
-to your QGIS project.
-It has many different options and settings.
-Let's start to explore some of its features.
+O complemento QuickMapServices é um complemento simples e fácil de usar para
+adicionar mapas básicos (basemap)
+para o seu projeto.
+Tem muitas diferentes opções e configurações.
+Exploremos algumas das possibilidades.
 
 #. Start a new map and add the :guilabel:`roads` layer from the :file:`training_data`
    Geopackage.
 #. Install the **QuickMapServices** plugin.
-#. Click on :menuselection:`Web --> QuickMapServices`.
-   The first menu lists different map providers (``OSM``, ``NASA``) with available maps.
-#. Click on an entry and you would load the base map into your project.
+#. Clique em :menuselection:`Web --> QuickMapServices`.
+   O primeiro menu mostra uma lista de diferentes fornecedores de mapa com mapas
+   disponíveis.
+#. Selecione um mapa base que você desejaria adicionar no seu projeto.
 
    .. figure:: img/qms_result.png
       :align: center
       :width: 80%
 
-Nice! But one of the main strengths of QMS is to provide access to many data providers.
-Let's add them.
+Ótimo! Mas uma das ventagens principais do QMS é que da um acesso a muitos fornecedores de dados.
+Vamos adicioná-los.
 
-#. Click on :menuselection:`Web --> QuickMapServices --> Settings`
-#. Go to the :guilabel:`More services` tab.
+#. Clique em :menuselection:`Web --> QuickMapServices --> Settings`
+#. Vá para a guia :guilabel:`More services`.
 #. Read carefully the message of this tab and if you agree click on the
    :guilabel:`Get Contributed pack` button.
-#. Click :guilabel:`Save`.
+#. Clique :guilabel:`Save`.
 
-#. Reopen the :menuselection:`Web --> QuickMapServices` menu you will see
-   that more providers are available.
+#. Abra de novo o menu :menuselection:`Web --> QuickMapServices` e você verá
+   que mais fornecedores de dados estão disponíveis.
 
    .. figure:: img/qms_menu.png
       :align: center
 
-#. Choose the one that best fits your needs, and load the data in the project!
+#. Escolhe algum mapa, e carregue os dados no seu
+projeto!
 
-It is also possible to search trough the now available data providers
+Também é possivel pesquisar a través dos novos fornecedores de dados.
 
-#. Open the plugin's search tab by clicking on :menuselection:`Web --> QuickMapServices --> Search QMS`.
-   This option of the plugin allows you to filter the available base maps
-   by the current extent of the map canvas or using a search word.
-#. Click on the :guilabel:`Filter by extent` and you should see one service available.
-   If no service is found, zoom out and pan around the world (or your location)
-   or search with a keyword.
-#. Click on the :guilabel:`Add` button next to a returned dataset to load it.
-#. The base map will be loaded and you will have a background for the map.
+#. Abra a aba de pesquisa clicando em :menuselection:`Web --> QuickMapServices --> Search QMS`.
+   Esta opção do complemento permite filtrar os mapas básicos em função da 
+   extenção da sua tela de mapa ou usando palavras chaves.
+#. Clique em :guilabel:`Filter by extent` e deveria ver um serviço disponível.
+   Se não tiver nenhum, diminui o zoom e percorra o mapa
+   ou pesquise usando palavras chaves.
+#. Clique no botão :guilabel:`Add` para carregar os dados.
+#. O mapa base será carregado e você terá uma camada de fundo para seu mapa
 
    .. figure:: img/qms_search_added.png
       :align: center
@@ -80,9 +83,9 @@ With an incredible simple interface, the QuickOSM plugin allows you to download
     system, click on the :guilabel:`Help with key/value` button. It will open a
     web page with a complete description of this concept of OpenStreetMap.
 
-#. Look for :guilabel:`railway` in the :guilabel:`Key` menu and let the :guilabel:`Value` be
-   empty: so we are downloading all the :guilabel:`railway` features without specifying
-   any values.
+#. Pesquise :guilabel:`railway` no menu :guilabel:`Key` e deixa :guilabel:`Value`
+   vazío: então estamos baixando todas as feições :guilabel:`railway` sem
+   especificar nehum valor.
 #. Select :guilabel:`Layer Extent` in the next drop-down menu and choose :guilabel:`roads`.
 #. Click on the :guilabel:`Run query` button.
 

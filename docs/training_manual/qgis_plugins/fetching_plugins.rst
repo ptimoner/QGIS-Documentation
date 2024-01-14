@@ -50,8 +50,8 @@ that you currently have installed. To install new plugins:
    .. figure:: img/plugin_details.png
       :align: center
 
-#. Install the one(s) you are interested in by clicking the :guilabel:`Install
-   Plugin` button below the plugin information panel.
+#. Instale o/os complemento(s) que interessa você clicando no botão 
+   :guilabel:`Install Plugin` abaixo do painel de informação.
 
 .. note:: if the plugin has some error it will be listed in the :guilabel:`Invalid`
   tab. You can then contact the plugin owner to fix the problem.
@@ -74,8 +74,10 @@ Next we'll introduce you to some useful plugins as examples.
    please add it also to the substitutions.txt file in the
    source folder.
 
-.. |FA| replace:: Follow Along:
-.. |IC| replace:: In Conclusion
-.. |LS| replace:: Lesson:
-.. |WN| replace:: What's Next?
+.. |FA| replace:: Siga o Passo a Passo:
+.. |FR| replace:: Leitura Adicional
+.. |IC| replace:: Em Conclusão
+.. |LS| replace:: Lição:
+.. |TY| replace:: Tente Você Mesmo
+.. |WN| replace:: O Que Vem a Seguir?
 .. |basic| image:: /static/common/basic.png

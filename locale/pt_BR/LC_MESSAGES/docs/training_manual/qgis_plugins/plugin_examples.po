@@ -26,24 +26,23 @@ msgstr ""
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:2
 msgid "|LS| Useful QGIS Plugins"
-msgstr "|LS| Útiles Complementos de QGIS"
+msgstr "|LS| Complementos úteis do QGIS"
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:4
 msgid ""
 "Now that you can install, enable and disable plugins, let's see how this can"
 " help you in practice by looking at some examples of useful plugins."
 msgstr ""
-"Ahora que puedes instalar, habilitar y deshabilitar complementos, veamos "
-"cómo pueden ayudarte en la práctica mirando algunos útiles ejemplos de "
-"complementos."
+"Agora que você sabe como instalar, ativar e desativar complementos, vejamos "
+"como eles podem ajudar você na prática olhando alguns exemplos."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:7
 msgid ""
 "**The goal for this lesson:** To familiarize yourself with the plugin "
 "interface and get acquainted with some useful plugins."
 msgstr ""
-"**El objetivo de esta lección:** Familiarizarte con la interfaz de "
-"complementos y conocer algunos complementos útiles."
+"**O objetivo desta lição:** Familiarizar-se com a interface dos "
+"complementos e descobrir alguns complementos úteis."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:12
 msgid "|basic| |FA| The QuickMapServices Plugin"
@@ -58,8 +57,8 @@ msgid ""
 "Start a new map and add the :guilabel:`roads` layer from the "
 ":file:`training_data` Geopackage."
 msgstr ""
-"Comece um novo mapa e adicione a camada :guilabel:`estradas` do :file: "
-"Geopackage `training_data` ."
+"Comece um novo mapa e adicione a camada :guilabel:`roads` do Geopackage :file: "
+"`training_data`."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:21
 msgid "Install the **QuickMapServices** plugin."
@@ -71,7 +70,7 @@ msgid ""
 ":guilabel:`Get Contributed pack` button."
 msgstr ""
 "Leia atentamente a mensagem desta guia e se concordar, clique no botão "
-":guilabel:`Obtenha o pacote de contribuição`."
+":guilabel:`Get Contributed pack`."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:64
 msgid "|basic| |FA| The QuickOSM Plugin"
@@ -90,8 +89,8 @@ msgid ""
 "Start a new empty project and add the :guilabel:`roads` layer from the "
 ":file:`training_data` GeoPackage."
 msgstr ""
-"Iniciar um novo projeto vazio e adicionar a camada :guilabel:`estradas` do "
-":file:`dados_treinamento` GeoPackage."
+"Iniciar um novo projeto vazio e adicionar a camada :guilabel:`roads` do "
+"GeoPackage file:`training_data`."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:71
 msgid ""
@@ -100,7 +99,7 @@ msgid ""
 msgstr ""
 "Instale o complemento **QuickOSM**. O complemento adiciona dois novos botões"
 " na barra de ferramentas QGIS e pode ser acessado no menu "
-":menuselection:`Vetor --> QuickOSM`."
+":menuselection:`Vector --> QuickOSM`."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:74
 msgid ""
@@ -108,7 +107,7 @@ msgid ""
 "the :guilabel:`Quick Query` one."
 msgstr ""
 "Abra a caixa de diálogo QuickOSM. O complemento possui muitas abas "
-"diferentes: nós usaremos a :guilabel:`Consulta Rápida`."
+"diferentes: nós usaremos o :guilabel:`Quick Query`."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:76
 msgid ""
@@ -116,9 +115,9 @@ msgid ""
 " be more specific and choose a specific :guilabel:`Key` and "
 ":guilabel:`Value` pair."
 msgstr ""
-"Você pode baixar características específicas selecionando "
-"uma:guilabel:`Chave` genérica ou ser mais específico e escolher um par "
-"específico :guilabel:`Chave` e :guilabel:`Valor`."
+"Você pode baixar características específicas selecionando uma chave"
+"(:guilabel:`Key`) genérica ou ser mais específico e escolher um par "
+"específico :guilabel:`Key` e :guilabel:`Value`."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:79
 msgid ""
@@ -126,8 +125,8 @@ msgid ""
 "system, click on the :guilabel:`Help with key/value` button. It will open a "
 "web page with a complete description of this concept of OpenStreetMap."
 msgstr ""
-"Se você não estiver familiarizado com o sistema :guilabel:`Chave` e "
-":guilabel:`Valor`, clique no botão :guilabel:`Ajuda com chave/valor`. Será "
+"Se você não estiver familiarizado com o sistema :guilabel:`Key` e "
+":guilabel:`Value`, clique no botão :guilabel:`Help with key/value`. Será "
 "aberta uma página web com uma descrição completa deste conceito de "
 "OpenStreetMap."
 
@@ -136,12 +135,12 @@ msgid ""
 "Select :guilabel:`Layer Extent` in the next drop-down menu and choose "
 ":guilabel:`roads`."
 msgstr ""
-"Selecione :guilabel:`Extensão da camada` no próximo menu suspenso e escolha "
-":guilabel:`estradas`."
+"Selecione :guilabel:`Layer Extent` no próximo menu suspenso e escolha "
+":guilabel:`roads`."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:87
 msgid "Click on the :guilabel:`Run query` button."
-msgstr "Clique no botão :guilabel:`Executar consulta`."
+msgstr "Clique no botão :guilabel:`Run query`."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:92
 msgid ""
@@ -170,8 +169,8 @@ msgstr ""
 "QuickOSM cria uma camada temporária ao baixar os dados. Se você quiser "
 "salvá-los permanentemente, clique no ícone |indicatorMemory| ao lado da "
 "camada e escolha as opções que você preferir. Alternativamente, você pode "
-"abrir o menu :kbd:`Advançado` no QuickOSM e escolher onde salvar os dados no"
-" menu :guilabel:`Diretório`."
+"abrir o menu :kbd:`Advanced` no QuickOSM e escolher onde salvar os dados no"
+" menu :guilabel:`Directory`."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:277
 msgid "indicatorMemory"
@@ -406,9 +405,9 @@ msgid ""
 "for installing and managing these plugins, you can find new plugins and make"
 " optimum use of them."
 msgstr ""
-"Hay muchos complementos útiles disponibles para QGIS. Utilizando las "
-"herramientas incluidas para instalar y manejar esos complementos, puedes "
-"encontrar nuevos y realizar un uso óptimo de ellos."
+"Há muitos complementos úteis disponíveis para QGIS. Utilizando as "
+"ferramentas para instalar e gerenciar esses complementos, você pode "
+"encontrar novos complementos e usá-los de maneira ótima."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:255
 msgid "|WN|"

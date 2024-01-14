@@ -51,9 +51,9 @@ use the merge algorithm.
 
 #. Clique no algoritmo :guilabel:`Merge` no menu
    :menuselection:`GDAL --> Raster miscellaneous`.
-#. Use the
-   :guilabel:`...` button to choose
-   which layers you want to merge.
+#. Use o botão
+   :guilabel:`...` para escolher
+   as camadas que pretende fundir.
 
 #. Se você conhece a biblioteca GDAL, também pode adicionar suas próprias opções
    abrindo o menu :guilabel:`Advanced parameters`.
