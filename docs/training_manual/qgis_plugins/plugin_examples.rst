@@ -44,21 +44,6 @@ Let's add them.
 
 #. Choose the one that best fits your needs, and load the data in the project!
 
-It is also possible to search trough the now available data providers
-
-#. Open the plugin's search tab by clicking on :menuselection:`Web --> QuickMapServices --> Search QMS`.
-   This option of the plugin allows you to filter the available base maps
-   by the current extent of the map canvas or using a search word.
-#. Click on the :guilabel:`Filter by extent` and you should see one service available.
-   If no service is found, zoom out and pan around the world (or your location)
-   or search with a keyword.
-#. Click on the :guilabel:`Add` button next to a returned dataset to load it.
-#. The base map will be loaded and you will have a background for the map.
-
-   .. figure:: img/qms_search_added.png
-      :align: center
-      :width: 80%
-
 
 |basic| |FA| The QuickOSM Plugin
 -------------------------------------------------------------------------------

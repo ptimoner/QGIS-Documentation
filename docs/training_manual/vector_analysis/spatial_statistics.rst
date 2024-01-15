@@ -77,8 +77,8 @@ adds the raster values in new field(s) depending on the number of bands in the r
 #. Open the :guilabel:`Sample raster values` algorithm dialog
 #. Select ``Random_points`` as the layer containing sampling
    points, and the SRTM raster as the band to get values from.
-   The default name of the new field is ``rvalue_N``, where ``N`` is
-   the number of the raster band.
+   The default name of the new field is ``SAMPLE_`` (can varies
+   depending on the QGIS version).
    You can change the name of the prefix if you want.
 
    .. figure:: img/sample_raster_dialog.png
@@ -87,15 +87,16 @@ adds the raster values in new field(s) depending on the number of bands in the r
 #. Press :guilabel:`Run`
 
 Now you can check the sampled data from the raster file in the
-attribute table of the ``Sampled Points`` layer.
-They will be in a new field with the name you have chosen.
+attribute table of the ``Sampled Points`` layer (or in a newly created
+layer depending on the QGIS version).
+In any case there will be in a new field with the name you have chosen.
 
 A possible sample layer is shown here:
 
 .. figure:: img/random_samples_result.png
    :align: center
 
-The sample points are classified using the ``rvalue_1`` field such
+The sample points are classified using the new field such
 that red points are at a higher altitude.
 
 You will be using this sample layer for the rest of the statistical
@@ -111,7 +112,7 @@ Now get the basic statistics for this layer.
    A new panel will pop up.
 #. In the dialog that appears, specify the ``Sampled Points`` layer as
    the source.
-#. Select the *rvalue_1* field in the field combo box.
+#. Select the new field in the field combo box.
    This is the field you will calculate statistics for.
 #. The :guilabel:`Statistics` Panel will be automatically updated
    with the calculated statistics:
