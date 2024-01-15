@@ -375,7 +375,7 @@ msgid ""
 msgstr ""
 "Salve sua solução como uma nova camada, usando a abordagem que você aprendeu"
 " acima para fazer isso. O arquivo deve ser salvo dentro do mesmo banco de "
-"dados GeoPackage, com o nome ``solução``."
+"dados GeoPackage, com o nome ``solution``."
 
 #: ../../docs/training_manual/vector_analysis/basic_analysis.rst:465
 msgid "|IC|"

@@ -64,7 +64,7 @@ msgstr "Usaremos os seguintes valores:"
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:42
 msgid ":guilabel:`Z factor` at ``1.0``"
-msgstr "guilabel:`Fator Z` em ``1,0```"
+msgstr ":guilabel:`Z factor` em ``1.0```"
 
 #: ../../docs/training_manual/rasters/terrain_analysis.rst:51
 msgid "Finally click on :guilabel:`Run`"
@@ -85,7 +85,7 @@ msgid ""
 "other, more colorful rasters somehow? Of course we can, by using the "
 "hillshade as an overlay."
 msgstr ""
-"Parece bom e 3D, mas podemos melhorar isto? Por si só, o resultado"
+"Parece bom e 3D, mas podemos melhora8r isto? Por si só, o resultado "
 "parece um molde de gesso. Não o podemos utilizar juntamente com os nossos "
 "outros rasters mais coloridos de alguma forma? Claro que podemos, utilizando "
 "uma sobreposição."

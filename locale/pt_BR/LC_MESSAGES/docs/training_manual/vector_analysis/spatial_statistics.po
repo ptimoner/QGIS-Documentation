@@ -99,8 +99,9 @@ msgid ""
 "table of the ``Sampled Points`` layer. They will be in a new field with the "
 "name you have chosen."
 msgstr ""
-"Agora você pode verificar os dados amostrados do arquivo raster na tabela de"
-" atributos da camada ``Random Points``. Eles estarão em um novo campo "
+"Agora você pode verificar os dados amostrados do raster na tabela de"
+" atributos da camada ``Random Points`` (ou na tabela de uma nova camada "
+"conforme a versão do QGIS). Eles estarão em um novo campo "
 "com o nome que você escolheu."
 
 #: ../../docs/training_manual/vector_analysis/spatial_statistics.rst:93

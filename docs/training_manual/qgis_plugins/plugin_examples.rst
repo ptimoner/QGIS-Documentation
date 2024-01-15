@@ -44,23 +44,7 @@ Vamos adicioná-los.
    .. figure:: img/qms_menu.png
       :align: center
 
-#. Escolhe algum mapa, e carregue os dados no seu
-projeto!
-
-Também é possivel pesquisar a través dos novos fornecedores de dados.
-
-#. Abra a aba de pesquisa clicando em :menuselection:`Web --> QuickMapServices --> Search QMS`.
-   Esta opção do complemento permite filtrar os mapas básicos em função da 
-   extenção da sua tela de mapa ou usando palavras chaves.
-#. Clique em :guilabel:`Filter by extent` e deveria ver um serviço disponível.
-   Se não tiver nenhum, diminui o zoom e percorra o mapa
-   ou pesquise usando palavras chaves.
-#. Clique no botão :guilabel:`Add` para carregar os dados.
-#. O mapa base será carregado e você terá uma camada de fundo para seu mapa
-
-   .. figure:: img/qms_search_added.png
-      :align: center
-      :width: 80%
+#. Escolhe algum mapa, e carregue os dados no seu projeto!
 
 
 |basic| |FA| The QuickOSM Plugin

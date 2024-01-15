@@ -68,9 +68,9 @@ o que significa que os valores baixos de pixel são pretos e os valores altos
 são brancos.
 Tente inverter essa configuração para ``White to black`` e veja os resultados.
 
- Muito importante é o parâmetro :guilabel:`Contrast enhancement`: por
-padrão está configurado como ``Stretch to MinMax`` o que significa que os valores dos
-pixels são esticados para os valores mínimo e máximo..
+Muito importante é o parâmetro :guilabel:`Contrast enhancement`: por
+padrão está configurado como ``Stretch to MinMax`` o que significa que os valores
+dos pixels são esticados para os valores mínimo e máximo..
 
 Look at the difference with the enhancement (left) and without (right):
 

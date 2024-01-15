@@ -9,7 +9,7 @@ on in a given vector dataset.
 QGIS includes many useful tools for statistical analysis.
 
 **O objetivo desta lição:** aprender como usar as ferramentas de
-estatísticas espaciais do QGIS dentro do:guilabel:`Processing Toolbox`.
+estatísticas espaciais do QGIS dentro do :guilabel:`Processing Toolbox`.
 
 |basic| |FA| Create a Test Dataset
 ----------------------------------------------------------------------
@@ -76,9 +76,9 @@ Para criar um conjunto de dados de amostra a partir do raster, você precisará 
 #. Open the :guilabel:`Sample raster values` algorithm dialog
 #. Selecione ``Random_points`` como a camada contendo pontos de amostragem,
    e o raster SRTM como a banda para obter valores.
-   O nome padrão do novo campo é ``rvalue_N``, onde ``N`` é
-   o número da banda do raster. Você pode
-   alterar o nome do prefixo se desejar.
+   O nome padrão do novo campo é ``SAMPLE_`` (pode variar conforme a 
+   versão do QGIS).
+   Você pode alterar o nome do prefixo se desejar.
 
    .. figure:: img/sample_raster_dialog.png
       :align: center
@@ -94,7 +94,7 @@ A possible sample layer is shown here:
 .. figure:: img/random_samples_result.png
    :align: center
 
-Os pontos de amostra são classificados usando o campo ``rvalue_1``,
+Os pontos de amostra são classificados usando o novo campo,
 de modo que os pontos vermelhos estão a uma altitude mais elevada.
 
 You will be using this sample layer for the rest of the statistical
@@ -110,7 +110,7 @@ Now get the basic statistics for this layer.
    Um novo painel aparecerá.
 #. In the dialog that appears, specify the ``Sampled Points`` layer as
    the source.
-#. Selecione o campo *rvalue_1* na caixa de seleção de campos.
+#. Selecione o novo campo na caixa de seleção de campos.
    Este é o campo para o qual você calculará estatísticas.
 #. The :guilabel:`Statistics` Panel will be automatically updated
    with the calculated statistics:

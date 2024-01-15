@@ -90,7 +90,7 @@ msgid ""
 ":file:`training_data` GeoPackage."
 msgstr ""
 "Iniciar um novo projeto vazio e adicionar a camada :guilabel:`roads` do "
-"GeoPackage file:`training_data`."
+"GeoPackage :file:`training_data`."
 
 #: ../../docs/training_manual/qgis_plugins/plugin_examples.rst:71
 msgid ""
@@ -115,7 +115,7 @@ msgid ""
 " be more specific and choose a specific :guilabel:`Key` and "
 ":guilabel:`Value` pair."
 msgstr ""
-"Você pode baixar características específicas selecionando uma chave"
+"Você pode baixar características específicas selecionando uma chave "
 "(:guilabel:`Key`) genérica ou ser mais específico e escolher um par "
 "específico :guilabel:`Key` e :guilabel:`Value`."
 
